@@ -495,7 +495,7 @@ h6 {
 }
 
 .banner {
-  height: 300px;
+  height: 230px;
   align-content: stretch;
   background-image: url("https://image.shutterstock.com/z/stock-photo-solar-panel-on-sky-background-548079301.jpg");
   background-size: cover;
@@ -503,6 +503,11 @@ h6 {
   background-position: center;
   position: relative;
   margin-bottom: 2.5em;
+}
+@media (min-width: 1024px) {
+  .banner {
+    height: 300px;
+  }
 }
 
 .banner__shine-solar,
