@@ -4,12 +4,17 @@
 
 .sidebar {
   background-color: map-get($shades, 1);
-  padding-top: 1.0625em;
-  padding-left: 1.3125em;
+  padding: 1.0625em 1.3125em 0;
 }
 
 .nav__item {
   color: map-get($shades, 7);
+  &:hover {
+    background-color: map-get($shades, 3);
+  }
+  a {
+    display: block;
+  }
 }
 
 .sidebar__headline,

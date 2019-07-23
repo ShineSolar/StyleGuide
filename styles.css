@@ -363,12 +363,17 @@ h6 {
 
 .sidebar {
   background-color: #303d46;
-  padding-top: 1.0625em;
-  padding-left: 1.3125em;
+  padding: 1.0625em 1.3125em 0;
 }
 
 .nav__item {
   color: #d3d8dc;
+}
+.nav__item:hover {
+  background-color: #485d6c;
+}
+.nav__item a {
+  display: block;
 }
 
 .sidebar__headline,
