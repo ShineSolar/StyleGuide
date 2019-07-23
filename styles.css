@@ -469,6 +469,16 @@ h6 {
   line-height: 2.14;
 }
 
+.headline--secondary {
+  font-family: "Fjalla One", sans-serif;
+  color: #425563;
+  font-size: 1.625em;
+  line-height: 1.54;
+  border-top: 1px solid #e0e3e5;
+  border-bottom: 1px solid #e0e3e5;
+  padding: 0.5em 0;
+}
+
 @media (min-width: 768px) {
   .container {
     display: grid;
