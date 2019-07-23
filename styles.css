@@ -475,6 +475,10 @@ h6 {
   height: 300px;
   display: flex;
   align-content: stretch;
+  background-image: url("https://image.shutterstock.com/z/stock-photo-solar-panel-on-sky-background-548079301.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .banner__shine-solar,
@@ -485,15 +489,15 @@ h6 {
 }
 
 .banner__shine-solar {
-  background-color: #ff6900;
+  background-color: rgba(255, 105, 0, 0.9);
 }
 
 .banner__shine-home {
-  background-color: #425563;
+  background-color: rgba(66, 85, 99, 0.9);
 }
 
 .banner__shine-air {
-  background-color: #1bd0ff;
+  background-color: rgba(27, 208, 255, 0.9);
 }
 
 /*# sourceMappingURL=styles.css.map */

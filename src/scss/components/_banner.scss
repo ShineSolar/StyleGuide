@@ -6,6 +6,11 @@
   height: 300px;
   @include flexy($disp: flex);
   align-content: stretch;
+  // PLACEHOLDER IMAGE!!
+  background-image: url('https://image.shutterstock.com/z/stock-photo-solar-panel-on-sky-background-548079301.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .banner__shine-solar,
@@ -16,13 +21,13 @@
 }
 
 .banner__shine-solar {
-  background-color: map-get($brand-colors, 'primary');
+  background-color: rgba(map-get($brand-colors, 'primary'), .9);
 }
 
 .banner__shine-home {
-  background-color: map-get($brand-colors, 'secondary');
+  background-color: rgba(map-get($brand-colors, 'secondary'), .9);
 }
 
 .banner__shine-air {
-  background-color: map-get($brand-colors, 'tertiary');
+  background-color: rgba(map-get($brand-colors, 'tertiary'), .9);
 }
