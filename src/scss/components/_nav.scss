@@ -5,6 +5,10 @@
 .sidebar {
   background-color: map-get($shades, 1);
   padding: 1.0625em 1.3125em 0;
+  text-align: center;
+  @media (min-width: 768px) {
+    text-align: left;
+  }
 }
 
 .nav__item {

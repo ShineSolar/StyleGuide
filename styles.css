@@ -364,6 +364,12 @@ h6 {
 .sidebar {
   background-color: #303d46;
   padding: 1.0625em 1.3125em 0;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .sidebar {
+    text-align: left;
+  }
 }
 
 .nav__item {
@@ -418,9 +424,11 @@ h6 {
   line-height: 2.14;
 }
 
-.container {
-  display: grid;
-  grid-template-columns: 250px auto;
+@media (min-width: 768px) {
+  .container {
+    display: grid;
+    grid-template-columns: 250px auto;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
