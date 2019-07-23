@@ -25,12 +25,12 @@
 
 .banner__shine-solar,
 .banner__shine-air {
-  width: 36.5%;
+  width: 38%;
   @media (min-width: 1024px) {
-    width: 34.5%;
+    width: 36%;
   }
   @media (min-width: 1400px) {
-    width: 33.5%;
+    width: 35%;
   }
 }
 
@@ -58,15 +58,15 @@
     5vh 50%
   );
   top: 0;
-  left: calc(50% - calc(24%));
-  width: 48%;
+  left: calc(50% - calc(22.5%));
+  width: 45%;
   @media (min-width: 1024px) {
-    left: calc(50% - calc(22%));
-    width: 44%;
+    left: calc(50% - calc(20.5%));
+    width: 41%;
   }
   @media (min-width: 1400px) {
-    left: calc(50% - calc(21%));
-    width: 42%;
+    left: calc(50% - calc(19.5%));
+    width: 39%;
   }
 }
 

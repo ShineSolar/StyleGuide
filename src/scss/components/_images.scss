@@ -3,8 +3,16 @@
 // ======================================
 
 .banner__icon {
-  max-width: 60%;
+  max-width: 55%;
   max-height: 120px;
+}
+
+.banner__shine-solar .banner__icon {
+  margin-right: 1em;
+}
+
+.banner__shine-air .banner__icon {
+  margin-left: 1em;
 }
 
 // .img--logo,
