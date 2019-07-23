@@ -363,6 +363,8 @@ h6 {
 
 .sidebar {
   background-color: #303d46;
+  padding-top: 1.0625em;
+  padding-left: 1.3125em;
 }
 
 .nav__item {
@@ -386,9 +388,29 @@ h6 {
   font-family: "Fjalla One", sans-serif;
 }
 
+.header__title {
+  font-size: 1.625em;
+  margin: 0;
+}
+
+.header__subtitle {
+  font-size: 0.75em;
+  margin: 0;
+}
+
 .sidebar__headline,
 .nav__item {
   font-family: "Rubik", sans-serif;
+}
+
+.sidebar__headline {
+  font-size: 0.6875em;
+}
+
+.nav__item {
+  font-size: 0.875em;
+  font-weight: 500;
+  line-height: 2.14;
 }
 
 .container {

@@ -15,9 +15,29 @@
   font-family: $font-stack-secondary;
 }
 
+.header__title {
+  font-size: 1.625em;
+  margin: 0;
+}
+
+.header__subtitle {
+  font-size: .75em;
+  margin: 0;
+}
+
 .sidebar__headline,
 .nav__item {
   font-family: $font-stack-primary;
+}
+
+.sidebar__headline {
+  font-size: .6875em;
+}
+
+.nav__item {
+  font-size: .875em;
+  font-weight: 500;
+  line-height: 2.14;
 }
 
 // .headline--primary,
