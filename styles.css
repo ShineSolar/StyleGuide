@@ -484,9 +484,12 @@ h6 {
   line-height: 1.54;
   border-top: 1px solid #e0e3e5;
   border-bottom: 1px solid #e0e3e5;
-  padding: 0.5em 0;
+  padding: 0.5em 0.75em;
 }
 
+.container {
+  background-color: #f4f4f6;
+}
 @media (min-width: 768px) {
   .container {
     display: grid;
@@ -570,6 +573,14 @@ h6 {
   clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%, 5vh 50%);
   top: 0;
   right: 0;
+}
+
+.card {
+  border-radius: 4px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.15);
+  background-color: #fff;
+  margin: 0 1.21875em;
+  text-align: center;
 }
 
 /*# sourceMappingURL=styles.css.map */
