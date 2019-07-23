@@ -363,7 +363,6 @@ h6 {
 
 .sidebar {
   background-color: #303d46;
-  padding: 1.0625em 1.3125em 0;
   text-align: center;
 }
 @media (min-width: 768px) {
@@ -385,6 +384,29 @@ h6 {
 .sidebar__headline,
 .header__subtitle {
   color: #7d8d9a;
+}
+
+.sidebar__section {
+  margin: 3.2em 0;
+}
+
+.header,
+.sidebar__section {
+  padding: 1.0625em 1.3125em 0;
+}
+
+.header {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 0.25em;
+  margin-bottom: 4.4em;
+}
+
+.sidebar__section {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.sidebar__headline {
+  margin-top: -3em;
 }
 
 .color--white {
