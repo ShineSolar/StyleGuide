@@ -427,6 +427,11 @@ h6 {
   margin-top: -3em;
 }
 
+.banner__icon {
+  max-width: 60%;
+  max-height: 120px;
+}
+
 .color--white {
   color: #fff;
 }
