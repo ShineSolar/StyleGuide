@@ -1,0 +1,28 @@
+// ======================================
+//  Buttons
+// ======================================
+
+// .btn--default,
+// .btn--success,
+// .btn--error,
+// .btn--warning,
+// .btn--info {
+//   padding: 1em;
+//   margin: .5em 0;
+//   text-transform: uppercase;
+//   border-radius: 6px;
+//   color: $white;
+//   &:focus {
+//     outline-width: 0;
+//     opacity: .8;
+//   }
+//   @include mq('lg') {
+//     flex: 0 1 15%;
+//   }
+// }
+//
+// @each $theme, $color in $btn-themes {
+//   .btn--#{$theme} {
+//     background-color: $color;
+//   }
+// }

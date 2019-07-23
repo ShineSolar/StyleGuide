@@ -1,0 +1,59 @@
+// ======================================
+//  Grid Layout
+// ======================================
+
+.container {
+  display: grid;
+  grid-template-columns: 250px auto;
+}
+
+// .container {
+//   padding: 2em;
+//   max-width: $max-width;
+//   @include flexy($dir: column);
+//   @include mq('sm') {
+//     margin: 0 auto;
+//   }
+//   color: $color-text;
+// }
+//
+// .grid__row {
+//   margin: 1em 0;
+//   @include mq('med') {
+//     @include flexy($just: space-around);
+//   }
+// }
+//
+// .grid__row:first-child {
+//   margin-top: 0;
+// }
+//
+// .grid__row:last-child {
+//   margin-bottom: 0;
+// }
+//
+// .card {
+//   padding: 0 1em;
+// }
+//
+// @each $theme, $color in $grid-themes {
+//   .grid__col--#{$theme} {
+//     @include flexy($dir: column);
+//     padding: 1em;
+//     border-radius: 6px;
+//     margin: .5em 0;
+//     &.theme__colors {
+//       background-color: $color;
+//     }
+//     @include mq('sm') {
+//       flex: 0 1;
+//       flex-direction: row;
+//       justify-content: space-around;
+//       // align-items: center;
+//     }
+//     @include mq('med') {
+//       margin: $gutter;
+//       flex-basis: (($theme / 12) * 100%);
+//     }
+//   }
+// }
