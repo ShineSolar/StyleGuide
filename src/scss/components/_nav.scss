@@ -11,6 +11,20 @@
   }
 }
 
+.header__subtitle {
+  @include flexy($disp: flex, $just: center);
+  @media (min-width: 768px) {
+    justify-content: left;
+  }
+}
+
+.header__subtitle :nth-child(2) {
+  padding: 0 .5em;
+  margin: 0 .5em;
+  border-left: $nav-border;
+  border-right: $nav-border;
+}
+
 .nav__item {
   color: map-get($shades, 7);
   &:hover {

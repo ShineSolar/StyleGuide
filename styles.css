@@ -372,6 +372,23 @@ h6 {
   }
 }
 
+.header__subtitle {
+  display: flex;
+  justify-content: center;
+}
+@media (min-width: 768px) {
+  .header__subtitle {
+    justify-content: left;
+  }
+}
+
+.header__subtitle :nth-child(2) {
+  padding: 0 0.5em;
+  margin: 0 0.5em;
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+
 .nav__item {
   color: #d3d8dc;
 }
