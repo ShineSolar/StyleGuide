@@ -1,0 +1,28 @@
+// ======================================
+//  Banner
+// ======================================
+
+.banner {
+  height: 300px;
+  @include flexy($disp: flex);
+  align-content: stretch;
+}
+
+.banner__shine-solar,
+.banner__shine-home,
+.banner__shine-air {
+  display: inline-block;
+  flex: 1;
+}
+
+.banner__shine-solar {
+  background-color: map-get($brand-colors, 'primary');
+}
+
+.banner__shine-home {
+  background-color: map-get($brand-colors, 'secondary');
+}
+
+.banner__shine-air {
+  background-color: map-get($brand-colors, 'tertiary');
+}

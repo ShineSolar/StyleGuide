@@ -471,4 +471,29 @@ h6 {
   }
 }
 
+.banner {
+  height: 300px;
+  display: flex;
+  align-content: stretch;
+}
+
+.banner__shine-solar,
+.banner__shine-home,
+.banner__shine-air {
+  display: inline-block;
+  flex: 1;
+}
+
+.banner__shine-solar {
+  background-color: #ff6900;
+}
+
+.banner__shine-home {
+  background-color: #425563;
+}
+
+.banner__shine-air {
+  background-color: #1bd0ff;
+}
+
 /*# sourceMappingURL=styles.css.map */
