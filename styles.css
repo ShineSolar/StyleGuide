@@ -529,6 +529,10 @@ h6 {
   border-radius: 3px;
 }
 
+.download-btn:hover {
+  background-color: #d3d8dc;
+}
+
 .container {
   background-color: #f4f4f6;
 }
