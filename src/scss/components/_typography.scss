@@ -88,6 +88,16 @@
   background-color: map-get($shades, 7);
 }
 
+.color-caption {
+  font-family: $font-stack-primary;
+  font-size: .6875em;
+  color: rgba($white, .7);
+}
+
+.color-caption.dark {
+  color: map-get($shades, 3);
+}
+
 // .headline--primary,
 // .headline--secondary {
 //   padding: 0 .5em;

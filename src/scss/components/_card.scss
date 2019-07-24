@@ -62,3 +62,29 @@
   grid-gap: 2px;
   background-color: $main-grid-gap;
 }
+
+.color-grid__item {
+  padding: 0 2.62em 2em;
+}
+
+.color-grid__item.shades {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  grid-gap: 1em;
+  justify-items: center;
+  div {
+    height: 84px;
+    border-radius: 4px;
+    width: 105px;
+  }
+  & :first-child {
+    grid-column: 1 / -1;
+  }
+}
+
+@each $index, $shade in $shades {
+  .shade-#{$index} {
+    background-color: $shade;
+  }
+}

@@ -533,6 +533,16 @@ h6 {
   background-color: #d3d8dc;
 }
 
+.color-caption {
+  font-family: "Rubik", sans-serif;
+  font-size: 0.6875em;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.color-caption.dark {
+  color: #485d6c;
+}
+
 .container {
   background-color: #f4f4f6;
 }
@@ -627,6 +637,66 @@ h6 {
   grid-template-rows: repeat(auto, 3);
   grid-gap: 2px;
   background-color: #eceeef;
+}
+
+.color-grid__item {
+  padding: 0 2.62em 2em;
+}
+
+.color-grid__item.shades {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  grid-gap: 1em;
+  justify-items: center;
+}
+.color-grid__item.shades div {
+  height: 84px;
+  border-radius: 4px;
+  width: 105px;
+}
+.color-grid__item.shades :first-child {
+  grid-column: 1/-1;
+}
+
+.shade-1 {
+  background-color: #303d46;
+}
+
+.shade-2 {
+  background-color: #425563;
+}
+
+.shade-3 {
+  background-color: #485d6c;
+}
+
+.shade-4 {
+  background-color: #667b8a;
+}
+
+.shade-5 {
+  background-color: #8697a4;
+}
+
+.shade-6 {
+  background-color: #b1bbc2;
+}
+
+.shade-7 {
+  background-color: #d3d8dc;
+}
+
+.shade-8 {
+  background-color: #e0e3e5;
+}
+
+.shade-9 {
+  background-color: #eceeef;
+}
+
+.shade-10 {
+  background-color: #f5f6f7;
 }
 
 /*# sourceMappingURL=styles.css.map */
