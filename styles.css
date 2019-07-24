@@ -650,7 +650,7 @@ h6 {
   grid-gap: 1em;
   justify-items: center;
 }
-.color-grid__item.shades div {
+.color-grid__item.shades [class^=shade-] {
   height: 84px;
   border-radius: 4px;
   width: 105px;
@@ -697,6 +697,33 @@ h6 {
 
 .shade-10 {
   background-color: #f5f6f7;
+}
+
+.color-grid__item.brand-colors {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.color-grid__item.brand-colors [class^=brand-colors-] {
+  height: 84px;
+  border-radius: 4px;
+  width: 390px;
+  flex: 0 1 31%;
+}
+.color-grid__item.brand-colors :first-child {
+  width: 100%;
+}
+
+.brand-colors--primary {
+  background-color: #ff6900;
+}
+
+.brand-colors--secondary {
+  background-color: #425563;
+}
+
+.brand-colors--tertiary {
+  background-color: #1bd0ff;
 }
 
 /*# sourceMappingURL=styles.css.map */
