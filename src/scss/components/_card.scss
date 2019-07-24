@@ -10,3 +10,32 @@
   text-align: center;
   padding: 1em;
 }
+
+.card__body {
+  font-size: 1.25em;
+  font-family: $font-stack-secondary;
+  color: map-get($type-colors, 2);
+  line-height: 1.5;
+  padding: .8em 0;
+}
+
+.card__body--narrow {
+  font-size: 1.25em;
+  font-family: $font-stack-secondary;
+  color: map-get($type-colors, 2);
+  line-height: 1.5;
+  padding: .8em 0;
+  max-width: 720px;
+  margin: auto;
+}
+
+.horizontal-list {
+  @media (min-width: 768px) {
+    @include flexy($disp: flex, $wrap: wrap, $just: center);
+  }
+}
+
+.horizontal-list li {
+  padding: 1em 0;
+  margin: 0 2em;
+}
