@@ -650,8 +650,8 @@ h6 {
 .color-grid__item.shades {
   display: grid;
   grid-template-rows: auto;
-  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-  grid-gap: 1em;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  grid-gap: 1em 0;
   justify-items: center;
 }
 .color-grid__item.shades [class^=shade-] {
@@ -711,6 +711,7 @@ h6 {
 .color-grid__item.brand-colors [class^=brand-colors-] {
   height: 84px;
   border-radius: 4px;
+  margin: 0.5em 0;
   width: 390px;
   flex: 0 1 31%;
 }
