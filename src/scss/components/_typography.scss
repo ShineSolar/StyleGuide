@@ -50,6 +50,13 @@
   padding: .5em .75em;
 }
 
+.headline--primary {
+  font-family: $font-stack-secondary;
+  font-size: 2.75em;
+  color: map-get($type-colors, 4);
+  margin: 0;
+}
+
 // .headline--primary,
 // .headline--secondary {
 //   padding: 0 .5em;
