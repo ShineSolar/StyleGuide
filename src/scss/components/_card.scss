@@ -47,6 +47,10 @@
   background-color: $main-grid-gap;
 }
 
+.logo-grid__item {
+  padding-bottom: 1em;
+}
+
 .logo-grid__item,
 .color-grid__item {
   background-color: $white;

@@ -623,6 +623,10 @@ h6 {
   background-color: #eceeef;
 }
 
+.logo-grid__item {
+  padding-bottom: 1em;
+}
+
 .logo-grid__item,
 .color-grid__item {
   background-color: #fff;
