@@ -19,12 +19,7 @@
   padding: .8em 0;
 }
 
-.card__body--narrow {
-  font-size: 1.25em;
-  font-family: $font-stack-secondary;
-  color: map-get($type-colors, 2);
-  line-height: 1.5;
-  padding: .8em 0;
+.narrow {
   max-width: 720px;
   margin: auto;
 }
