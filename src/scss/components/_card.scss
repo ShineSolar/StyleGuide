@@ -47,6 +47,18 @@
   background-color: $main-grid-gap;
 }
 
-.logo-grid__item {
+.logo-grid__item,
+.color-grid__item {
   background-color: $white;
+}
+
+.card__color-grid {
+  border-radius: 4px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.15);
+  margin: 0 1.21875em;
+  text-align: center;
+  display: grid;
+  grid-template-rows: repeat(auto, 3);
+  grid-gap: 2px;
+  background-color: $main-grid-gap;
 }

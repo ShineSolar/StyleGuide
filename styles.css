@@ -501,7 +501,7 @@ h6 {
   padding: 0.3636363em 0;
 }
 
-.section__caption {
+.section-caption {
   font-family: "Rubik", sans-serif;
   font-size: 1.125em;
   padding: 0 1.25em;
@@ -509,7 +509,7 @@ h6 {
   color: #425563;
 }
 
-.card__caption {
+.card-caption {
   font-family: "Rubik", sans-serif;
   font-size: 0.875em;
   line-height: 2.86;
@@ -613,8 +613,20 @@ h6 {
   background-color: #eceeef;
 }
 
-.logo-grid__item {
+.logo-grid__item,
+.color-grid__item {
   background-color: #fff;
+}
+
+.card__color-grid {
+  border-radius: 4px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.15);
+  margin: 0 1.21875em;
+  text-align: center;
+  display: grid;
+  grid-template-rows: repeat(auto, 3);
+  grid-gap: 2px;
+  background-color: #eceeef;
 }
 
 /*# sourceMappingURL=styles.css.map */
