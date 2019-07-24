@@ -73,6 +73,17 @@
   color: map-get($type-colors, 3);
 }
 
+.download-btn {
+  background-color: map-get($shades, 9);
+  margin: .5em auto;
+  max-width: 150px;
+  @include flexy($disp: flex, $just: center, $align: center);
+  font-family: $font-stack-primary;
+  font-size: .875em;
+  color: map-get($type-colors, 2);
+  border-radius: 3px;
+}
+
 // .headline--primary,
 // .headline--secondary {
 //   padding: 0 .5em;

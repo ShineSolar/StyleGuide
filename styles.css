@@ -439,6 +439,13 @@ h6 {
   margin-left: 5%;
 }
 
+.icon-download {
+  width: 14px;
+  border: 1px solid #7d8d9a;
+  border-radius: 9999%;
+  margin: 0.45em;
+}
+
 .color--white {
   color: #fff;
 }
@@ -507,6 +514,19 @@ h6 {
   font-size: 0.875em;
   line-height: 2.86;
   color: #7d8d9a;
+}
+
+.download-btn {
+  background-color: #eceeef;
+  margin: 0.5em auto;
+  max-width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Rubik", sans-serif;
+  font-size: 0.875em;
+  color: #425563;
+  border-radius: 3px;
 }
 
 .container {
