@@ -432,11 +432,11 @@ h6 {
 }
 
 .banner__icon:first-child {
-  margin-right: 5%;
+  margin-right: 10%;
 }
 
 .banner__icon:last-child {
-  margin-left: 5%;
+  margin-left: 10%;
 }
 
 .icon-download {
