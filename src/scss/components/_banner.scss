@@ -3,88 +3,21 @@
 // ======================================
 
 .banner {
-  height: 230px;
-  align-content: stretch;
-  // PLACEHOLDER IMAGE!!
-  background-image: url('https://image.shutterstock.com/z/stock-photo-solar-panel-on-sky-background-548079301.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
+  // PLACEHOLDER background image! Replace with correct asset!
+  background:
+    url('assets/banner.svg'),
+    url('https://image.shutterstock.com/z/stock-photo-solar-panel-on-sky-background-548079301.jpg');
+  background-size: cover, cover;
   background-position: center;
-  position: relative;
+  background-repeat: no-repeat;
   margin-bottom: 2.5em;
+  @include flexy($disp: flex, $just: space-evenly, $align: center);
+  position: relative;
+  height: 120px;
   @media (min-width: 1024px) {
+    height: 210px;
+  }
+  @media (min-width: 1400px) {
     height: 300px;
   }
-  @media (min-width: 1400px) {
-    height: 340px;
-  }
-}
-
-.banner__shine-solar,
-.banner__shine-home,
-.banner__shine-air {
-  display: inline-block;
-  position: absolute;
-  height: 100%;
-  @include flexy($disp: flex, $just: center, $align: center);
-}
-
-.banner__shine-solar,
-.banner__shine-air {
-  width: 38%;
-  @media (min-width: 1024px) {
-    width: 36%;
-  }
-  @media (min-width: 1400px) {
-    width: 35%;
-  }
-}
-
-.banner__shine-solar {
-  background-color: rgba(map-get($brand-colors, 'primary'), .9);
-  clip-path: polygon(
-    0 0,
-    calc(100% - 5vh) 0%,
-    100% 50%,
-    calc(100% - 5vh) 100%,
-    0 100%
-  );
-  top: 0;
-  left: 0;
-}
-
-.banner__shine-home {
-  background-color: rgba(map-get($brand-colors, 'secondary'), .9);
-  clip-path: polygon(
-    0 0,
-    calc(100% - 5vh) 0%,
-    100% 50%,
-    calc(100% - 5vh) 100%,
-    0 100%,
-    5vh 50%
-  );
-  top: 0;
-  left: calc(50% - calc(22.5%));
-  width: 45%;
-  @media (min-width: 1024px) {
-    left: calc(50% - calc(20.5%));
-    width: 41%;
-  }
-  @media (min-width: 1400px) {
-    left: calc(50% - calc(19.5%));
-    width: 39%;
-  }
-}
-
-.banner__shine-air {
-  background-color: rgba(map-get($brand-colors, 'tertiary'), .9);
-  clip-path: polygon(
-    0 0,
-    100% 0%,
-    100% 100%,
-    0 100%,
-    5vh 50%
-  );
-  top: 0;
-  right: 0;
 }
