@@ -9,8 +9,8 @@ document.addEventListener('DOMContentLoaded', (e) => {
     item.addEventListener('click', (e) => {
       let target;
       const className = e.target.className;
-      if(className.includes('colors--') || className.includes('color-caption')) {
-        if(className.includes('colors--')) {
+      if(className.includes('shades--') || className.includes('colors--') || className.includes('color-caption')) {
+        if(className.includes('colors--') || className.includes('shades--')) {
           target = e.target;
         } else if(className.includes('color-caption')) {
           target = e.target.parentElement;
