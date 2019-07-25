@@ -7,10 +7,15 @@ document.addEventListener('DOMContentLoaded', (e) => {
   // click to copy-to-clipboard
   cardColorGridItems.forEach(item => {
     item.addEventListener('click', (e) => {
-      const target = e.target;
-      if(target.className.includes('colors--')) {
+      let target;
+      const className = e.target.className;
+      if(className.includes('colors--') || className.includes('color-caption')) {
+        if(className.includes('colors--')) {
+          target = e.target;
+        } else if(className.includes('color-caption')) {
+          target = e.target.parentElement;
+        }
         const p = target.querySelector('p');
-        console.log(p);
         const textArea = document.createElement('textarea');
         body.appendChild(textArea);
         textArea.value = p.textContent;
