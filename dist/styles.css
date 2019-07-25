@@ -365,6 +365,10 @@ h6 {
   text-transform: uppercase;
 }
 
+main {
+  padding-bottom: 4em;
+}
+
 .sidebar {
   background-color: #303d46;
   text-align: center;
