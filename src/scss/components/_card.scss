@@ -30,7 +30,8 @@
   padding: 0;
 }
 
-.card__body {
+.card__body,
+.card__body--narrow {
   font-size: 1.25em;
   font-family: $font-stack-secondary;
   color: map-get($type-colors, 2);
@@ -38,7 +39,7 @@
   padding: .8em 0;
 }
 
-.narrow {
+.card__body--narrow {
   max-width: 720px;
   margin: auto;
 }
@@ -59,7 +60,8 @@
 }
 
 .card__grid-item--logos,
-.card__grid-item--colors {
+.card__grid-item--colors,
+.card__grid-item--typography {
   background-color: $white;
 }
 

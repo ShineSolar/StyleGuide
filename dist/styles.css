@@ -615,7 +615,8 @@ h6 {
   padding: 0;
 }
 
-.card__body {
+.card__body,
+.card__body--narrow {
   font-size: 1.25em;
   font-family: "Fjalla One", sans-serif;
   color: #425563;
@@ -623,7 +624,7 @@ h6 {
   padding: 0.8em 0;
 }
 
-.narrow {
+.card__body--narrow {
   max-width: 720px;
   margin: auto;
 }
@@ -646,7 +647,8 @@ h6 {
 }
 
 .card__grid-item--logos,
-.card__grid-item--colors {
+.card__grid-item--colors,
+.card__grid-item--typography {
   background-color: #fff;
 }
 
