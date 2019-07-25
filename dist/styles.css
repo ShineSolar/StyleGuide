@@ -515,9 +515,8 @@ h6 {
 
 .card-caption,
 .card-caption--full-width,
-.color-caption--dark--box-shadow,
-.card-caption--left,
-.card-caption--right {
+.card-caption--typography,
+.card-caption--size-label {
   font-family: "Rubik", sans-serif;
   font-size: 0.875em;
   line-height: 2.86;
@@ -530,10 +529,19 @@ h6 {
   text-align: center;
 }
 
+.card-caption--size-label {
+  font-family: "Rubik", sans-serif;
+  font-size: 0.75em;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  min-width: 75px;
+}
+
 .download-btn,
 .download-btn--narrow,
-.download-btn--left,
-.download-btn--right {
+.download-btn--typography {
   background-color: #eceeef;
   margin: 0.5em auto;
   width: 180px;
@@ -546,27 +554,16 @@ h6 {
   border-radius: 3px;
 }
 
-.download-btn--left,
-.download-btn--right {
-  margin-left: 0;
-}
-
-.download-btn--left,
-.card-caption--left {
-  grid-column: 2/3;
-}
-
-.download-btn--right,
-.card-caption--right {
-  grid-column: 4/-1;
+.download-btn:hover {
+  background-color: #d3d8dc;
 }
 
 .download-btn--narrow {
   width: 150px;
 }
 
-.download-btn:hover {
-  background-color: #d3d8dc;
+.download-btn--typography {
+  margin-left: 0;
 }
 
 .color-caption,
@@ -578,6 +575,112 @@ h6 {
 
 .color-caption--dark {
   color: #485d6c;
+}
+
+.rubik__header,
+.fjalla-one__header {
+  font-size: 3.375em;
+  color: #425563;
+  margin: 0;
+}
+
+.rubik__header {
+  font-family: "Rubik", sans-serif;
+}
+
+.fjalla-one__header {
+  font-family: "Fjalla One", sans-serif;
+}
+
+.rubik--28,
+.rubik--22,
+.rubik--18,
+.rubik--14,
+.rubik--12,
+.rubik--16,
+.rubik--14--sm,
+.fjalla-one--44,
+.fjalla-one--38,
+.fjalla-one--32,
+.fjalla-one--26,
+.fjalla-one--20 {
+  color: #425563;
+}
+
+.rubik--28,
+.rubik--22,
+.rubik--18,
+.rubik--14,
+.rubik--12,
+.rubik--16,
+.rubik--14--sm {
+  font-family: "Rubik", sans-serif;
+}
+
+.fjalla-one--44,
+.fjalla-one--38,
+.fjalla-one--32,
+.fjalla-one--26,
+.fjalla-one--20,
+.fjalla-one--44--orange,
+.fjalla-one--38--orange {
+  font-family: "Fjalla One", sans-serif;
+}
+
+.fjalla-one--44--orange,
+.fjalla-one--38--orange {
+  color: #ff6900;
+}
+
+.rubik--28 {
+  font-size: 1.75em;
+}
+
+.rubik--22 {
+  font-size: 1.375em;
+}
+
+.rubik--18 {
+  font-size: 1.125em;
+}
+
+.rubik--14,
+.rubik--14--sm {
+  font-size: 0.875em;
+}
+
+.rubik--12 {
+  font-size: 0.75em;
+}
+
+.rubik--16 {
+  line-height: 1.5;
+}
+
+.rubik--14--sm {
+  line-height: 1.83;
+}
+
+.fjalla-one--44,
+.fjalla-one--44--orange {
+  font-size: 2.75em;
+}
+
+.fjalla-one--38,
+.fjalla-one--38--orange {
+  font-size: 2.375em;
+}
+
+.fjalla-one--32 {
+  font-size: 2em;
+}
+
+.fjalla-one--26 {
+  font-size: 1.625em;
+}
+
+.fjalla-one--20 {
+  font-size: 1.25em;
 }
 
 .container {
@@ -968,85 +1071,46 @@ h6 {
 }
 
 .card__grid-item--typography {
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
   text-align: left;
-  grid-template-rows: repeat(10, auto);
-  grid-template-columns: 1fr 3fr 1fr 3fr;
 }
 
-.typography__rubik--header,
-.typography__rubik--28,
-.typography__rubik--22,
-.typography__rubik--18,
-.typography__rubik--14,
-.typography__rubik--12,
-.typography__rubik--16,
-.typography__rubik--14--sm,
-.typography__rubik--caption--left,
-.typography__rubik--caption--right,
-.typography__fjalla-one--header,
-.typography__fjalla-one--44,
-.typography__fjalla-one--38,
-.typography__fjalla-one--32,
-.typography__fjalla-one--26,
-.typography__fjalla-one--20 {
-  color: #425563;
+.typography__rubik,
+.typography__fjalla-one {
+  flex: 1 50%;
+  min-width: 430px;
+  display: grid;
+  grid-template-columns: 85px auto;
+  grid-template-rows: 60px 44px 40px;
+  padding: 0 1em 2em;
 }
 
-.typography__fjalla-one--44--orange,
-.typography__fjalla-one--38--orange {
-  color: #ff6900;
+.rubik__header,
+.fjalla-one__header,
+.card-caption--typography,
+.download-btn--typography {
+  grid-column: 2/-1;
 }
 
-.typography__rubik--header,
-.typography__rubik--28,
-.typography__rubik--22,
-.typography__rubik--18,
-.typography__rubik--14,
-.typography__rubik--12,
-.typography__rubik--16,
-.typography__rubik--14--sm,
-.typography__rubik--caption--left,
-.typography__rubik--caption--right {
-  font-family: "Rubik", sans-serif;
-}
-
-.typography__rubik--header,
-.typography__fjalla-one--header {
-  font-size: 3.375em;
-}
-
-.typography__rubik--header {
-  grid-column: 2/3;
-}
-
-.typography__fjalla-one--header,
-.typography__fjalla-one--44,
-.typography__fjalla-one--38,
-.typography__fjalla-one--32,
-.typography__fjalla-one--26,
-.typography__fjalla-one--20,
-.typography__fjalla-one--44--orange,
-.typography__fjalla-one--38--orange {
-  font-family: "Fjalla One", sans-serif;
-}
-
-.typography__fjalla-one--header {
-  grid-column: 4/-1;
-}
-
-.typography__rubik--caption--left,
-.typography__rubik--caption--right {
-  font-size: 0.75em;
-  color: #7d8d9a;
-}
-
-.typography__rubik--caption--left {
-  grid-column: 1/2;
-}
-
-.typography__rubik--caption--right {
-  grid-column: 3/4;
+.rubik--28,
+.rubik--22,
+.rubik--18,
+.rubik--14,
+.rubik--12,
+.rubik--16,
+.rubik--14--sm,
+.fjalla-one--44,
+.fjalla-one--38,
+.fjalla-one--32,
+.fjalla-one--26,
+.fjalla-one--20,
+.fjalla-one--44--orange,
+.fjalla-one--38--orange {
+  grid-column: 2/-1;
+  margin: 0.5em auto 0.5em 0;
+  display: flex;
+  align-items: center;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -68,9 +68,8 @@
 
 .card-caption,
 .card-caption--full-width,
-.color-caption--dark--box-shadow,
-.card-caption--left,
-.card-caption--right {
+.card-caption--typography,
+.card-caption--size-label {
   font-family: $font-stack-primary;
   font-size: .875em;
   line-height: 2.86;
@@ -83,10 +82,18 @@
   text-align: center;
 }
 
+.card-caption--size-label {
+  font-family: $font-stack-primary;
+  font-size: .75em;
+  line-height: 1;
+  @include flexy($disp: flex, $align: center);
+  margin-left: auto;
+  min-width: 75px;
+}
+
 .download-btn,
 .download-btn--narrow,
-.download-btn--left,
-.download-btn--right {
+.download-btn--typography {
   background-color: map-get($shades, 9);
   margin: .5em auto;
   width: 180px;
@@ -97,28 +104,18 @@
   border-radius: 3px;
 }
 
-.download-btn--left,
-.download-btn--right {
-  margin-left: 0;
-}
-
-.download-btn--left,
-.card-caption--left {
-  grid-column: 2 / 3;
-}
-
-.download-btn--right,
-.card-caption--right {
-  grid-column: 4 / -1;
+.download-btn:hover {
+  background-color: map-get($shades, 7);
 }
 
 .download-btn--narrow {
   width: 150px;
 }
 
-.download-btn:hover {
-  background-color: map-get($shades, 7);
+.download-btn--typography {
+  margin-left: 0;
 }
+
 
 .color-caption,
 .color-caption--dark {
@@ -129,6 +126,112 @@
 
 .color-caption--dark {
   color: map-get($shades, 3);
+}
+
+.rubik__header,
+.fjalla-one__header {
+  font-size: 3.375em;
+  color: map-get($type-colors, 2);
+  margin: 0;
+}
+
+.rubik__header {
+  font-family: $font-stack-primary;
+}
+
+.fjalla-one__header {
+  font-family: $font-stack-secondary;
+}
+
+.rubik--28,
+.rubik--22,
+.rubik--18,
+.rubik--14,
+.rubik--12,
+.rubik--16,
+.rubik--14--sm,
+.fjalla-one--44,
+.fjalla-one--38,
+.fjalla-one--32,
+.fjalla-one--26,
+.fjalla-one--20 {
+  color: map-get($type-colors, 2);
+}
+
+.rubik--28,
+.rubik--22,
+.rubik--18,
+.rubik--14,
+.rubik--12,
+.rubik--16,
+.rubik--14--sm {
+  font-family: $font-stack-primary;
+}
+
+.fjalla-one--44,
+.fjalla-one--38,
+.fjalla-one--32,
+.fjalla-one--26,
+.fjalla-one--20,
+.fjalla-one--44--orange,
+.fjalla-one--38--orange {
+  font-family: $font-stack-secondary;
+}
+
+.fjalla-one--44--orange,
+.fjalla-one--38--orange {
+  color: map-get($type-colors, 4);
+}
+
+.rubik--28 {
+  font-size: 1.75em;
+}
+
+.rubik--22 {
+  font-size: 1.375em;
+}
+
+.rubik--18 {
+  font-size: 1.125em;
+}
+
+.rubik--14,
+.rubik--14--sm {
+  font-size: .875em;
+}
+
+.rubik--12 {
+  font-size: .75em;
+}
+
+.rubik--16 {
+  line-height: 1.5;
+}
+
+.rubik--14--sm {
+  line-height: 1.83;
+}
+
+.fjalla-one--44,
+.fjalla-one--44--orange {
+  font-size: 2.75em;
+}
+
+.fjalla-one--38,
+.fjalla-one--38--orange {
+  font-size: 2.375em;
+}
+
+.fjalla-one--32 {
+  font-size: 2em;
+}
+
+.fjalla-one--26 {
+  font-size: 1.625em;
+}
+
+.fjalla-one--20 {
+  font-size: 1.25em;
 }
 
 // .headline--primary,

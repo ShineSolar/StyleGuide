@@ -141,83 +141,43 @@
 }
 
 .card__grid-item--typography {
-  display: grid;
+  @include flexy($disp: flex, $wrap: wrap);
   text-align: left;
-  grid-template-rows: repeat(10, auto);
-  grid-template-columns: 1fr 3fr 1fr 3fr;
 }
 
-.typography__rubik--header,
-.typography__rubik--28,
-.typography__rubik--22,
-.typography__rubik--18,
-.typography__rubik--14,
-.typography__rubik--12,
-.typography__rubik--16,
-.typography__rubik--14--sm,
-.typography__rubik--caption--left,
-.typography__rubik--caption--right,
-.typography__fjalla-one--header,
-.typography__fjalla-one--44,
-.typography__fjalla-one--38,
-.typography__fjalla-one--32,
-.typography__fjalla-one--26,
-.typography__fjalla-one--20 {
-  color: map-get($type-colors, 2);
+.typography__rubik,
+.typography__fjalla-one {
+  flex: 1 50%;
+  min-width: 430px;
+  display: grid;
+  grid-template-columns: 85px auto;
+  grid-template-rows: 60px 44px 40px;
+  padding: 0 1em 2em;
+  // padding-bottom: 2em;
 }
 
-.typography__fjalla-one--44--orange,
-.typography__fjalla-one--38--orange {
-  color: map-get($type-colors, 4);
+.rubik__header,
+.fjalla-one__header,
+.card-caption--typography,
+.download-btn--typography {
+  grid-column: 2 / -1;
 }
 
-.typography__rubik--header,
-.typography__rubik--28,
-.typography__rubik--22,
-.typography__rubik--18,
-.typography__rubik--14,
-.typography__rubik--12,
-.typography__rubik--16,
-.typography__rubik--14--sm,
-.typography__rubik--caption--left,
-.typography__rubik--caption--right {
-  font-family: $font-stack-primary;
-}
-
-.typography__rubik--header,
-.typography__fjalla-one--header {
-  font-size: 3.375em;
-}
-
-.typography__rubik--header {
-  grid-column: 2 / 3;
-}
-
-.typography__fjalla-one--header,
-.typography__fjalla-one--44,
-.typography__fjalla-one--38,
-.typography__fjalla-one--32,
-.typography__fjalla-one--26,
-.typography__fjalla-one--20,
-.typography__fjalla-one--44--orange,
-.typography__fjalla-one--38--orange {
-  font-family: $font-stack-secondary;
-}
-
-.typography__fjalla-one--header {
-  grid-column: 4 / -1;
-}
-
-.typography__rubik--caption--left,
-.typography__rubik--caption--right {
-  font-size: .75em;
-  color: map-get($type-colors, 3);
-}
-
-.typography__rubik--caption--left {
-  grid-column: 1 / 2;
-}
-
-.typography__rubik--caption--right {
-  grid-column: 3 / 4;
+.rubik--28,
+.rubik--22,
+.rubik--18,
+.rubik--14,
+.rubik--12,
+.rubik--16,
+.rubik--14--sm,
+.fjalla-one--44,
+.fjalla-one--38,
+.fjalla-one--32,
+.fjalla-one--26,
+.fjalla-one--20,
+.fjalla-one--44--orange,
+.fjalla-one--38--orange {
+  grid-column: 2 / -1;
+  margin: .5em auto .5em 0;
+  @include flexy($disp: flex, $align: center);
 }
