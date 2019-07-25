@@ -76,6 +76,9 @@
     background-color: $shade;
     flex: 0 1 25%;
   }
+  .shades--#{$index}:hover {
+    box-shadow: $color-palette-box-shadow;
+  }
 }
 
 @each $name, $color in $brand-colors {
@@ -89,6 +92,9 @@
     position: relative;
     background-color: $color;
   }
+  .brand-colors--#{$name}:hover {
+    box-shadow: $color-palette-box-shadow;
+  }
 }
 
 @each $index, $color in $other-colors {
@@ -101,6 +107,9 @@
     margin: .5em;
     background-color: $color;
     flex: 0 1 25%;
+  }
+  .other-colors--#{$index}:hover {
+    box-shadow: $color-palette-box-shadow;
   }
 }
 
@@ -117,6 +126,9 @@
     @if $index == 6 {
       box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.15);
     }
+  }
+  .type-colors--#{$index}:hover {
+    box-shadow: $color-palette-box-shadow;
   }
 }
 
