@@ -647,6 +647,17 @@ h6 {
   padding: 0 2.62em 2em;
 }
 
+.tooltip {
+  position: fixed;
+  font-family: "Rubik", sans-serif;
+  color: #425563;
+  border: 1px solid #425563;
+  border-radius: 4px;
+  background-color: #eceeef;
+  transition: 2s opacity;
+  padding: 0.25em 0.5em;
+}
+
 .color-grid__item.shades {
   display: grid;
   grid-template-rows: auto;
@@ -655,6 +666,7 @@ h6 {
   justify-items: center;
 }
 .color-grid__item.shades [class^=shades--] {
+  cursor: pointer;
   height: 84px;
   border-radius: 4px;
   width: 105px;
@@ -709,6 +721,7 @@ h6 {
   justify-content: space-between;
 }
 .color-grid__item.brand-colors [class^=brand-colors-] {
+  cursor: pointer;
   height: 84px;
   border-radius: 4px;
   margin: 0.5em 0;

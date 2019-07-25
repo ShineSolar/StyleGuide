@@ -4,7 +4,7 @@ const cardColorGrid = document.querySelector('.card__color-grid');
 cardColorGrid.addEventListener('click', (e) => {
     const target = e.target;
     const className = target.className;
-    if(className.includes('shades--') || className.includes('brand-colors--')) {
+    if(className.includes('color-caption') || className.includes('shades--') || className.includes('brand-colors--')) {
       const p = target.querySelector('.color-caption');
       const textArea = document.createElement('textarea');
       body.appendChild(textArea);
@@ -13,5 +13,18 @@ cardColorGrid.addEventListener('click', (e) => {
       document.execCommand('copy');
       console.log(textArea.value);
       body.removeChild(textArea);
+
+      const tooltip = document.createElement('span');
+      tooltip.className = 'tooltip';
+      tooltip.textContent = 'Copied to clipboard!';
+      body.appendChild(tooltip);
+      tooltip.style.top = (e.clientY - 38) + 'px';
+      tooltip.style.left = (e.clientX - 82) + 'px';
+      setTimeout(() => {
+        tooltip.style.opacity = 0;
+        setTimeout(() => {
+          body.removeChild(tooltip);
+          }, 2000);
+        }, 500);
     }
   });
