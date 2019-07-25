@@ -87,21 +87,19 @@
 }
 
 .color-grid__item.shades {
-  display: grid;
-  grid-template-rows: auto;
-  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-  grid-gap: 1em 0;
-  justify-items: center;
-  [class^="shades--"] {
-    cursor: pointer;
-    height: 84px;
-    border-radius: 4px;
-    width: 105px;
-    position: relative;
-  }
+  @include flexy($disp: flex, $just: space-evenly, $wrap: wrap);
   & :first-child {
-    grid-column: 1 / -1;
+    width: 100%;
   }
+}
+
+[class^="shades--"] {
+  cursor: pointer;
+  height: 84px;
+  border-radius: 4px;
+  width: 105px;
+  position: relative;
+  margin: .5em;
 }
 
 @each $index, $shade in $shades {
@@ -112,18 +110,19 @@
 
 .color-grid__item.brand-colors {
   @include flexy($disp: flex, $just: space-between, $wrap: wrap);
-  [class^="brand-colors-"] {
-    cursor: pointer;
-    height: 84px;
-    border-radius: 4px;
-    margin: .5em 0;
-    width: 390px;
-    flex: 0 1 31%;
-    position: relative;
-  }
   & :first-child {
     width: 100%;
   }
+}
+
+[class^="brand-colors-"] {
+  cursor: pointer;
+  height: 84px;
+  border-radius: 4px;
+  margin: .5em 0;
+  width: 390px;
+  flex: 0 1 31%;
+  position: relative;
 }
 
 @each $name, $color in $brand-colors {

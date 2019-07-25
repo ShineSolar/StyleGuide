@@ -668,21 +668,21 @@ h6 {
 }
 
 .color-grid__item.shades {
-  display: grid;
-  grid-template-rows: auto;
-  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-  grid-gap: 1em 0;
-  justify-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
-.color-grid__item.shades [class^=shades--] {
+.color-grid__item.shades :first-child {
+  width: 100%;
+}
+
+[class^=shades--] {
   cursor: pointer;
   height: 84px;
   border-radius: 4px;
   width: 105px;
   position: relative;
-}
-.color-grid__item.shades :first-child {
-  grid-column: 1/-1;
+  margin: 0.5em;
 }
 
 .shades--1 {
@@ -730,7 +730,11 @@ h6 {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.color-grid__item.brand-colors [class^=brand-colors-] {
+.color-grid__item.brand-colors :first-child {
+  width: 100%;
+}
+
+[class^=brand-colors-] {
   cursor: pointer;
   height: 84px;
   border-radius: 4px;
@@ -738,9 +742,6 @@ h6 {
   width: 390px;
   flex: 0 1 31%;
   position: relative;
-}
-.color-grid__item.brand-colors :first-child {
-  width: 100%;
 }
 
 .brand-colors--primary {
