@@ -18,6 +18,7 @@
   grid-template-rows: repeat(auto, 3);
   grid-gap: 2px;
   background-color: $main-grid-gap;
+  padding: 0;
 }
 
 .card--2x2grid {
