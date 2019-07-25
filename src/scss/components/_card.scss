@@ -126,3 +126,18 @@
     background-color: $color;
   }
 }
+
+@each $index, $color in $type-colors {
+  .type-colors--#{$index} {
+    cursor: pointer;
+    height: 84px;
+    border-radius: 4px;
+    width: 185px;
+    position: relative;
+    margin: .5em;
+    background-color: $color;
+    @if $index == 6 {
+      box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.15);
+    }
+  }
+}

@@ -514,7 +514,8 @@ h6 {
 }
 
 .card-caption,
-.card-caption--full-width {
+.card-caption--full-width,
+.color-caption--dark--box-shadow {
   font-family: "Rubik", sans-serif;
   font-size: 0.875em;
   line-height: 2.86;
@@ -880,6 +881,67 @@ h6 {
   position: relative;
   margin: 0.5em;
   background-color: #e03486;
+}
+
+.type-colors--1 {
+  cursor: pointer;
+  height: 84px;
+  border-radius: 4px;
+  width: 185px;
+  position: relative;
+  margin: 0.5em;
+  background-color: #303d46;
+}
+
+.type-colors--2 {
+  cursor: pointer;
+  height: 84px;
+  border-radius: 4px;
+  width: 185px;
+  position: relative;
+  margin: 0.5em;
+  background-color: #425563;
+}
+
+.type-colors--3 {
+  cursor: pointer;
+  height: 84px;
+  border-radius: 4px;
+  width: 185px;
+  position: relative;
+  margin: 0.5em;
+  background-color: #7d8d9a;
+}
+
+.type-colors--4 {
+  cursor: pointer;
+  height: 84px;
+  border-radius: 4px;
+  width: 185px;
+  position: relative;
+  margin: 0.5em;
+  background-color: #ff6900;
+}
+
+.type-colors--5 {
+  cursor: pointer;
+  height: 84px;
+  border-radius: 4px;
+  width: 185px;
+  position: relative;
+  margin: 0.5em;
+  background-color: #1bd0ff;
+}
+
+.type-colors--6 {
+  cursor: pointer;
+  height: 84px;
+  border-radius: 4px;
+  width: 185px;
+  position: relative;
+  margin: 0.5em;
+  background-color: #fff;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.15);
 }
 
 /*# sourceMappingURL=styles.css.map */
