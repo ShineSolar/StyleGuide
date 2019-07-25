@@ -1153,22 +1153,28 @@ main {
 .card__grid-item--typography {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
   text-align: left;
 }
 
 .typography__rubik,
 .typography__fjalla-one {
-  flex: 0 1 50%;
   display: grid;
   grid-template-columns: 85px auto;
   grid-template-rows: 60px 44px 40px;
-  padding: 0 1em 2em;
-  min-width: 100%;
+  width: 100%;
+  padding: 0 0.5em 1em;
 }
 @media (min-width: 768px) {
   .typography__rubik,
 .typography__fjalla-one {
-    min-width: 430px;
+    padding: 0 1em 2em;
+  }
+}
+@media (min-width: 1024px) {
+  .typography__rubik,
+.typography__fjalla-one {
+    flex: 0 1 50%;
   }
 }
 
