@@ -805,9 +805,16 @@ main {
   border-radius: 4px;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.15);
   background-color: #fff;
-  margin: 0 1.21875em;
   text-align: center;
   padding: 1em;
+  margin: 0 0.5em;
+}
+@media (min-width: 768px) {
+  .card,
+.card--grid,
+.card--2x2grid {
+    margin: 0 1.21875em;
+  }
 }
 
 .card--grid {
