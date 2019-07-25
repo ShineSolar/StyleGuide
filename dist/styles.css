@@ -431,6 +431,35 @@ h6 {
   margin-top: -3em;
 }
 
+.download-btn,
+.download-btn--narrow,
+.download-btn--typography {
+  background-color: #eceeef;
+  margin: 0.5em auto;
+  width: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Rubik", sans-serif;
+  font-size: 0.875em;
+  color: #425563;
+  border-radius: 3px;
+}
+
+.download-btn--narrow {
+  width: 150px;
+}
+
+.download-btn--typography {
+  margin-left: 0;
+}
+
+.download-btn:hover,
+.download-btn--narrow:hover,
+.download-btn--typography:hover {
+  background-color: #d3d8dc;
+}
+
 .banner__icon {
   max-width: 20%;
 }
@@ -557,33 +586,6 @@ h6 {
   align-items: center;
   margin-left: auto;
   min-width: 75px;
-}
-
-.download-btn,
-.download-btn--narrow,
-.download-btn--typography {
-  background-color: #eceeef;
-  margin: 0.5em auto;
-  width: 180px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: "Rubik", sans-serif;
-  font-size: 0.875em;
-  color: #425563;
-  border-radius: 3px;
-}
-
-.download-btn:hover {
-  background-color: #d3d8dc;
-}
-
-.download-btn--narrow {
-  width: 150px;
-}
-
-.download-btn--typography {
-  margin-left: 0;
 }
 
 .color-caption,

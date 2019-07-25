@@ -111,32 +111,6 @@
   min-width: 75px;
 }
 
-.download-btn,
-.download-btn--narrow,
-.download-btn--typography {
-  background-color: map-get($shades, 9);
-  margin: .5em auto;
-  width: 180px;
-  @include flexy($disp: flex, $just: center, $align: center);
-  font-family: $font-stack-primary;
-  font-size: .875em;
-  color: map-get($type-colors, 2);
-  border-radius: 3px;
-}
-
-.download-btn:hover {
-  background-color: map-get($shades, 7);
-}
-
-.download-btn--narrow {
-  width: 150px;
-}
-
-.download-btn--typography {
-  margin-left: 0;
-}
-
-
 .color-caption,
 .color-caption--dark {
   font-family: $font-stack-primary;
