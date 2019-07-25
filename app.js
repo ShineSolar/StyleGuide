@@ -17,13 +17,11 @@ cardColorGrid.addEventListener('click', (e) => {
       const tooltip = document.createElement('span');
       tooltip.className = 'tooltip';
       tooltip.textContent = 'Copied to clipboard!';
-      body.appendChild(tooltip);
-      tooltip.style.top = (e.clientY - 38) + 'px';
-      tooltip.style.left = (e.clientX - 82) + 'px';
+      target.appendChild(tooltip);
       setTimeout(() => {
         tooltip.style.opacity = 0;
         setTimeout(() => {
-          body.removeChild(tooltip);
+          target.removeChild(tooltip);
           }, 2000);
         }, 500);
     }

@@ -72,14 +72,18 @@
 }
 
 .tooltip {
-  position: fixed;
+  position: absolute;
   font-family: $font-stack-primary;
+  font-size: .8em;
   color: map-get($type-colors, 2);
   border: 1px solid map-get($type-colors, 2);
   border-radius: 4px;
   background-color: map-get($shades, 9);
   transition: 2s opacity;
   padding: .25em .5em;
+  width: 136px;
+  bottom: 10px;
+  left: calc(50% - 68px);
 }
 
 .color-grid__item.shades {
@@ -93,6 +97,7 @@
     height: 84px;
     border-radius: 4px;
     width: 105px;
+    position: relative;
   }
   & :first-child {
     grid-column: 1 / -1;
@@ -114,6 +119,7 @@
     margin: .5em 0;
     width: 390px;
     flex: 0 1 31%;
+    position: relative;
   }
   & :first-child {
     width: 100%;

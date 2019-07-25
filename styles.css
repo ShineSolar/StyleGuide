@@ -649,14 +649,18 @@ h6 {
 }
 
 .tooltip {
-  position: fixed;
+  position: absolute;
   font-family: "Rubik", sans-serif;
+  font-size: 0.8em;
   color: #425563;
   border: 1px solid #425563;
   border-radius: 4px;
   background-color: #eceeef;
   transition: 2s opacity;
   padding: 0.25em 0.5em;
+  width: 136px;
+  bottom: 10px;
+  left: calc(50% - 68px);
 }
 
 .color-grid__item.shades {
@@ -671,6 +675,7 @@ h6 {
   height: 84px;
   border-radius: 4px;
   width: 105px;
+  position: relative;
 }
 .color-grid__item.shades :first-child {
   grid-column: 1/-1;
@@ -728,6 +733,7 @@ h6 {
   margin: 0.5em 0;
   width: 390px;
   flex: 0 1 31%;
+  position: relative;
 }
 .color-grid__item.brand-colors :first-child {
   width: 100%;
