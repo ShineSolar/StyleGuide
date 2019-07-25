@@ -342,6 +342,10 @@ template {
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 ul {
   list-style: none;
   padding-left: 0;
