@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', (e) => {
 
   const body = document.querySelector('body');
-  const cardColorGridItems = document.querySelectorAll('.card__grid__item--colors');
+  const cardColorGridItems = document.querySelectorAll('.card__grid-item--colors');
   const navLinks = document.querySelector('.sidebar');
 
   // click to copy-to-clipboard

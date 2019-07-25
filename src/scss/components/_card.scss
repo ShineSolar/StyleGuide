@@ -54,16 +54,16 @@
   margin: 0 2em;
 }
 
-.card__grid__item--logos {
+.card__grid-item--logos {
   padding-bottom: 1em;
 }
 
-.card__grid__item--logos,
-.card__grid__item--colors {
+.card__grid-item--logos,
+.card__grid-item--colors {
   background-color: $white;
 }
 
-.card__grid__item--colors {
+.card__grid-item--colors {
   padding: 0 2.62em 2em;
 }
 
@@ -82,7 +82,7 @@
   left: calc(50% - 68px);
 }
 
-.card__grid__item--colors {
+.card__grid-item--colors {
   @include flexy($disp: flex, $just: space-evenly, $wrap: wrap);
 }
 
