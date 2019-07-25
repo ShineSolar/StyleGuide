@@ -3,6 +3,26 @@
 // ======================================
 @import url('https://fonts.googleapis.com/css?family=Fjalla+One|Rubik&display=swap');
 
+.card__body,
+.card__body--narrow,
+.card__body--short {
+  font-size: 1.25em;
+  font-family: $font-stack-secondary;
+  color: map-get($type-colors, 2);
+  line-height: 1.5;
+  padding: .8em 0;
+}
+
+.card__body--narrow {
+  max-width: 720px;
+  margin: auto;
+}
+
+.card__body--short {
+  margin: 0 auto;
+  font-size: 1.125em;
+}
+
 .color--white {
   color: $white;
 }

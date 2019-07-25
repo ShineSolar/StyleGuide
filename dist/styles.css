@@ -450,6 +450,26 @@ h6 {
   margin: 0.45em;
 }
 
+.card__body,
+.card__body--narrow,
+.card__body--short {
+  font-size: 1.25em;
+  font-family: "Fjalla One", sans-serif;
+  color: #425563;
+  line-height: 1.5;
+  padding: 0.8em 0;
+}
+
+.card__body--narrow {
+  max-width: 720px;
+  margin: auto;
+}
+
+.card__body--short {
+  margin: 0 auto;
+  font-size: 1.125em;
+}
+
 .color--white {
   color: #fff;
 }
@@ -742,20 +762,6 @@ h6 {
   grid-gap: 2px;
   background-color: #eceeef;
   padding: 0;
-}
-
-.card__body,
-.card__body--narrow {
-  font-size: 1.25em;
-  font-family: "Fjalla One", sans-serif;
-  color: #425563;
-  line-height: 1.5;
-  padding: 0.8em 0;
-}
-
-.card__body--narrow {
-  max-width: 720px;
-  margin: auto;
 }
 
 @media (min-width: 768px) {

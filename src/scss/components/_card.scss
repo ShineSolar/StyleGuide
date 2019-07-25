@@ -30,20 +30,6 @@
   padding: 0;
 }
 
-.card__body,
-.card__body--narrow {
-  font-size: 1.25em;
-  font-family: $font-stack-secondary;
-  color: map-get($type-colors, 2);
-  line-height: 1.5;
-  padding: .8em 0;
-}
-
-.card__body--narrow {
-  max-width: 720px;
-  margin: auto;
-}
-
 .horizontal-list {
   @media (min-width: 768px) {
     @include flexy($disp: flex, $wrap: wrap, $just: center);
@@ -180,4 +166,7 @@
   grid-column: 2 / -1;
   margin: .5em auto .5em 0;
   @include flexy($disp: flex, $align: center);
+}
+
+.card__grid--icons {
 }
