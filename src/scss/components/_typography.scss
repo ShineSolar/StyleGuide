@@ -123,6 +123,10 @@
   color: map-get($type-colors, 3);
 }
 
+.card-caption--typography {
+  @include flexy($disp: flex, $align: center);
+}
+
 .card-caption--full-width {
   width: 100%;
   grid-column: 1 / -1;
