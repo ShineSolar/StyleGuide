@@ -66,11 +66,16 @@
   color: map-get($type-colors, 2);
 }
 
-.card-caption {
+.card-caption,
+.card-caption--full-width {
   font-family: $font-stack-primary;
   font-size: .875em;
   line-height: 2.86;
   color: map-get($type-colors, 3);
+}
+
+.card-caption--full-width {
+  width: 100%;
 }
 
 .download-btn {
@@ -88,14 +93,15 @@
   background-color: map-get($shades, 7);
 }
 
-.color-caption {
+.color-caption,
+.color-caption--dark {
   font-family: $font-stack-primary;
   font-size: .6875em;
   color: rgba($white, .7);
   cursor: default;
 }
 
-.color-caption.dark {
+.color-caption--dark {
   color: map-get($shades, 3);
 }
 

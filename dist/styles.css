@@ -513,11 +513,16 @@ h6 {
   color: #425563;
 }
 
-.card-caption {
+.card-caption,
+.card-caption--full-width {
   font-family: "Rubik", sans-serif;
   font-size: 0.875em;
   line-height: 2.86;
   color: #7d8d9a;
+}
+
+.card-caption--full-width {
+  width: 100%;
 }
 
 .download-btn {
@@ -537,14 +542,15 @@ h6 {
   background-color: #d3d8dc;
 }
 
-.color-caption {
+.color-caption,
+.color-caption--dark {
   font-family: "Rubik", sans-serif;
   font-size: 0.6875em;
   color: rgba(255, 255, 255, 0.7);
   cursor: default;
 }
 
-.color-caption.dark {
+.color-caption--dark {
   color: #485d6c;
 }
 
@@ -667,74 +673,113 @@ h6 {
   left: calc(50% - 68px);
 }
 
-.color-grid__item.shades {
+.color-grid__item {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
-.color-grid__item.shades :first-child {
-  width: 100%;
-}
 
-[class^=shades--] {
+.shades--1 {
   cursor: pointer;
   height: 84px;
   border-radius: 4px;
   width: 105px;
   position: relative;
   margin: 0.5em;
-}
-
-.shades--1 {
   background-color: #303d46;
 }
 
 .shades--2 {
+  cursor: pointer;
+  height: 84px;
+  border-radius: 4px;
+  width: 105px;
+  position: relative;
+  margin: 0.5em;
   background-color: #425563;
 }
 
 .shades--3 {
+  cursor: pointer;
+  height: 84px;
+  border-radius: 4px;
+  width: 105px;
+  position: relative;
+  margin: 0.5em;
   background-color: #485d6c;
 }
 
 .shades--4 {
+  cursor: pointer;
+  height: 84px;
+  border-radius: 4px;
+  width: 105px;
+  position: relative;
+  margin: 0.5em;
   background-color: #667b8a;
 }
 
 .shades--5 {
+  cursor: pointer;
+  height: 84px;
+  border-radius: 4px;
+  width: 105px;
+  position: relative;
+  margin: 0.5em;
   background-color: #8697a4;
 }
 
 .shades--6 {
+  cursor: pointer;
+  height: 84px;
+  border-radius: 4px;
+  width: 105px;
+  position: relative;
+  margin: 0.5em;
   background-color: #b1bbc2;
 }
 
 .shades--7 {
+  cursor: pointer;
+  height: 84px;
+  border-radius: 4px;
+  width: 105px;
+  position: relative;
+  margin: 0.5em;
   background-color: #d3d8dc;
 }
 
 .shades--8 {
+  cursor: pointer;
+  height: 84px;
+  border-radius: 4px;
+  width: 105px;
+  position: relative;
+  margin: 0.5em;
   background-color: #e0e3e5;
 }
 
 .shades--9 {
+  cursor: pointer;
+  height: 84px;
+  border-radius: 4px;
+  width: 105px;
+  position: relative;
+  margin: 0.5em;
   background-color: #eceeef;
 }
 
 .shades--10 {
+  cursor: pointer;
+  height: 84px;
+  border-radius: 4px;
+  width: 105px;
+  position: relative;
+  margin: 0.5em;
   background-color: #f5f6f7;
 }
 
-.color-grid__item.brand-colors {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-.color-grid__item.brand-colors :first-child {
-  width: 100%;
-}
-
-[class^=brand-colors-] {
+.brand-colors--primary {
   cursor: pointer;
   height: 84px;
   border-radius: 4px;
@@ -742,17 +787,28 @@ h6 {
   width: 390px;
   flex: 0 1 31%;
   position: relative;
-}
-
-.brand-colors--primary {
   background-color: #ff6900;
 }
 
 .brand-colors--secondary {
+  cursor: pointer;
+  height: 84px;
+  border-radius: 4px;
+  margin: 0.5em 0;
+  width: 390px;
+  flex: 0 1 31%;
+  position: relative;
   background-color: #425563;
 }
 
 .brand-colors--tertiary {
+  cursor: pointer;
+  height: 84px;
+  border-radius: 4px;
+  margin: 0.5em 0;
+  width: 390px;
+  flex: 0 1 31%;
+  position: relative;
   background-color: #1bd0ff;
 }
 

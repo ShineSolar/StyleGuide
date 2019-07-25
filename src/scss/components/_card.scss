@@ -86,47 +86,31 @@
   left: calc(50% - 68px);
 }
 
-.color-grid__item.shades {
+.color-grid__item {
   @include flexy($disp: flex, $just: space-evenly, $wrap: wrap);
-  & :first-child {
-    width: 100%;
-  }
-}
-
-[class^="shades--"] {
-  cursor: pointer;
-  height: 84px;
-  border-radius: 4px;
-  width: 105px;
-  position: relative;
-  margin: .5em;
 }
 
 @each $index, $shade in $shades {
   .shades--#{$index} {
+    cursor: pointer;
+    height: 84px;
+    border-radius: 4px;
+    width: 105px;
+    position: relative;
+    margin: .5em;
     background-color: $shade;
   }
 }
 
-.color-grid__item.brand-colors {
-  @include flexy($disp: flex, $just: space-between, $wrap: wrap);
-  & :first-child {
-    width: 100%;
-  }
-}
-
-[class^="brand-colors-"] {
-  cursor: pointer;
-  height: 84px;
-  border-radius: 4px;
-  margin: .5em 0;
-  width: 390px;
-  flex: 0 1 31%;
-  position: relative;
-}
-
 @each $name, $color in $brand-colors {
   .brand-colors--#{$name} {
+    cursor: pointer;
+    height: 84px;
+    border-radius: 4px;
+    margin: .5em 0;
+    width: 390px;
+    flex: 0 1 31%;
+    position: relative;
     background-color: $color;
   }
 }
