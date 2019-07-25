@@ -515,7 +515,9 @@ h6 {
 
 .card-caption,
 .card-caption--full-width,
-.color-caption--dark--box-shadow {
+.color-caption--dark--box-shadow,
+.card-caption--left,
+.card-caption--right {
   font-family: "Rubik", sans-serif;
   font-size: 0.875em;
   line-height: 2.86;
@@ -524,12 +526,17 @@ h6 {
 
 .card-caption--full-width {
   width: 100%;
+  grid-column: 1/-1;
+  text-align: center;
 }
 
-.download-btn {
+.download-btn,
+.download-btn--narrow,
+.download-btn--left,
+.download-btn--right {
   background-color: #eceeef;
   margin: 0.5em auto;
-  max-width: 150px;
+  width: 180px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -537,6 +544,25 @@ h6 {
   font-size: 0.875em;
   color: #425563;
   border-radius: 3px;
+}
+
+.download-btn--left,
+.download-btn--right {
+  margin-left: 0;
+}
+
+.download-btn--left,
+.card-caption--left {
+  grid-column: 2/3;
+}
+
+.download-btn--right,
+.card-caption--right {
+  grid-column: 4/-1;
+}
+
+.download-btn--narrow {
+  width: 150px;
 }
 
 .download-btn:hover {
@@ -939,6 +965,88 @@ h6 {
   margin: 0.5em;
   background-color: #fff;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.15);
+}
+
+.card__grid-item--typography {
+  display: grid;
+  text-align: left;
+  grid-template-rows: repeat(10, auto);
+  grid-template-columns: 1fr 3fr 1fr 3fr;
+}
+
+.typography__rubik--header,
+.typography__rubik--28,
+.typography__rubik--22,
+.typography__rubik--18,
+.typography__rubik--14,
+.typography__rubik--12,
+.typography__rubik--16,
+.typography__rubik--14--sm,
+.typography__rubik--caption--left,
+.typography__rubik--caption--right,
+.typography__fjalla-one--header,
+.typography__fjalla-one--44,
+.typography__fjalla-one--38,
+.typography__fjalla-one--32,
+.typography__fjalla-one--26,
+.typography__fjalla-one--20 {
+  color: #425563;
+}
+
+.typography__fjalla-one--44--orange,
+.typography__fjalla-one--38--orange {
+  color: #ff6900;
+}
+
+.typography__rubik--header,
+.typography__rubik--28,
+.typography__rubik--22,
+.typography__rubik--18,
+.typography__rubik--14,
+.typography__rubik--12,
+.typography__rubik--16,
+.typography__rubik--14--sm,
+.typography__rubik--caption--left,
+.typography__rubik--caption--right {
+  font-family: "Rubik", sans-serif;
+}
+
+.typography__rubik--header,
+.typography__fjalla-one--header {
+  font-size: 3.375em;
+}
+
+.typography__rubik--header {
+  grid-column: 2/3;
+}
+
+.typography__fjalla-one--header,
+.typography__fjalla-one--44,
+.typography__fjalla-one--38,
+.typography__fjalla-one--32,
+.typography__fjalla-one--26,
+.typography__fjalla-one--20,
+.typography__fjalla-one--44--orange,
+.typography__fjalla-one--38--orange {
+  font-family: "Fjalla One", sans-serif;
+}
+
+.typography__fjalla-one--header {
+  grid-column: 4/-1;
+}
+
+.typography__rubik--caption--left,
+.typography__rubik--caption--right {
+  font-size: 0.75em;
+  color: #7d8d9a;
+}
+
+.typography__rubik--caption--left {
+  grid-column: 1/2;
+}
+
+.typography__rubik--caption--right {
+  grid-column: 3/4;
 }
 
 /*# sourceMappingURL=styles.css.map */

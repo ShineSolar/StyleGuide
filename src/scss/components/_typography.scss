@@ -68,7 +68,9 @@
 
 .card-caption,
 .card-caption--full-width,
-.color-caption--dark--box-shadow {
+.color-caption--dark--box-shadow,
+.card-caption--left,
+.card-caption--right {
   font-family: $font-stack-primary;
   font-size: .875em;
   line-height: 2.86;
@@ -77,17 +79,41 @@
 
 .card-caption--full-width {
   width: 100%;
+  grid-column: 1 / -1;
+  text-align: center;
 }
 
-.download-btn {
+.download-btn,
+.download-btn--narrow,
+.download-btn--left,
+.download-btn--right {
   background-color: map-get($shades, 9);
   margin: .5em auto;
-  max-width: 150px;
+  width: 180px;
   @include flexy($disp: flex, $just: center, $align: center);
   font-family: $font-stack-primary;
   font-size: .875em;
   color: map-get($type-colors, 2);
   border-radius: 3px;
+}
+
+.download-btn--left,
+.download-btn--right {
+  margin-left: 0;
+}
+
+.download-btn--left,
+.card-caption--left {
+  grid-column: 2 / 3;
+}
+
+.download-btn--right,
+.card-caption--right {
+  grid-column: 4 / -1;
+}
+
+.download-btn--narrow {
+  width: 150px;
 }
 
 .download-btn:hover {
