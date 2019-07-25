@@ -1,25 +1,22 @@
 document.addEventListener('DOMContentLoaded', (e) => {
 
   const body = document.querySelector('body');
-  const cardColorGrid = document.querySelector('.card__color-grid');
+  const cardColorGridItems = document.querySelectorAll('.color-grid__item');
   const navLinks = document.querySelector('.sidebar');
 
-  cardColorGrid.addEventListener('click', (e) => {
+  // click to copy-to-clipboard
+  cardColorGridItems.forEach(item => {
+    item.addEventListener('click', (e) => {
       const target = e.target;
-      const className = target.className;
-      if(
-        className.includes('shades--') ||
-        className.includes('brand-colors--') ||
-        className.includes('other-colors--')) {
-        const p = target.querySelector('.color-caption');
+      if(target.className.includes('colors--')) {
+        const p = target.querySelector('p');
+        console.log(p);
         const textArea = document.createElement('textarea');
         body.appendChild(textArea);
         textArea.value = p.textContent;
         textArea.select();
         document.execCommand('copy');
-        console.log(textArea.value);
         body.removeChild(textArea);
-
         const tooltip = document.createElement('span');
         tooltip.className = 'tooltip';
         tooltip.textContent = 'Copied to clipboard!';
@@ -32,6 +29,7 @@ document.addEventListener('DOMContentLoaded', (e) => {
           }, 500);
       }
     });
+  });
 
     navLinks.addEventListener('click', (e) => {
       if(e.target.tagName === 'A') {
