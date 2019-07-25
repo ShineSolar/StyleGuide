@@ -537,6 +537,7 @@ h6 {
   font-family: "Rubik", sans-serif;
   font-size: 0.6875em;
   color: rgba(255, 255, 255, 0.7);
+  cursor: default;
 }
 
 .color-caption.dark {
