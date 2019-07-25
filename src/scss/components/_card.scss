@@ -77,7 +77,7 @@
   grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
   grid-gap: 1em 0;
   justify-items: center;
-  [class^="shade-"] {
+  [class^="shades--"] {
     height: 84px;
     border-radius: 4px;
     width: 105px;
@@ -88,7 +88,7 @@
 }
 
 @each $index, $shade in $shades {
-  .shade-#{$index} {
+  .shades--#{$index} {
     background-color: $shade;
   }
 }

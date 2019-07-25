@@ -654,7 +654,7 @@ h6 {
   grid-gap: 1em 0;
   justify-items: center;
 }
-.color-grid__item.shades [class^=shade-] {
+.color-grid__item.shades [class^=shades--] {
   height: 84px;
   border-radius: 4px;
   width: 105px;
@@ -663,43 +663,43 @@ h6 {
   grid-column: 1/-1;
 }
 
-.shade-1 {
+.shades--1 {
   background-color: #303d46;
 }
 
-.shade-2 {
+.shades--2 {
   background-color: #425563;
 }
 
-.shade-3 {
+.shades--3 {
   background-color: #485d6c;
 }
 
-.shade-4 {
+.shades--4 {
   background-color: #667b8a;
 }
 
-.shade-5 {
+.shades--5 {
   background-color: #8697a4;
 }
 
-.shade-6 {
+.shades--6 {
   background-color: #b1bbc2;
 }
 
-.shade-7 {
+.shades--7 {
   background-color: #d3d8dc;
 }
 
-.shade-8 {
+.shades--8 {
   background-color: #e0e3e5;
 }
 
-.shade-9 {
+.shades--9 {
   background-color: #eceeef;
 }
 
-.shade-10 {
+.shades--10 {
   background-color: #f5f6f7;
 }
 
