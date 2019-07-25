@@ -30,17 +30,6 @@
   padding: 0;
 }
 
-.horizontal-list {
-  @media (min-width: 768px) {
-    @include flexy($disp: flex, $wrap: wrap, $just: center);
-  }
-}
-
-.horizontal-list li {
-  padding: 1em 0;
-  margin: 0 2em;
-}
-
 .card__grid-item--logos {
   padding-bottom: 1em;
 }
