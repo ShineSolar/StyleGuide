@@ -812,4 +812,74 @@ h6 {
   background-color: #1bd0ff;
 }
 
+.other-colors--1 {
+  cursor: pointer;
+  height: 84px;
+  border-radius: 4px;
+  width: 150px;
+  position: relative;
+  margin: 0.5em;
+  background-color: #2485e1;
+}
+
+.other-colors--2 {
+  cursor: pointer;
+  height: 84px;
+  border-radius: 4px;
+  width: 150px;
+  position: relative;
+  margin: 0.5em;
+  background-color: #1bd0ff;
+}
+
+.other-colors--3 {
+  cursor: pointer;
+  height: 84px;
+  border-radius: 4px;
+  width: 150px;
+  position: relative;
+  margin: 0.5em;
+  background-color: #3dca59;
+}
+
+.other-colors--4 {
+  cursor: pointer;
+  height: 84px;
+  border-radius: 4px;
+  width: 150px;
+  position: relative;
+  margin: 0.5em;
+  background-color: #facb34;
+}
+
+.other-colors--5 {
+  cursor: pointer;
+  height: 84px;
+  border-radius: 4px;
+  width: 150px;
+  position: relative;
+  margin: 0.5em;
+  background-color: #ff920b;
+}
+
+.other-colors--6 {
+  cursor: pointer;
+  height: 84px;
+  border-radius: 4px;
+  width: 150px;
+  position: relative;
+  margin: 0.5em;
+  background-color: #f54700;
+}
+
+.other-colors--7 {
+  cursor: pointer;
+  height: 84px;
+  border-radius: 4px;
+  width: 150px;
+  position: relative;
+  margin: 0.5em;
+  background-color: #e03486;
+}
+
 /*# sourceMappingURL=styles.css.map */

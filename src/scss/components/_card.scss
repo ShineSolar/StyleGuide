@@ -114,3 +114,15 @@
     background-color: $color;
   }
 }
+
+@each $index, $color in $other-colors {
+  .other-colors--#{$index} {
+    cursor: pointer;
+    height: 84px;
+    border-radius: 4px;
+    width: 150px;
+    position: relative;
+    margin: .5em;
+    background-color: $color;
+  }
+}

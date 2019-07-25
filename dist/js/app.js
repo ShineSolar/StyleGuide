@@ -7,7 +7,10 @@ document.addEventListener('DOMContentLoaded', (e) => {
   cardColorGrid.addEventListener('click', (e) => {
       const target = e.target;
       const className = target.className;
-      if(className.includes('shades--') || className.includes('brand-colors--')) {
+      if(
+        className.includes('shades--') ||
+        className.includes('brand-colors--') ||
+        className.includes('other-colors--')) {
         const p = target.querySelector('.color-caption');
         const textArea = document.createElement('textarea');
         body.appendChild(textArea);
