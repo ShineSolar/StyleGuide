@@ -21,6 +21,13 @@
   margin: .45em;
 }
 
+.icon {
+  width: 75px;
+  @media (min-width: 768px) {
+    width: auto;
+  }
+}
+
 // .img--logo,
 // .img--avatar {
 //   padding: 1em 0;
