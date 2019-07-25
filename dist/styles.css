@@ -639,7 +639,7 @@ h6 {
 }
 
 .logo-grid__item,
-.color-grid__item {
+.card__grid__item--colors {
   background-color: #fff;
 }
 
@@ -654,7 +654,7 @@ h6 {
   background-color: #eceeef;
 }
 
-.color-grid__item {
+.card__grid__item--colors {
   padding: 0 2.62em 2em;
 }
 
@@ -673,7 +673,7 @@ h6 {
   left: calc(50% - 68px);
 }
 
-.color-grid__item {
+.card__grid__item--colors {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;

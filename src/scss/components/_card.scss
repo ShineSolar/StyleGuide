@@ -52,7 +52,7 @@
 }
 
 .logo-grid__item,
-.color-grid__item {
+.card__grid__item--colors {
   background-color: $white;
 }
 
@@ -67,7 +67,7 @@
   background-color: $main-grid-gap;
 }
 
-.color-grid__item {
+.card__grid__item--colors {
   padding: 0 2.62em 2em;
 }
 
@@ -86,7 +86,7 @@
   left: calc(50% - 68px);
 }
 
-.color-grid__item {
+.card__grid__item--colors {
   @include flexy($disp: flex, $just: space-evenly, $wrap: wrap);
 }
 
