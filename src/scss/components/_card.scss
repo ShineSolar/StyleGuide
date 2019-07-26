@@ -198,16 +198,24 @@
 .card__grid--pictures {
   display: grid;
   max-width: 1268px;
-  margin: 0 auto;
+  margin: 0 auto 1em;
   justify-items: center;
   align-items: center;
+  grid-gap: .5em 1em;
   @media (min-width: 768px) {
+    grid-gap: 1em 2em;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    grid-auto-rows: 220px;
   }
 }
 
 .card__grid-item--picture {
-  @include flexy($disp: flex, $wrap: wrap, $just: center, $align: center);
-  padding: 0 .5em;
+  @include flexy($disp: flex, $wrap: wrap, $align: center, $just: center);
+  @media (min-width: 768px) {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+  }
+}
+
+.figure {
+  margin: 0;
 }
