@@ -45,21 +45,14 @@
 
 .sidebar__section {
   margin-top: 3.2em;
-}
-
-.header,
-.sidebar__section {
   padding: 1.0625em 1.3125em 0;
+  border-top: $nav-border;
 }
 
 .header {
   border-bottom: $nav-border;
-  padding-bottom: .25em;
+  padding: 1.0625em 0 1em;
   margin-bottom: 4.4em;
-}
-
-.sidebar__section {
-  border-top: $nav-border;
 }
 
 .sidebar__headline {
