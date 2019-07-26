@@ -704,6 +704,7 @@ main {
 }
 
 .card-caption,
+.card-caption--short,
 .card-caption--full-width,
 .card-caption--typography,
 .card-caption--size-label,
@@ -713,6 +714,10 @@ main {
   font-size: 0.875em;
   line-height: 2.86;
   color: #7d8d9a;
+}
+
+.card-caption--short {
+  margin: 0;
 }
 
 .card-caption--photograph-downloads {
@@ -927,10 +932,16 @@ main {
   grid-gap: 2px;
   background-color: #eceeef;
   padding: 0;
+  margin-bottom: 1em;
+}
+@media (min-width: 768px) {
+  .card--2x2grid {
+    margin-bottom: 2em;
+  }
 }
 
 .card__grid-item--logos {
-  padding-bottom: 1em;
+  padding: 1em 0;
 }
 
 .card__grid-item--logos,
@@ -1456,7 +1467,8 @@ main {
   }
 }
 
-.figure {
+.figure--logo,
+.figure--photograph {
   margin: 0;
 }
 

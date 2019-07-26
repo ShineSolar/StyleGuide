@@ -117,6 +117,7 @@
 }
 
 .card-caption,
+.card-caption--short,
 .card-caption--full-width,
 .card-caption--typography,
 .card-caption--size-label,
@@ -126,6 +127,10 @@
   font-size: .875em;
   line-height: 2.86;
   color: map-get($type-colors, 3);
+}
+
+.card-caption--short {
+  margin: 0;
 }
 
 .card-caption--photograph-downloads {

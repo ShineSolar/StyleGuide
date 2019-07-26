@@ -31,10 +31,14 @@
   grid-gap: 2px;
   background-color: $main-grid-gap;
   padding: 0;
+  margin-bottom: 1em;
+  @media (min-width: 768px) {
+    margin-bottom: 2em;
+  }
 }
 
 .card__grid-item--logos {
-  padding-bottom: 1em;
+  padding: 1em 0;
 }
 
 .card__grid-item--logos,
@@ -216,6 +220,7 @@
   }
 }
 
-.figure {
+.figure--logo,
+.figure--photograph {
   margin: 0;
 }
