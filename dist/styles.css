@@ -988,10 +988,6 @@ main {
   flex: 0 1 25%;
 }
 
-.shades--1:hover {
-  box-shadow: 0 0 10px rgba(48, 61, 70, 0.9);
-}
-
 .shades--2 {
   cursor: pointer;
   height: 84px;
@@ -1001,10 +997,6 @@ main {
   margin: 0.5em;
   background-color: #425563;
   flex: 0 1 25%;
-}
-
-.shades--2:hover {
-  box-shadow: 0 0 10px rgba(48, 61, 70, 0.9);
 }
 
 .shades--3 {
@@ -1018,10 +1010,6 @@ main {
   flex: 0 1 25%;
 }
 
-.shades--3:hover {
-  box-shadow: 0 0 10px rgba(48, 61, 70, 0.9);
-}
-
 .shades--4 {
   cursor: pointer;
   height: 84px;
@@ -1031,10 +1019,6 @@ main {
   margin: 0.5em;
   background-color: #667b8a;
   flex: 0 1 25%;
-}
-
-.shades--4:hover {
-  box-shadow: 0 0 10px rgba(48, 61, 70, 0.9);
 }
 
 .shades--5 {
@@ -1048,10 +1032,6 @@ main {
   flex: 0 1 25%;
 }
 
-.shades--5:hover {
-  box-shadow: 0 0 10px rgba(48, 61, 70, 0.9);
-}
-
 .shades--6 {
   cursor: pointer;
   height: 84px;
@@ -1061,10 +1041,6 @@ main {
   margin: 0.5em;
   background-color: #b1bbc2;
   flex: 0 1 25%;
-}
-
-.shades--6:hover {
-  box-shadow: 0 0 10px rgba(48, 61, 70, 0.9);
 }
 
 .shades--7 {
@@ -1078,10 +1054,6 @@ main {
   flex: 0 1 25%;
 }
 
-.shades--7:hover {
-  box-shadow: 0 0 10px rgba(48, 61, 70, 0.9);
-}
-
 .shades--8 {
   cursor: pointer;
   height: 84px;
@@ -1091,10 +1063,6 @@ main {
   margin: 0.5em;
   background-color: #e0e3e5;
   flex: 0 1 25%;
-}
-
-.shades--8:hover {
-  box-shadow: 0 0 10px rgba(48, 61, 70, 0.9);
 }
 
 .shades--9 {
@@ -1108,10 +1076,6 @@ main {
   flex: 0 1 25%;
 }
 
-.shades--9:hover {
-  box-shadow: 0 0 10px rgba(48, 61, 70, 0.9);
-}
-
 .shades--10 {
   cursor: pointer;
   height: 84px;
@@ -1121,10 +1085,6 @@ main {
   margin: 0.5em;
   background-color: #f5f6f7;
   flex: 0 1 25%;
-}
-
-.shades--10:hover {
-  box-shadow: 0 0 10px rgba(48, 61, 70, 0.9);
 }
 
 .brand-colors--primary {
@@ -1138,10 +1098,6 @@ main {
   background-color: #ff6900;
 }
 
-.brand-colors--primary:hover {
-  box-shadow: 0 0 10px rgba(48, 61, 70, 0.9);
-}
-
 .brand-colors--secondary {
   cursor: pointer;
   height: 84px;
@@ -1151,10 +1107,6 @@ main {
   flex: 0 1 31%;
   position: relative;
   background-color: #425563;
-}
-
-.brand-colors--secondary:hover {
-  box-shadow: 0 0 10px rgba(48, 61, 70, 0.9);
 }
 
 .brand-colors--tertiary {
@@ -1168,10 +1120,6 @@ main {
   background-color: #1bd0ff;
 }
 
-.brand-colors--tertiary:hover {
-  box-shadow: 0 0 10px rgba(48, 61, 70, 0.9);
-}
-
 .other-colors--1 {
   cursor: pointer;
   height: 84px;
@@ -1181,10 +1129,6 @@ main {
   margin: 0.5em;
   background-color: #2485e1;
   flex: 0 1 25%;
-}
-
-.other-colors--1:hover {
-  box-shadow: 0 0 10px rgba(48, 61, 70, 0.9);
 }
 
 .other-colors--2 {
@@ -1198,10 +1142,6 @@ main {
   flex: 0 1 25%;
 }
 
-.other-colors--2:hover {
-  box-shadow: 0 0 10px rgba(48, 61, 70, 0.9);
-}
-
 .other-colors--3 {
   cursor: pointer;
   height: 84px;
@@ -1211,10 +1151,6 @@ main {
   margin: 0.5em;
   background-color: #3dca59;
   flex: 0 1 25%;
-}
-
-.other-colors--3:hover {
-  box-shadow: 0 0 10px rgba(48, 61, 70, 0.9);
 }
 
 .other-colors--4 {
@@ -1228,10 +1164,6 @@ main {
   flex: 0 1 25%;
 }
 
-.other-colors--4:hover {
-  box-shadow: 0 0 10px rgba(48, 61, 70, 0.9);
-}
-
 .other-colors--5 {
   cursor: pointer;
   height: 84px;
@@ -1241,10 +1173,6 @@ main {
   margin: 0.5em;
   background-color: #ff920b;
   flex: 0 1 25%;
-}
-
-.other-colors--5:hover {
-  box-shadow: 0 0 10px rgba(48, 61, 70, 0.9);
 }
 
 .other-colors--6 {
@@ -1258,10 +1186,6 @@ main {
   flex: 0 1 25%;
 }
 
-.other-colors--6:hover {
-  box-shadow: 0 0 10px rgba(48, 61, 70, 0.9);
-}
-
 .other-colors--7 {
   cursor: pointer;
   height: 84px;
@@ -1271,10 +1195,6 @@ main {
   margin: 0.5em;
   background-color: #e03486;
   flex: 0 1 25%;
-}
-
-.other-colors--7:hover {
-  box-shadow: 0 0 10px rgba(48, 61, 70, 0.9);
 }
 
 .type-colors--1 {
@@ -1288,10 +1208,6 @@ main {
   background-color: #303d46;
 }
 
-.type-colors--1:hover {
-  box-shadow: 0 0 10px rgba(48, 61, 70, 0.9);
-}
-
 .type-colors--2 {
   cursor: pointer;
   height: 84px;
@@ -1301,10 +1217,6 @@ main {
   margin: 0.5em;
   flex: 0 1 25%;
   background-color: #425563;
-}
-
-.type-colors--2:hover {
-  box-shadow: 0 0 10px rgba(48, 61, 70, 0.9);
 }
 
 .type-colors--3 {
@@ -1318,10 +1230,6 @@ main {
   background-color: #7d8d9a;
 }
 
-.type-colors--3:hover {
-  box-shadow: 0 0 10px rgba(48, 61, 70, 0.9);
-}
-
 .type-colors--4 {
   cursor: pointer;
   height: 84px;
@@ -1333,10 +1241,6 @@ main {
   background-color: #ff6900;
 }
 
-.type-colors--4:hover {
-  box-shadow: 0 0 10px rgba(48, 61, 70, 0.9);
-}
-
 .type-colors--5 {
   cursor: pointer;
   height: 84px;
@@ -1346,10 +1250,6 @@ main {
   margin: 0.5em;
   flex: 0 1 25%;
   background-color: #1bd0ff;
-}
-
-.type-colors--5:hover {
-  box-shadow: 0 0 10px rgba(48, 61, 70, 0.9);
 }
 
 .type-colors--6 {
@@ -1364,7 +1264,10 @@ main {
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.15);
 }
 
-.type-colors--6:hover {
+[class^=shades--]:hover,
+[class^=brand-colors--]:hover,
+[class^=other-colors--]:hover,
+[class^=type-colors--]:hover {
   box-shadow: 0 0 10px rgba(48, 61, 70, 0.9);
 }
 
