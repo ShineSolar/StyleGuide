@@ -79,57 +79,45 @@
 
 @each $index, $shade in $shades {
   .shades--#{$index} {
-    cursor: pointer;
-    height: 84px;
-    border-radius: 4px;
     max-width: 105px;
-    position: relative;
-    margin: .5em;
     background-color: $shade;
-    flex: 0 1 25%;
   }
 }
 
 @each $name, $color in $brand-colors {
   .brand-colors--#{$name} {
-    cursor: pointer;
-    height: 84px;
-    border-radius: 4px;
-    margin: .5em 0;
     max-width: 390px;
-    flex: 0 1 31%;
-    position: relative;
     background-color: $color;
   }
 }
 
 @each $index, $color in $other-colors {
   .other-colors--#{$index} {
-    cursor: pointer;
-    height: 84px;
-    border-radius: 4px;
     max-width: 150px;
-    position: relative;
-    margin: .5em;
     background-color: $color;
-    flex: 0 1 25%;
   }
 }
 
 @each $index, $color in $type-colors {
   .type-colors--#{$index} {
-    cursor: pointer;
-    height: 84px;
-    border-radius: 4px;
     max-width: 185px;
-    position: relative;
-    margin: .5em;
-    flex: 0 1 25%;
     background-color: $color;
     @if $index == 6 {
       box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.15);
     }
   }
+}
+
+[class^="shades--"],
+[class^="brand-colors--"],
+[class^="other-colors--"],
+[class^="type-colors--"] {
+  position: relative;
+  cursor: pointer;
+  height: 84px;
+  border-radius: 4px;
+  margin: .5em;
+  flex: 0 1 25%;
 }
 
 [class^="shades--"]:hover,
