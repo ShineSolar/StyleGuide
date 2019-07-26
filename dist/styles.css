@@ -949,7 +949,7 @@ main {
 }
 
 .shades--1:hover {
-  box-shadow: 0 0 4px rgba(48, 61, 70, 0.7);
+  box-shadow: 0 0 10px rgba(48, 61, 70, 0.9);
 }
 
 .shades--2 {
@@ -964,7 +964,7 @@ main {
 }
 
 .shades--2:hover {
-  box-shadow: 0 0 4px rgba(48, 61, 70, 0.7);
+  box-shadow: 0 0 10px rgba(48, 61, 70, 0.9);
 }
 
 .shades--3 {
@@ -979,7 +979,7 @@ main {
 }
 
 .shades--3:hover {
-  box-shadow: 0 0 4px rgba(48, 61, 70, 0.7);
+  box-shadow: 0 0 10px rgba(48, 61, 70, 0.9);
 }
 
 .shades--4 {
@@ -994,7 +994,7 @@ main {
 }
 
 .shades--4:hover {
-  box-shadow: 0 0 4px rgba(48, 61, 70, 0.7);
+  box-shadow: 0 0 10px rgba(48, 61, 70, 0.9);
 }
 
 .shades--5 {
@@ -1009,7 +1009,7 @@ main {
 }
 
 .shades--5:hover {
-  box-shadow: 0 0 4px rgba(48, 61, 70, 0.7);
+  box-shadow: 0 0 10px rgba(48, 61, 70, 0.9);
 }
 
 .shades--6 {
@@ -1024,7 +1024,7 @@ main {
 }
 
 .shades--6:hover {
-  box-shadow: 0 0 4px rgba(48, 61, 70, 0.7);
+  box-shadow: 0 0 10px rgba(48, 61, 70, 0.9);
 }
 
 .shades--7 {
@@ -1039,7 +1039,7 @@ main {
 }
 
 .shades--7:hover {
-  box-shadow: 0 0 4px rgba(48, 61, 70, 0.7);
+  box-shadow: 0 0 10px rgba(48, 61, 70, 0.9);
 }
 
 .shades--8 {
@@ -1054,7 +1054,7 @@ main {
 }
 
 .shades--8:hover {
-  box-shadow: 0 0 4px rgba(48, 61, 70, 0.7);
+  box-shadow: 0 0 10px rgba(48, 61, 70, 0.9);
 }
 
 .shades--9 {
@@ -1069,7 +1069,7 @@ main {
 }
 
 .shades--9:hover {
-  box-shadow: 0 0 4px rgba(48, 61, 70, 0.7);
+  box-shadow: 0 0 10px rgba(48, 61, 70, 0.9);
 }
 
 .shades--10 {
@@ -1084,7 +1084,7 @@ main {
 }
 
 .shades--10:hover {
-  box-shadow: 0 0 4px rgba(48, 61, 70, 0.7);
+  box-shadow: 0 0 10px rgba(48, 61, 70, 0.9);
 }
 
 .brand-colors--primary {
@@ -1099,7 +1099,7 @@ main {
 }
 
 .brand-colors--primary:hover {
-  box-shadow: 0 0 4px rgba(48, 61, 70, 0.7);
+  box-shadow: 0 0 10px rgba(48, 61, 70, 0.9);
 }
 
 .brand-colors--secondary {
@@ -1114,7 +1114,7 @@ main {
 }
 
 .brand-colors--secondary:hover {
-  box-shadow: 0 0 4px rgba(48, 61, 70, 0.7);
+  box-shadow: 0 0 10px rgba(48, 61, 70, 0.9);
 }
 
 .brand-colors--tertiary {
@@ -1129,7 +1129,7 @@ main {
 }
 
 .brand-colors--tertiary:hover {
-  box-shadow: 0 0 4px rgba(48, 61, 70, 0.7);
+  box-shadow: 0 0 10px rgba(48, 61, 70, 0.9);
 }
 
 .other-colors--1 {
@@ -1144,7 +1144,7 @@ main {
 }
 
 .other-colors--1:hover {
-  box-shadow: 0 0 4px rgba(48, 61, 70, 0.7);
+  box-shadow: 0 0 10px rgba(48, 61, 70, 0.9);
 }
 
 .other-colors--2 {
@@ -1159,7 +1159,7 @@ main {
 }
 
 .other-colors--2:hover {
-  box-shadow: 0 0 4px rgba(48, 61, 70, 0.7);
+  box-shadow: 0 0 10px rgba(48, 61, 70, 0.9);
 }
 
 .other-colors--3 {
@@ -1174,7 +1174,7 @@ main {
 }
 
 .other-colors--3:hover {
-  box-shadow: 0 0 4px rgba(48, 61, 70, 0.7);
+  box-shadow: 0 0 10px rgba(48, 61, 70, 0.9);
 }
 
 .other-colors--4 {
@@ -1189,7 +1189,7 @@ main {
 }
 
 .other-colors--4:hover {
-  box-shadow: 0 0 4px rgba(48, 61, 70, 0.7);
+  box-shadow: 0 0 10px rgba(48, 61, 70, 0.9);
 }
 
 .other-colors--5 {
@@ -1204,7 +1204,7 @@ main {
 }
 
 .other-colors--5:hover {
-  box-shadow: 0 0 4px rgba(48, 61, 70, 0.7);
+  box-shadow: 0 0 10px rgba(48, 61, 70, 0.9);
 }
 
 .other-colors--6 {
@@ -1219,7 +1219,7 @@ main {
 }
 
 .other-colors--6:hover {
-  box-shadow: 0 0 4px rgba(48, 61, 70, 0.7);
+  box-shadow: 0 0 10px rgba(48, 61, 70, 0.9);
 }
 
 .other-colors--7 {
@@ -1234,7 +1234,7 @@ main {
 }
 
 .other-colors--7:hover {
-  box-shadow: 0 0 4px rgba(48, 61, 70, 0.7);
+  box-shadow: 0 0 10px rgba(48, 61, 70, 0.9);
 }
 
 .type-colors--1 {
@@ -1249,7 +1249,7 @@ main {
 }
 
 .type-colors--1:hover {
-  box-shadow: 0 0 4px rgba(48, 61, 70, 0.7);
+  box-shadow: 0 0 10px rgba(48, 61, 70, 0.9);
 }
 
 .type-colors--2 {
@@ -1264,7 +1264,7 @@ main {
 }
 
 .type-colors--2:hover {
-  box-shadow: 0 0 4px rgba(48, 61, 70, 0.7);
+  box-shadow: 0 0 10px rgba(48, 61, 70, 0.9);
 }
 
 .type-colors--3 {
@@ -1279,7 +1279,7 @@ main {
 }
 
 .type-colors--3:hover {
-  box-shadow: 0 0 4px rgba(48, 61, 70, 0.7);
+  box-shadow: 0 0 10px rgba(48, 61, 70, 0.9);
 }
 
 .type-colors--4 {
@@ -1294,7 +1294,7 @@ main {
 }
 
 .type-colors--4:hover {
-  box-shadow: 0 0 4px rgba(48, 61, 70, 0.7);
+  box-shadow: 0 0 10px rgba(48, 61, 70, 0.9);
 }
 
 .type-colors--5 {
@@ -1309,7 +1309,7 @@ main {
 }
 
 .type-colors--5:hover {
-  box-shadow: 0 0 4px rgba(48, 61, 70, 0.7);
+  box-shadow: 0 0 10px rgba(48, 61, 70, 0.9);
 }
 
 .type-colors--6 {
@@ -1325,7 +1325,7 @@ main {
 }
 
 .type-colors--6:hover {
-  box-shadow: 0 0 4px rgba(48, 61, 70, 0.7);
+  box-shadow: 0 0 10px rgba(48, 61, 70, 0.9);
 }
 
 .card__grid-item--typography {
