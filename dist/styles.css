@@ -492,6 +492,41 @@ main {
   }
 }
 
+.logo--sm,
+.logo--lg,
+.logo--sm--orange,
+.logo--lg--orange {
+  padding: 0.25em 0.5em;
+  border-radius: 4px;
+}
+@media (min-width: 768px) {
+  .logo--sm,
+.logo--lg,
+.logo--sm--orange,
+.logo--lg--orange {
+    padding: 0.5em 1em;
+  }
+}
+
+.logo--sm,
+.logo--sm--orange {
+  width: 43%;
+  min-width: 140px;
+  max-width: 300px;
+}
+
+.logo--lg,
+.logo--lg--orange {
+  width: 36%;
+  min-width: 119px;
+  max-width: 250px;
+}
+
+.logo--sm--orange,
+.logo--lg--orange {
+  background-color: #ff6900;
+}
+
 .card__body,
 .card__body--narrow,
 .card__body--short {
