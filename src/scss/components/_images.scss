@@ -79,6 +79,13 @@
   background-color: map-get($brand-colors, 'tertiary');
 }
 
+.photograph {
+  min-width: 128px;
+  width: 50%;
+  margin-left: 0;
+  margin-right: .5em;
+}
+
 // .img--logo,
 // .img--avatar {
 //   padding: 1em 0;

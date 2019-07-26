@@ -194,3 +194,20 @@
   justify-items: center;
   align-items: center;
 }
+
+.card__grid--pictures {
+  display: grid;
+  max-width: 1268px;
+  margin: 0 auto;
+  justify-items: center;
+  align-items: center;
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-auto-rows: 220px;
+  }
+}
+
+.card__grid-item--picture {
+  @include flexy($disp: flex, $wrap: wrap, $just: center, $align: center);
+  padding: 0 .5em;
+}

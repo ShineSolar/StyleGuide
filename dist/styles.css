@@ -559,9 +559,17 @@ main {
   background-color: #1bd0ff;
 }
 
+.photograph {
+  min-width: 128px;
+  width: 50%;
+  margin-left: 0;
+  margin-right: 0.5em;
+}
+
 .card__body,
 .card__body--narrow,
-.card__body--short {
+.card__body--short,
+.card__body--narrow--short {
   font-size: 1em;
   padding: 0.5em 0;
   line-height: 1.5;
@@ -571,22 +579,26 @@ main {
 @media (min-width: 768px) {
   .card__body,
 .card__body--narrow,
-.card__body--short {
+.card__body--short,
+.card__body--narrow--short {
     font-size: 1.25em;
     padding: 0.8em 0;
   }
 }
 
-.card__body--narrow {
+.card__body--narrow,
+.card__body--narrow--short {
   max-width: 720px;
   margin: auto;
 }
 
-.card__body--short {
+.card__body--short,
+.card__body--narrow--short {
   margin: 0 auto;
 }
 @media (min-width: 768px) {
-  .card__body--short {
+  .card__body--short,
+.card__body--narrow--short {
     font-size: 1.125em;
   }
 }
@@ -688,11 +700,17 @@ main {
 .card-caption,
 .card-caption--full-width,
 .card-caption--typography,
-.card-caption--size-label {
+.card-caption--size-label,
+.card-caption--photograph,
+.card-caption--photograph-downloads {
   font-family: "Rubik", sans-serif;
   font-size: 0.875em;
   line-height: 2.86;
   color: #7d8d9a;
+}
+
+.card-caption--photograph-downloads {
+  margin: 0;
 }
 
 .card-caption--typography {
@@ -700,10 +718,23 @@ main {
   align-items: center;
 }
 
-.card-caption--full-width {
+.card-caption--full-width,
+.card-caption--photograph {
   width: 100%;
   grid-column: 1/-1;
   text-align: center;
+}
+
+.card-caption--photograph {
+  text-align: left;
+  line-height: 2;
+  width: 70%;
+  margin: auto auto 0;
+}
+@media (min-width: 768px) {
+  .card-caption--photograph {
+    width: 100%;
+  }
 }
 
 .card-caption--size-label {
@@ -1397,6 +1428,28 @@ main {
     grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
     grid-auto-rows: 175px;
   }
+}
+
+.card__grid--pictures {
+  display: grid;
+  max-width: 1268px;
+  margin: 0 auto;
+  justify-items: center;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .card__grid--pictures {
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-auto-rows: 220px;
+  }
+}
+
+.card__grid-item--picture {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0.5em;
 }
 
 /*# sourceMappingURL=styles.css.map */
