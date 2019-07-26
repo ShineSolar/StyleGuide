@@ -950,6 +950,11 @@ main {
   background-color: #fff;
 }
 
+.card__grid-item--colors,
+.card__grid-item--typography {
+  padding-bottom: 1em;
+}
+
 @media (min-width: 768px) {
   .card__grid-item--colors {
     padding: 0 2.62em 2em;

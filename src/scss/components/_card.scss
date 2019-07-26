@@ -47,6 +47,11 @@
   background-color: $white;
 }
 
+.card__grid-item--colors,
+.card__grid-item--typography {
+  padding-bottom: 1em;
+}
+
 .card__grid-item--colors {
   @media (min-width: 768px) {
     padding: 0 2.62em 2em;
