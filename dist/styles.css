@@ -429,7 +429,7 @@ main {
 
 .header {
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  padding: 1.0625em 0 1em;
+  padding: 1.0625em 1.3125em 1em;
   margin-bottom: 4.4em;
 }
 
@@ -880,7 +880,12 @@ main {
   justify-content: space-evenly;
   align-items: center;
   position: relative;
-  height: 120px;
+  height: 128px;
+}
+@media (max-width: 375px) {
+  .banner {
+    height: 80px;
+  }
 }
 @media (min-width: 1024px) {
   .banner {
