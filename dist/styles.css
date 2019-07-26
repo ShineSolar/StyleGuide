@@ -368,6 +368,12 @@ h6 {
 main {
   padding-bottom: 4em;
 }
+@media (min-width: 768px) {
+  main {
+    position: absolute;
+    left: 250px;
+  }
+}
 
 .sidebar {
   background-color: #303d46;
@@ -377,6 +383,9 @@ main {
 @media (min-width: 768px) {
   .sidebar {
     text-align: left;
+    position: fixed;
+    width: 250px;
+    height: 100%;
   }
 }
 

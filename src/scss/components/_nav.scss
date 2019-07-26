@@ -8,6 +8,9 @@
   padding-bottom: 1.0625em;
   @media (min-width: 768px) {
     text-align: left;
+    position: fixed;
+    width: 250px;
+    height: 100%;
   }
 }
 
