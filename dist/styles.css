@@ -409,7 +409,7 @@ main {
   position: fixed;
   top: 0;
   left: 0;
-  visibility: none;
+  visibility: hidden;
 }
 
 .header__subtitle {
