@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1356 300" width="1356" height="300">
   <g fill="none">
-    <polygon fill="rgba(255, 105, 0, 0.9)" points="0 0 417 0 476 150 417 300 0 300" />
+    <polygon fill="rgba(255, 105, 0, 0.9)" points="-10 0 417 0 476 150 417 300 -10 300" />
     <polygon fill="rgba(66, 85, 99, 0.86)" points="417 0 882 0 942 150 882 300 417 300 476 150" />
-    <polygon fill="rgba(27, 208, 255, 0.9)" points="882 0 1356 0 1356 300 882 300 942 150" />
+    <polygon fill="rgba(27, 208, 255, 0.9)" points="882 0 1366 0 1366 300 882 300 942 150" />
   </g>
 </svg>
