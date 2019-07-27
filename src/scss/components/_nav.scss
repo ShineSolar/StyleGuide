@@ -6,14 +6,35 @@
   background-color: map-get($shades, 1);
   text-align: center;
   padding-bottom: 1.0625em;
+  position: relative;
+  height: 100px;
+  overflow-y: hidden;
+  transition: 1s height;
   @include flexy($disp: flex, $wrap: wrap, $just: space-evenly);
+}
+
+#checkbox--nav:checked + .sidebar {
+  height: 404px;
+}
+
+#checkbox--nav:checked + .sidebar,
+#checkbox--nav + .sidebar {
   @media (min-width: 768px) {
+    transition: none;
     display: block;
     text-align: left;
     position: fixed;
     width: 250px;
     height: 100%;
   }
+}
+
+#checkbox--nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  // z-index: 100; // debug
+  visibility: none;
 }
 
 .header__subtitle {
@@ -62,4 +83,13 @@
 
 .sidebar__headline {
   margin-top: -3em;
+}
+
+.sidebar__burger-btn {
+  color: $white;
+  display: block;
+  margin-top: .6em;
+  @media (min-width: 768px) {
+    display: none;
+  }
 }
