@@ -31,8 +31,9 @@ h6 {
 
 main {
   padding-bottom: 4em;
+  top: 100px;
+  position: absolute;
   @media (min-width: 768px) {
-    position: absolute;
     left: 250px;
     top: 0;
   }
