@@ -472,7 +472,7 @@ main {
   cursor: pointer;
   color: #fff;
   display: block;
-  margin-top: 0.6em;
+  padding: 0.5em 0;
 }
 @media (min-width: 768px) {
   .sidebar__burger-btn {
