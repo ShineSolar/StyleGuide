@@ -379,9 +379,13 @@ main {
   background-color: #303d46;
   text-align: center;
   padding-bottom: 1.0625em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 @media (min-width: 768px) {
   .sidebar {
+    display: block;
     text-align: left;
     position: fixed;
     width: 250px;
@@ -430,7 +434,12 @@ main {
 .header {
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   padding: 1.0625em 1.3125em 1em;
-  margin-bottom: 4.4em;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .header {
+    margin-bottom: 4.4em;
+  }
 }
 
 .sidebar__headline {

@@ -6,7 +6,9 @@
   background-color: map-get($shades, 1);
   text-align: center;
   padding-bottom: 1.0625em;
+  @include flexy($disp: flex, $wrap: wrap, $just: space-evenly);
   @media (min-width: 768px) {
+    display: block;
     text-align: left;
     position: fixed;
     width: 250px;
@@ -52,7 +54,10 @@
 .header {
   border-bottom: $nav-border;
   padding: 1.0625em 1.3125em 1em;
-  margin-bottom: 4.4em;
+  width: 100%;
+  @media (min-width: 768px) {
+    margin-bottom: 4.4em;
+  }
 }
 
 .sidebar__headline {
