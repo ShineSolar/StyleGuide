@@ -369,11 +369,13 @@ main {
   padding-bottom: 4em;
   top: 94px;
   position: absolute;
+  width: 100%;
 }
 @media (min-width: 768px) {
   main {
     left: 250px;
     top: 0;
+    width: calc(100% - 250px);
   }
 }
 
