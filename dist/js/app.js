@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', (e) => {
 
   const body = document.querySelector('body');
   const cardColorGridItems = document.querySelectorAll('.card__grid-item--colors');
-  const navLinks = document.querySelector('.sidebar');
+  const sidebar = document.querySelector('.sidebar');
 
   // click to copy-to-clipboard
   cardColorGridItems.forEach(item => {
@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', (e) => {
     });
   });
 
-  navLinks.addEventListener('click', (e) => {
+  sidebar.addEventListener('click', (e) => {
     if(e.target.tagName === 'A') {
       let target = e.target;
       let scrollTo = '#' + target.href.split('#')[1];
