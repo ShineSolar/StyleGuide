@@ -30,8 +30,8 @@ document.addEventListener('DOMContentLoaded', (e) => {
           tooltip.style.opacity = 0;
           setTimeout(() => {
             target.removeChild(tooltip);
-            }, 2000);
-          }, 500);
+          }, 2000);
+        }, 500);
       }
     });
   });
