@@ -36,12 +36,12 @@ document.addEventListener('DOMContentLoaded', (e) => {
     });
   });
 
-    navLinks.addEventListener('click', (e) => {
-      if(e.target.tagName === 'A') {
-        let target = e.target;
-        let scrollTo = '#' + target.href.split('#')[1];
-        document.querySelector(scrollTo).scrollIntoView({ behavior: 'smooth' });
-      }
-    });
+  navLinks.addEventListener('click', (e) => {
+    if(e.target.tagName === 'A') {
+      let target = e.target;
+      let scrollTo = '#' + target.href.split('#')[1];
+      document.querySelector(scrollTo).scrollIntoView({ behavior: 'smooth' });
+    }
+  });
 
 });
