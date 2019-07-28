@@ -392,10 +392,11 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  padding-bottom: 0.5em;
 }
 
 #checkbox--nav:checked + .sidebar {
-  height: 377px;
+  height: 366px;
 }
 
 @media (min-width: 768px) {
@@ -450,9 +451,14 @@ main {
 }
 
 .sidebar__section {
-  margin-top: 3.2em;
+  margin-top: 2em;
   padding: 1.0625em 1.3125em 0;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+@media (min-width: 768px) {
+  .sidebar__section {
+    margin-top: 3.2em;
+  }
 }
 
 .header {

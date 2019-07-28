@@ -13,10 +13,11 @@
   transition: 1s height;
   z-index: 100;
   @include flexy($disp: flex, $wrap: wrap, $just: space-evenly);
+  padding-bottom: .5em;
 }
 
 #checkbox--nav:checked + .sidebar {
-  height: 377px;
+  height: 366px;
 }
 
 #checkbox--nav:checked + .sidebar,
@@ -70,9 +71,12 @@
 }
 
 .sidebar__section {
-  margin-top: 3.2em;
+  margin-top: 2em;
   padding: 1.0625em 1.3125em 0;
   border-top: $nav-border;
+  @media (min-width: 768px) {
+    margin-top: 3.2em;
+  }
 }
 
 .header {
