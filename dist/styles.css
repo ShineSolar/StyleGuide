@@ -711,12 +711,14 @@ main {
   line-height: 1.54;
   border-top: 1px solid #e0e3e5;
   border-bottom: 1px solid #e0e3e5;
-  padding: 0.5em 0.75em;
   font-size: 1.3em;
+  padding: 0.5em 0.5em;
 }
 @media (min-width: 768px) {
   .headline--secondary {
     font-size: 1.625em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
   }
 }
 
@@ -736,9 +738,14 @@ main {
 .section-caption {
   font-family: "Rubik", sans-serif;
   font-size: 1.125em;
-  padding: 0 1.25em;
   margin: 0.5em 0;
   color: #425563;
+  padding: 0 0.5em;
+}
+@media (min-width: 768px) {
+  .section-caption {
+    padding: 0 1.25em;
+  }
 }
 
 .card-caption,
