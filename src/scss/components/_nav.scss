@@ -55,13 +55,22 @@
   border-right: $nav-border;
 }
 
-.nav__item {
+.navigation__list {
+  @media (min-width: 768px) {
+    margin-left: -.5em;
+  }
+}
+
+.navigation__list__item {
   color: map-get($shades, 7);
   &:hover {
     background-color: map-get($shades, 3);
   }
   a {
     display: block;
+  }
+  @media (min-width: 768px) {
+    padding-left: .5em;
   }
 }
 

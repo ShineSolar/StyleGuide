@@ -435,14 +435,25 @@ main {
   border-right: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.nav__item {
+@media (min-width: 768px) {
+  .navigation__list {
+    margin-left: -0.5em;
+  }
+}
+
+.navigation__list__item {
   color: #d3d8dc;
 }
-.nav__item:hover {
+.navigation__list__item:hover {
   background-color: #485d6c;
 }
-.nav__item a {
+.navigation__list__item a {
   display: block;
+}
+@media (min-width: 768px) {
+  .navigation__list__item {
+    padding-left: 0.5em;
+  }
 }
 
 .sidebar__headline,
@@ -662,7 +673,7 @@ main {
 }
 
 .sidebar__headline,
-.nav__item {
+.navigation__list__item {
   font-family: "Rubik", sans-serif;
 }
 
@@ -670,7 +681,7 @@ main {
   font-size: 0.6875em;
 }
 
-.nav__item {
+.navigation__list__item {
   font-size: 0.875em;
   font-weight: 500;
   line-height: 2.14;
