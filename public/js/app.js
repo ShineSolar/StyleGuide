@@ -8,12 +8,11 @@ document.addEventListener('DOMContentLoaded', (e) => {
   cardColorGridItems.forEach(item => {
     item.addEventListener('click', (e) => {
       let target;
-      const className = e.target.className;
       const classList = e.target.classList;
-      if(classList.contains('color') || className === 'color-caption') {
+      if(classList.contains('color') || classList.contains('color-caption')) {
         if(classList.contains('color')) {
           target = e.target;
-        } else if(className === 'color-caption') {
+        } else if(classList.contains('color-caption')) {
           target = e.target.parentElement;
         }
         const p = target.querySelector('p');
