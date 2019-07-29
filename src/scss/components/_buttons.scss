@@ -2,9 +2,7 @@
 //  Buttons
 // ======================================
 
-.download-btn,
-.download-btn--narrow,
-.download-btn--typography {
+.download-btn {
   background-color: map-get($shades, 9);
   margin: .5em auto;
   width: 180px;
@@ -15,16 +13,14 @@
   border-radius: 3px;
 }
 
+.download-btn:hover {
+  background-color: map-get($shades, 7);
+}
+
 .download-btn--narrow {
   width: 150px;
 }
 
 .download-btn--typography {
   margin-left: 0;
-}
-
-.download-btn:hover,
-.download-btn--narrow:hover,
-.download-btn--typography:hover {
-  background-color: map-get($shades, 7);
 }

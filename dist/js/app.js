@@ -9,10 +9,11 @@ document.addEventListener('DOMContentLoaded', (e) => {
     item.addEventListener('click', (e) => {
       let target;
       const className = e.target.className;
-      if(className.includes('shades--') || className.includes('colors--') || className.includes('color-caption')) {
-        if(className.includes('colors--') || className.includes('shades--')) {
+      const classList = e.target.classList;
+      if(classList.contains('color') || className === 'color-caption') {
+        if(classList.contains('color')) {
           target = e.target;
-        } else if(className.includes('color-caption')) {
+        } else if(className === 'color-caption') {
           target = e.target.parentElement;
         }
         const p = target.querySelector('p');

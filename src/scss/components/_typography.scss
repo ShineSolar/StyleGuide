@@ -3,10 +3,7 @@
 // ======================================
 @import url('https://fonts.googleapis.com/css?family=Fjalla+One|Rubik&display=swap');
 
-.card__body,
-.card__body--narrow,
-.card__body--short,
-.card__body--narrow--short {
+.card__body {
   font-size: 1em;
   padding: .5em 0;
   line-height: 1.5;
@@ -18,14 +15,12 @@
   }
 }
 
-.card__body--narrow,
-.card__body--narrow--short {
+.card__body--narrow {
   max-width: 720px;
   margin: auto;
 }
 
-.card__body--short,
-.card__body--narrow--short {
+.card__body--short {
   margin: 0 auto;
   @media (min-width: 768px) {
     font-size: 1.125em;
@@ -84,8 +79,11 @@
   line-height: 2.14;
 }
 
-.headline--secondary {
+.headline {
   font-family: $font-stack-secondary;
+}
+
+.headline--secondary {
   color: map-get($type-colors, 2);
   line-height: 1.54;
   border-top: $main-border;
@@ -100,7 +98,6 @@
 }
 
 .headline--primary {
-  font-family: $font-stack-secondary;
   color: map-get($type-colors, 4);
   margin: 0;
   padding: .3636363em 0;
@@ -121,13 +118,7 @@
   }
 }
 
-.card-caption,
-.card-caption--short,
-.card-caption--full-width,
-.card-caption--typography,
-.card-caption--size-label,
-.card-caption--photograph,
-.card-caption--photograph-downloads {
+.card-caption {
   font-family: $font-stack-primary;
   font-size: .875em;
   line-height: 2.86;
@@ -135,10 +126,6 @@
 }
 
 .card-caption--short {
-  margin: 0;
-}
-
-.card-caption--photograph-downloads {
   margin: 0;
 }
 
@@ -166,8 +153,7 @@
   min-width: 75px;
 }
 
-.color-caption,
-.color-caption--dark {
+.color-caption {
   font-family: $font-stack-primary;
   font-size: .6875em;
   color: rgba($white, .7);
@@ -192,38 +178,19 @@
   font-family: $font-stack-secondary;
 }
 
-.rubik--28,
-.rubik--22,
-.rubik--18,
-.rubik--14,
-.rubik--12,
-.rubik--16,
-.rubik--14--sm,
-.fjalla-one--44,
-.fjalla-one--38,
-.fjalla-one--32,
-.fjalla-one--26,
-.fjalla-one--20 {
+.rubik,
+.fjalla-one {
   color: map-get($type-colors, 2);
+  grid-column: 2 / -1;
+  margin: .5em auto .5em 0;
+  @include flexy($disp: flex, $align: center);
 }
 
-.rubik--28,
-.rubik--22,
-.rubik--18,
-.rubik--14,
-.rubik--12,
-.rubik--16,
-.rubik--14--sm {
+.rubik {
   font-family: $font-stack-primary;
 }
 
-.fjalla-one--44,
-.fjalla-one--38,
-.fjalla-one--32,
-.fjalla-one--26,
-.fjalla-one--20,
-.fjalla-one--44--orange,
-.fjalla-one--38--orange {
+.fjalla-one {
   font-family: $font-stack-secondary;
 }
 
