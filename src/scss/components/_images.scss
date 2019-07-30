@@ -19,7 +19,7 @@
   width: 14px;
   border: 1px solid map-get($type-colors, 3);
   border-radius: 9999%;
-  margin: .45em;
+  margin: .8rem;
 }
 
 .icon {
@@ -30,13 +30,13 @@
 }
 
 .logo {
-  padding: .25em .5em;
+  padding: .4rem .8rem;
   border-radius: 4px;
   @media (min-width: 768px) {
-    padding: .5em 1em;
+    padding: .8rem 1.6rem;
   }
   @media (min-width: 1024px) {
-    padding: .75em 1.5em;
+    padding: 1.2rem 2.4rem;
   }
 }
 

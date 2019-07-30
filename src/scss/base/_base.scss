@@ -8,6 +8,7 @@
 
 html {
   scroll-behavior: smooth;
+  font-size: 62.5%;
 }
 
 ul {
@@ -30,7 +31,7 @@ h6 {
 }
 
 main {
-  padding-bottom: 4em;
+  padding-bottom: 4em; // 64 -> 6.4rem
   top: 94px;
   position: absolute;
   width: 100%;

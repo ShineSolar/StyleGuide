@@ -10,7 +10,7 @@
   background-size: cover, cover;
   background-position: center;
   background-repeat: no-repeat;
-  margin-bottom: 2.5em;
+  margin-bottom: 4rem;
   @include flexy($disp: flex, $just: space-evenly, $align: center);
   position: relative;
   height: 18vw;

@@ -13,11 +13,11 @@
   transition: 1s height;
   z-index: 100;
   @include flexy($disp: flex, $wrap: wrap, $just: space-evenly);
-  padding-bottom: .5em;
+  padding-bottom: .8rem;
 }
 
 #checkbox--nav:checked + .sidebar {
-  height: 366px;
+  height: 371px;
 }
 
 #checkbox--nav:checked + .sidebar,
@@ -29,7 +29,7 @@
     // position: fixed;
     width: 250px;
     height: 100%;
-    padding-bottom: 1.0625em;
+    padding-bottom: 1.7rem;
   }
 }
 
@@ -49,16 +49,10 @@
 }
 
 .header__subtitle :nth-child(2) {
-  padding: 0 .5em;
-  margin: 0 .5em;
+  padding: 0 .6rem;
+  margin: 0 .6rem;
   border-left: $nav-border;
   border-right: $nav-border;
-}
-
-.navigation__list {
-  @media (min-width: 768px) {
-    margin-left: -.5em;
-  }
 }
 
 .navigation__list__item {
@@ -70,7 +64,7 @@
     display: block;
   }
   @media (min-width: 768px) {
-    padding-left: .5em;
+    padding-left: 2.1rem;
   }
 }
 
@@ -80,36 +74,38 @@
 }
 
 .sidebar__section {
-  margin-top: 2em;
+  margin-top: 5.12rem;
   border-top: $nav-border;
-  padding: 1.0625em 0 0;
+  padding: 1.7rem 0 0;
   flex: 0 1 35%;
   @media (min-width: 768px) {
-    margin-top: 3.2em;
-    padding: 1.0625em 1.3125em 0;
+    margin-top: 5.1rem;
   }
 }
 
 .header {
   border-bottom: $nav-border;
-  padding: 1.0625em 1.3125em 0;
+  padding: 1.7rem 2.1rem 0;
   width: 100%;
   @media (min-width: 768px) {
-    margin-bottom: 4.4em;
-    padding-bottom: 1em;
+    margin-bottom: 7rem;
+    padding-bottom: 1.6rem;
   }
 }
 
 .sidebar__headline {
-  margin-top: -3em;
+  margin-top: -3.2rem;
+  @media (min-width: 768px) {
+    padding-left: 2.1rem;
+  }
 }
 
 .sidebar__burger-btn {
   cursor: pointer;
   color: $white;
   display: block;
-  // margin-top: .6em;
-  padding: .5em 0;
+  padding: .8rem 0;
+  font-size: 1.6rem;
   @media (min-width: 768px) {
     display: none;
   }
