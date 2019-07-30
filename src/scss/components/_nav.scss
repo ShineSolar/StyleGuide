@@ -17,7 +17,7 @@
 }
 
 #checkbox--nav:checked + .sidebar {
-  height: 355px;
+  height: 364px;
 }
 
 #checkbox--nav:checked + .sidebar,
@@ -75,7 +75,7 @@
 
 .sidebar__section {
   border-top: $nav-border;
-  margin-top: 2.8rem;
+  margin-top: 3.7rem;
   padding: 1.7rem 0 0;
   flex: 0 1 40%;
   @media (min-width: 768px) {
