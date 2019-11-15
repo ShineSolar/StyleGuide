@@ -528,16 +528,26 @@ main {
   margin-left: 0;
 }
 
-.banner__icon {
+.banner__icon1 {
   width: 20%;
-  max-width: 240px;
+  max-width: 205.4px;
 }
 
-.banner__icon:first-child {
+.banner__icon2 {
+  width: 20%;
+  max-width: 193px;
+}
+
+.banner__icon3   {
+  width: 20%;
+  max-width: 180px;
+}
+
+.banner__icon1:first-child {
   margin-right: 10%;
 }
 
-.banner__icon:last-child {
+.banner__icon3:last-child {
   margin-left: 10%;
 }
 
@@ -839,6 +849,7 @@ main {
 
 .rubik--16 {
   line-height: 1.5;
+  font-size: 1.6rem;
 }
 
 .rubik--14--sm {
@@ -947,7 +958,7 @@ main {
   color: #425563;
   border: 1px solid #425563;
   border-radius: 4px;
-  background-color: #eceeef;
+  background-color: #ffffff;
   transition: 2s opacity;
   padding: 0.3rem;
   width: 74px;
@@ -965,7 +976,7 @@ main {
 }
 
 .color:hover {
-  box-shadow: 0 0 10px rgba(48, 61, 70, 0.9);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .color--shade-1 {
@@ -1104,6 +1115,13 @@ main {
   flex-wrap: wrap;
   justify-content: space-evenly;
   text-align: left;
+}
+
+.tooltip {
+  font-family: "Rubik", sans-serif;
+  border: none; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+  background-color: #fff;
 }
 
 .typography__rubik,

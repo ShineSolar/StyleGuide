@@ -1,935 +1,1477 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="styles.css">
     <title>Shine Solar | Style Guide</title>
-  </head>
-  <body class="container">
+</head>
 
+<body class="container">
     <input id="checkbox--nav" type="checkbox" />
     <div class="sidebar">
-      <header class="header">
-        <h1 class="header__title"><span class="color--white">Shine</span><span class="color--primary">Brand</span></h1>
-        <h5 class="header__subtitle">
-          <span>Brand</span>
-          <span>Assets</span>
-          <span>Guidelines</span>
-        </h5>
-        <label class="sidebar__burger-btn" for="checkbox--nav">
-          <i class="fa fa-bars"></i>
-        </label>
-      </header>
-
-      <section class="sidebar__section">
-        <h4 class="sidebar__headline">Brand</h4>
-        <nav role="navigation">
-          <ul class="navigation__list">
-            <li class="navigation__list__item"><a href="#our-purpose">Our Purpose</a></li>
-            <li class="navigation__list__item"><a href="#core-values">Core Values</a></li>
-            <li class="navigation__list__item"><a href="#logos">Logos</a></li>
-            <li class="navigation__list__item"><a href="#colors">Colors</a></li>
-            <li class="navigation__list__item"><a href="#typography">Typography</a></li>
-            <li class="navigation__list__item"><a href="#iconography">Iconography</a></li>
-            <li class="navigation__list__item"><a href="#photography">Photography</a></li>
-          </ul>
-        </nav>
-      </section>
-
-      <section class="sidebar__section">
-        <h4 class="sidebar__headline">Interface</h4>
-        <nav role="navigation">
-          <ul class="navigation__list">
-            <li class="navigation__list__item"><a href="#">Buttons</a></li>
-            <li class="navigation__list__item"><a href="#">Inputs</a></li>
-            <li class="navigation__list__item"><a href="#">Table Components</a></li>
-            <li class="navigation__list__item"><a href="#">Modals</a></li>
-            <li class="navigation__list__item"><a href="#">Drop Downs</a></li>
-            <li class="navigation__list__item"><a href="#">Pop Overs</a></li>
-          </ul>
-        </nav>
-      </section>
-
+        <header class="header">
+            <img src="./assets/group-16.svg">
+            <label class="sidebar__burger-btn" for="checkbox--nav">
+                <i class="fa fa-bars"></i>
+            </label>
+        </header>
+        <section class="sidebar__section">
+            <h4 class="sidebar__headline">Brand</h4>
+            <nav role="navigation">
+                <ul class="navigation__list">
+                    <li class="navigation__list__item"><a href="#our-purpose">Our Purpose</a></li>
+                    <li class="navigation__list__item"><a href="#core-values">Core Values</a></li>
+                    <li class="navigation__list__item"><a href="#logos">Logos</a></li>
+                    <li class="navigation__list__item"><a href="#colors">Colors</a></li>
+                    <li class="navigation__list__item"><a href="#typography">Typography</a></li>
+                    <li class="navigation__list__item"><a href="#iconography">Iconography</a></li>
+                    <li class="navigation__list__item"><a href="#photography">Photography</a></li>
+                </ul>
+            </nav>
+        </section>
+        <!-- <section class="sidebar__section">
+            <h4 class="sidebar__headline">Interface</h4>
+            <nav role="navigation">
+                <ul class="navigation__list">
+                    <li class="navigation__list__item"><a href="#buttons">Buttons</a></li>
+                    <li class="navigation__list__item"><a href="#inputs">Inputs</a></li>
+                    <li class="navigation__list__item"><a href="table-components">Table Components</a></li>
+                    <li class="navigation__list__item"><a href="#modals">Modals</a></li>
+                    <li class="navigation__list__item"><a href="#drop-downs">Drop Downs</a></li>
+                    <li class="navigation__list__item"><a href="#pop-overs">Pop Overs</a></li>
+                </ul>
+            </nav>
+        </section> -->
     </div>
-
     <main>
-      <section class="banner">
-        <img class="banner__icon" src="assets/shine-solar-logo-2-white.svg" alt="Shine Solar Logo">
-        <!-- Placeholder! Replace with correct asset! -->
-        <img class="banner__icon" src="assets/shine-solar-logo-2-white.svg" alt="Shine Solar Logo">
-        <img class="banner__icon" src="assets/shine-air-logo-2-white.svg" alt="Shine Solar Logo">
-      </section>
-
-      <section>
-        <h2 id="our-purpose" class="headline headline--secondary">Our Purpose</h2>
-        <div class="card">
-          <p class="headline headline--primary">Installing Happiness</p>
-          <p class="card__body card__body--narrow">Our purpose is to generate happiness for our customers and ourselves through an extraordinary customer experience that inspires all of us to tell the world.</p>
-        </div>
-      </section>
-
-      <section>
-        <h2 id="core-values" class="headline headline--secondary">Core Values</h2>
-        <div class="card">
-          <p class="headline headline--primary">Core Values</p>
-          <ul class="card__body horizontal-list">
-            <li>1. Strategic & Visionary</li>
-            <li>2. Have Fun</li>
-            <li>3. Integrity - truthful in word and deed</li>
-            <li>4. Nimble & Adaptable</li>
-            <li>5. Everyone Wins Together</li>
-          </ul>
-        </div>
-      </section>
-
-      <section>
-        <h2 id="logos" class="headline headline--secondary">Logos</h2>
-        <p class="section-caption">Shine Solar</p>
-        <div class="card card--grid card--2x2">
-          <div class="card__grid-item card__grid-item--logos">
-            <figure class="figure">
-              <figcaption class="card-caption">Logo 1 - Color</figcaption>
-              <img class="logo logo--sm" src="assets/shine-solar-logo-1-color.svg" alt="Shine Solar Logo 1 Color" />
-            </figure>
-            <p class="card-caption card-caption--short">Downloads:</p>
-            <a class="download-btn download-btn--narrow" href="/assets/shine-solar-logo-1-color.svg" download>
-              <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-              SVG
-            </a>
-            <a class="download-btn download-btn--narrow" href="/assets/shine-solar-logo-1-color.png" download>
-              <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-              PNG - Small
-            </a>
-            <a class="download-btn download-btn--narrow" href="/assets/shine-solar-logo-1-color@3x.png" download>
-              <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-              PNG - Large
-            </a>
-          </div>
-          <div class="card__grid-item card__grid-item--logos">
-            <figure class="figure">
-              <figcaption class="card-caption">Logo 1 - White</figcaption>
-              <img class="logo logo--sm logo--orange" src="assets/shine-solar-logo-1-white.svg" alt="Shine Solar Logo 1 White" />
-            </figure>
-            <p class="card-caption card-caption--short">Downloads:</p>
-            <a class="download-btn download-btn--narrow" href="/assets/shine-solar-logo-1-white.svg" download>
-              <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-              SVG
-            </a>
-            <a class="download-btn download-btn--narrow" href="/assets/shine-solar-logo-1-white.png" download>
-              <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-              PNG - Small
-            </a>
-            <a class="download-btn download-btn--narrow" href="/assets/shine-solar-logo-1-white@3x.png" download>
-              <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-              PNG - Large
-            </a>
-          </div>
-          <div class="card__grid-item card__grid-item--logos">
-            <figure class="figure">
-              <figcaption class="card-caption">Logo 2 - Color</figcaption>
-              <img class="logo logo--lg" src="assets/shine-solar-logo-2-color.svg" alt="Shine Solar Logo 2 Color" />
-            </figure>
-            <p class="card-caption card-caption--short">Downloads:</p>
-            <a class="download-btn download-btn--narrow" href="/assets/shine-solar-logo-2-color.svg" download>
-              <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-              SVG
-            </a>
-            <a class="download-btn download-btn--narrow" href="/assets/shine-solar-logo-2-color.png" download>
-              <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-              PNG - Small
-            </a>
-            <a class="download-btn download-btn--narrow" href="/assets/shine-solar-logo-2-color@3x.png" download>
-              <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-              PNG - Large
-            </a>
-          </div>
-          <div class="card__grid-item card__grid-item--logos">
-            <figure class="figure">
-              <figcaption class="card-caption">Logo 2 - White</figcaption>
-              <img class="logo logo--lg logo--orange" src="assets/shine-solar-logo-2-white.svg" alt="Shine Solar Logo 2 White" />
-            </figure>
-            <p class="card-caption card-caption--short">Downloads:</p>
-            <a class="download-btn download-btn--narrow" href="/assets/shine-solar-logo-2-white.svg" download>
-              <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-              SVG
-            </a>
-            <a class="download-btn download-btn--narrow" href="/assets/shine-solar-logo-2-white.png" download>
-              <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-              PNG - Small
-            </a>
-            <a class="download-btn download-btn--narrow" href="/assets/shine-solar-logo-2-white@3x.png" download>
-              <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-              PNG - Large
-            </a>
-          </div>
-        </div>
-
-        <p class="section-caption">Shine Home Energy Solutions</p>
-        <div class="card card--grid card--2x2">
-          <div class="card__grid-item card__grid-item--logos">
-            <figure class="figure">
-              <figcaption class="card-caption">Logo 1 - Color</figcaption>
-              <img class="logo logo--sm" src="assets/shine-home-logo-1-color.svg" alt="Shine Home Logo 1 Color" />
-            </figure>
-            <p class="card-caption card-caption--short">Downloads:</p>
-            <a class="download-btn download-btn--narrow" href="/assets/shine-home-logo-1-color.svg" download>
-              <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-              SVG
-            </a>
-            <a class="download-btn download-btn--narrow" href="/assets/shine-home-logo-1-color.png" download>
-              <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-              PNG - Small
-            </a>
-            <a class="download-btn download-btn--narrow" href="/assets/shine-home-logo-1-color@3x.png" download>
-              <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-              PNG - Large
-            </a>
-          </div>
-          <div class="card__grid-item card__grid-item--logos">
-            <figure class="figure">
-              <figcaption class="card-caption">Logo 1 - White</figcaption>
-              <img class="logo logo--sm logo--slate" src="assets/shine-home-logo-1-white.svg" alt="Shine Home Logo 1 White" />
-            </figure>
-            <p class="card-caption card-caption--short">Downloads:</p>
-            <a class="download-btn download-btn--narrow" href="/assets/shine-home-logo-1-white.svg" download>
-              <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-              SVG
-            </a>
-            <a class="download-btn download-btn--narrow" href="/assets/shine-home-logo-1-white.png" download>
-              <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-              PNG - Small
-            </a>
-            <a class="download-btn download-btn--narrow" href="/assets/shine-home-logo-1-white@3x.png" download>
-              <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-              PNG - Large
-            </a>
-          </div>
-          <div class="card__grid-item card__grid-item--logos">
-            <figure class="figure">
-              <figcaption class="card-caption">Logo 2 - Color</figcaption>
-              <!-- MISSING ASSET
+        <section class="banner">
+            <img class="banner__icon1" src="assets/shine-solar-logo-2-white.svg" alt="Shine Solar Logo">
+            <!-- Placeholder! Replace with correct asset! -->
+            <img class="banner__icon2" src="assets/group-2.svg" alt="Shine Solar Logo">
+            <img class="banner__icon3" src="assets/shine-air-logo-2-white.svg" alt="Shine Solar Logo">
+        </section>
+        <section>
+            <h2 id="our-purpose" class="headline headline--secondary">Our Purpose</h2>
+            <div class="card">
+                <p class="headline headline--primary">Installing Happiness</p>
+                <p class="card__body card__body--narrow">Our purpose is to generate happiness for our customers and ourselves through an extraordinary customer experience that inspires all of us to tell the world.</p>
+            </div>
+        </section>
+        <section>
+            <h2 id="core-values" class="headline headline--secondary">Core Values</h2>
+            <div class="card">
+                <p class="headline headline--primary">Core Values</p>
+                <ul class="card__body horizontal-list">
+                    <li>1. Strategic & Visionary</li>
+                    <li>2. Have Fun</li>
+                    <li>3. Integrity - truthful in word and deed</li>
+                    <li>4. Nimble & Adaptable</li>
+                    <li>5. Everyone Wins Together</li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <h2 id="logos" class="headline headline--secondary">Logos</h2>
+            <p class="section-caption">Shine Solar</p>
+            <div class="card card--grid card--2x2">
+                <div class="card__grid-item card__grid-item--logos">
+                    <figure class="figure">
+                        <figcaption class="card-caption">Logo 1 - Color</figcaption>
+                        <img class="logo logo--sm" src="assets/shine-solar-logo-1-color.svg" alt="Shine Solar Logo 1 Color" />
+                    </figure>
+                    <p class="card-caption card-caption--short">Downloads:</p>
+                    <a target="_blank" class="download-btn download-btn--narrow" href="./assets/shine-solar-logo-1-color.svg" download>
+                        <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                        SVG
+                    </a>
+                    <a target="_blank" class="download-btn download-btn--narrow" href="./assets/shine-solar-logo-1-color.png" download>
+                        <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                        PNG - Small
+                    </a>
+                    <a target="_blank" class="download-btn download-btn--narrow" href="./assets/shine-solar-logo-1-color@3x.png" download>
+                        <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                        PNG - Large
+                    </a>
+                </div>
+                <div class="card__grid-item card__grid-item--logos">
+                    <figure class="figure">
+                        <figcaption class="card-caption">Logo 1 - White</figcaption>
+                        <img class="logo logo--sm logo--orange" src="assets/shine-solar-logo-1-white.svg" alt="Shine Solar Logo 1 White" />
+                    </figure>
+                    <p class="card-caption card-caption--short">Downloads:</p>
+                    <a target="_blank" class="download-btn download-btn--narrow" href="./assets/shine-solar-logo-1-white.svg" download>
+                        <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                        SVG
+                    </a>
+                    <a target="_blank" class="download-btn download-btn--narrow" href="./assets/shine-solar-logo-1-white.png" download>
+                        <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                        PNG - Small
+                    </a>
+                    <a target="_blank" class="download-btn download-btn--narrow" href="./assets/shine-solar-logo-1-white@3x.png" download>
+                        <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                        PNG - Large
+                    </a>
+                </div>
+                <div class="card__grid-item card__grid-item--logos">
+                    <figure class="figure">
+                        <figcaption class="card-caption">Logo 2 - Color</figcaption>
+                        <img class="logo logo--lg" src="assets/shine-solar-logo-2-color.svg" alt="Shine Solar Logo 2 Color" />
+                    </figure>
+                    <p class="card-caption card-caption--short">Downloads:</p>
+                    <a target="_blank" class="download-btn download-btn--narrow" href="./assets/shine-solar-logo-2-color.svg" download>
+                        <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                        SVG
+                    </a>
+                    <a target="_blank" class="download-btn download-btn--narrow" href="./assets/shine-solar-logo-2-color.png" download>
+                        <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                        PNG - Small
+                    </a>
+                    <a target="_blank" class="download-btn download-btn--narrow" href="./assets/shine-solar-logo-2-color@3x.png" download>
+                        <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                        PNG - Large
+                    </a>
+                </div>
+                <div class="card__grid-item card__grid-item--logos">
+                    <figure class="figure">
+                        <figcaption class="card-caption">Logo 2 - White</figcaption>
+                        <img class="logo logo--lg logo--orange" src="assets/shine-solar-logo-2-white.svg" alt="Shine Solar Logo 2 White" />
+                    </figure>
+                    <p class="card-caption card-caption--short">Downloads:</p>
+                    <a target="_blank" class="download-btn download-btn--narrow" href="./assets/shine-solar-logo-2-white.svg" download>
+                        <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                        SVG
+                    </a>
+                    <a target="_blank" class="download-btn download-btn--narrow" href="./assets/shine-solar-logo-2-white.png" download>
+                        <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                        PNG - Small
+                    </a>
+                    <a target="_blank" class="download-btn download-btn--narrow" href="./assets/shine-solar-logo-2-white@3x.png" download>
+                        <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                        PNG - Large
+                    </a>
+                </div>
+            </div>
+            <p class="section-caption">Shine Home Energy Solutions</p>
+            <div class="card card--grid card--2x2">
+                <div class="card__grid-item card__grid-item--logos">
+                    <figure class="figure">
+                        <figcaption class="card-caption">Logo 1 - Color</figcaption>
+                        <img class="logo logo--sm" src="assets/shine-home-logo-1-color.svg" alt="Shine Home Logo 1 Color" />
+                    </figure>
+                    <p class="card-caption card-caption--short">Downloads:</p>
+                    <a target="_blank" class="download-btn download-btn--narrow" href="./assets/shine-home-logo-1-color.svg" download>
+                        <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                        SVG
+                    </a>
+                    <a target="_blank" class="download-btn download-btn--narrow" href="./assets/shine-home-logo-1-color.png" download>
+                        <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                        PNG - Small
+                    </a>
+                    <a target="_blank" class="download-btn download-btn--narrow" href="./assets/shine-home-logo-1-color@3x.png" download>
+                        <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                        PNG - Large
+                    </a>
+                </div>
+                <div class="card__grid-item card__grid-item--logos">
+                    <figure class="figure">
+                        <figcaption class="card-caption">Logo 1 - White</figcaption>
+                        <img class="logo logo--sm logo--slate" src="assets/shine-home-logo-1-white.svg" alt="Shine Home Logo 1 White" />
+                    </figure>
+                    <p class="card-caption card-caption--short">Downloads:</p>
+                    <a target="_blank" class="download-btn download-btn--narrow" href="./assets/shine-home-logo-1-white.svg" download>
+                        <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                        SVG
+                    </a>
+                    <a target="_blank" class="download-btn download-btn--narrow" href="./assets/shine-home-logo-1-white.png" download>
+                        <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                        PNG - Small
+                    </a>
+                    <a target="_blank" class="download-btn download-btn--narrow" href="./assets/shine-home-logo-1-white@3x.png" download>
+                        <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                        PNG - Large
+                    </a>
+                </div>
+                <div class="card__grid-item card__grid-item--logos">
+                    <figure class="figure">
+                        <figcaption class="card-caption">Logo 2 - Color</figcaption>
+                        <!-- MISSING ASSET
                 Update download links too!
               -->
-              <img class="logo logo--lg" src="assets/shine-solar-logo-2-color.svg" alt="Shine Solar Logo 2 Color" />
-            </figure>
-            <p class="card-caption card-caption--short">Downloads:</p>
-            <a class="download-btn download-btn--narrow" href="/assets/shine-solar-logo-2-color.svg" download>
-              <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-              SVG
-            </a>
-            <a class="download-btn download-btn--narrow" href="/assets/shine-solar-logo-2-color.png" download>
-              <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-              PNG - Small
-            </a>
-            <a class="download-btn download-btn--narrow" href="/assets/shine-solar-logo-2-color@3x.png" download>
-              <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-              PNG - Large
-            </a>
-          </div>
-          <div class="card__grid-item card__grid-item--logos">
-            <figure class="figure">
-              <figcaption class="card-caption">Logo 2 - White</figcaption>
-              <!-- MISSING ASSET
+                        <img class="logo logo--lg" src="assets/shine-solar-logo-2-color.svg" alt="Shine Solar Logo 2 Color" />
+                    </figure>
+                    <p class="card-caption card-caption--short">Downloads:</p>
+                    <a target="_blank" class="download-btn download-btn--narrow" href="./assets/shine-solar-logo-2-color.svg" download>
+                        <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                        SVG
+                    </a>
+                    <a target="_blank" class="download-btn download-btn--narrow" href="./assets/shine-solar-logo-2-color.png" download>
+                        <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                        PNG - Small
+                    </a>
+                    <a target="_blank" class="download-btn download-btn--narrow" href="./assets/shine-solar-logo-2-color@3x.png" download>
+                        <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                        PNG - Large
+                    </a>
+                </div>
+                <div class="card__grid-item card__grid-item--logos">
+                    <figure class="figure">
+                        <figcaption class="card-caption">Logo 2 - White</figcaption>
+                        <!-- MISSING ASSET
                 Update download links too!
               -->
-              <img class="logo logo--lg logo--orange" src="assets/shine-solar-logo-2-white.svg" alt="Shine Solar Logo 2 White" />
-            </figure>
-            <p class="card-caption card-caption--short">Downloads:</p>
-            <a class="download-btn download-btn--narrow" href="/assets/shine-solar-logo-2-white.svg" download>
-              <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-              SVG
-            </a>
-            <a class="download-btn download-btn--narrow" href="/assets/shine-solar-logo-2-white.png" download>
-              <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-              PNG - Small
-            </a>
-            <a class="download-btn download-btn--narrow" href="/assets/shine-solar-logo-2-white@3x.png" download>
-              <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-              PNG - Large
-            </a>
-          </div>
-        </div>
-
-        <p class="section-caption">Shine Air</p>
-        <div class="card card--grid card--2x2">
-          <div class="card__grid-item card__grid-item--logos">
-            <figure class="figure">
-              <figcaption class="card-caption">Logo 1 - Color</figcaption>
-              <img class="logo logo--sm" src="assets/shine-air-logo-1-color.svg" alt="Shine Air Logo 1 Color" />
-            </figure>
-            <p class="card-caption card-caption--short">Downloads:</p>
-            <a class="download-btn download-btn--narrow" href="/assets/shine-air-logo-1-color.svg" download>
-              <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-              SVG
-            </a>
-            <a class="download-btn download-btn--narrow" href="/assets/shine-air-logo-1-color.png" download>
-              <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-              PNG - Small
-            </a>
-            <a class="download-btn download-btn--narrow" href="/assets/shine-air-logo-1-color@3x.png" download>
-              <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-              PNG - Large
-            </a>
-          </div>
-          <div class="card__grid-item card__grid-item--logos">
-            <figure class="figure">
-              <figcaption class="card-caption">Logo 1 - White</figcaption>
-              <img class="logo logo--sm logo--blue" src="assets/shine-air-logo-1-white.svg" alt="Shine Air Logo 1 White" />
-            </figure>
-            <p class="card-caption card-caption--short">Downloads:</p>
-            <a class="download-btn download-btn--narrow" href="/assets/shine-air-logo-1-white.svg" download>
-              <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-              SVG
-            </a>
-            <a class="download-btn download-btn--narrow" href="/assets/shine-air-logo-1-white.png" download>
-              <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-              PNG - Small
-            </a>
-            <a class="download-btn download-btn--narrow" href="/assets/shine-air-logo-1-white@3x.png" download>
-              <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-              PNG - Large
-            </a>
-          </div>
-          <div class="card__grid-item card__grid-item--logos">
-            <figure class="figure">
-              <figcaption class="card-caption">Logo 2 - Color</figcaption>
-              <img class="logo logo--lg" src="assets/shine-air-logo-2-color.svg" alt="Shine Air Logo 2 Color" />
-            </figure>
-            <p class="card-caption card-caption--short">Downloads:</p>
-            <a class="download-btn download-btn--narrow" href="/assets/shine-air-logo-2-color.svg" download>
-              <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-              SVG
-            </a>
-            <a class="download-btn download-btn--narrow" href="/assets/shine-air-logo-2-color.png" download>
-              <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-              PNG - Small
-            </a>
-            <a class="download-btn download-btn--narrow" href="/assets/shine-air-logo-2-color@3x.png" download>
-              <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-              PNG - Large
-            </a>
-          </div>
-          <div class="card__grid-item card__grid-item--logos">
-            <figure class="figure">
-              <figcaption class="card-caption">Logo 2 - White</figcaption>
-              <img class="logo logo--lg logo--blue" src="assets/shine-air-logo-2-white.svg" alt="Shine Air Logo 2 White" />
-            </figure>
-            <p class="card-caption card-caption--short">Downloads:</p>
-            <a class="download-btn download-btn--narrow" href="/assets/shine-air-logo-2-white.svg" download>
-              <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-              SVG
-            </a>
-            <a class="download-btn download-btn--narrow" href="/assets/shine-air-logo-2-white.png" download>
-              <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-              PNG - Small
-            </a>
-            <a class="download-btn download-btn--narrow" href="/assets/shine-air-logo-2-white@3x.png" download>
-              <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-              PNG - Large
-            </a>
-          </div>
-        </div>
-      </section>
-
-      <section>
-        <h2 id="colors" class="headline headline--secondary">Colors</h2>
-        <div class="card card--grid">
-          <div class="card__grid-item card__grid-item--colors">
-            <p class="card-caption card-caption--full-width">Shades</p>
-            <div class="color color--shade-1">
-              <p class="color-caption">#303D46</p>
+                        <img class="logo logo--lg logo--orange" src="assets/shine-solar-logo-2-white.svg" alt="Shine Solar Logo 2 White" />
+                    </figure>
+                    <p class="card-caption card-caption--short">Downloads:</p>
+                    <a target="_blank" class="download-btn download-btn--narrow" href="./assets/shine-solar-logo-2-white.svg" download>
+                        <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                        SVG
+                    </a>
+                    <a target="_blank" class="download-btn download-btn--narrow" href="./assets/shine-solar-logo-2-white.png" download>
+                        <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                        PNG - Small
+                    </a>
+                    <a target="_blank" class="download-btn download-btn--narrow" href="./assets/shine-solar-logo-2-white@3x.png" download>
+                        <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                        PNG - Large
+                    </a>
+                </div>
             </div>
-            <div class="color color--shade-2">
-              <p class="color-caption">#425563</p>
+            <p class="section-caption">Shine Air</p>
+            <div class="card card--grid card--2x2">
+                <div class="card__grid-item card__grid-item--logos">
+                    <figure class="figure">
+                        <figcaption class="card-caption">Logo 1 - Color</figcaption>
+                        <img class="logo logo--sm" src="assets/shine-air-logo-1-color.svg" alt="Shine Air Logo 1 Color" />
+                    </figure>
+                    <p class="card-caption card-caption--short">Downloads:</p>
+                    <a target="_blank" class="download-btn download-btn--narrow" href="./assets/shine-air-logo-1-color.svg" download>
+                        <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                        SVG
+                    </a>
+                    <a target="_blank" class="download-btn download-btn--narrow" href="./assets/shine-air-logo-1-color.png" download>
+                        <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                        PNG - Small
+                    </a>
+                    <a target="_blank" class="download-btn download-btn--narrow" href="./assets/shine-air-logo-1-color@3x.png" download>
+                        <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                        PNG - Large
+                    </a>
+                </div>
+                <div class="card__grid-item card__grid-item--logos">
+                    <figure class="figure">
+                        <figcaption class="card-caption">Logo 1 - White</figcaption>
+                        <img class="logo logo--sm logo--blue" src="assets/shine-air-logo-1-white.svg" alt="Shine Air Logo 1 White" />
+                    </figure>
+                    <p class="card-caption card-caption--short">Downloads:</p>
+                    <a target="_blank" class="download-btn download-btn--narrow" href="./assets/shine-air-logo-1-white.svg" download>
+                        <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                        SVG
+                    </a>
+                    <a target="_blank" class="download-btn download-btn--narrow" href="./assets/shine-air-logo-1-white.png" download>
+                        <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                        PNG - Small
+                    </a>
+                    <a target="_blank" class="download-btn download-btn--narrow" href="./assets/shine-air-logo-1-white@3x.png" download>
+                        <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                        PNG - Large
+                    </a>
+                </div>
+                <div class="card__grid-item card__grid-item--logos">
+                    <figure class="figure">
+                        <figcaption class="card-caption">Logo 2 - Color</figcaption>
+                        <img class="logo logo--lg" src="assets/shine-air-logo-2-color.svg" alt="Shine Air Logo 2 Color" />
+                    </figure>
+                    <p class="card-caption card-caption--short">Downloads:</p>
+                    <a target="_blank" class="download-btn download-btn--narrow" href="./assets/shine-air-logo-2-color.svg" download>
+                        <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                        SVG
+                    </a>
+                    <a target="_blank" class="download-btn download-btn--narrow" href="./assets/shine-air-logo-2-color.png" download>
+                        <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                        PNG - Small
+                    </a>
+                    <a target="_blank" class="download-btn download-btn--narrow" href="./assets/shine-air-logo-2-color@3x.png" download>
+                        <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                        PNG - Large
+                    </a>
+                </div>
+                <div class="card__grid-item card__grid-item--logos">
+                    <figure class="figure">
+                        <figcaption class="card-caption">Logo 2 - White</figcaption>
+                        <img class="logo logo--lg logo--blue" src="assets/shine-air-logo-2-white.svg" alt="Shine Air Logo 2 White" />
+                    </figure>
+                    <p class="card-caption card-caption--short">Downloads:</p>
+                    <a target="_blank" class="download-btn download-btn--narrow" href="./assets/shine-air-logo-2-white.svg" download>
+                        <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                        SVG
+                    </a>
+                    <a target="_blank" class="download-btn download-btn--narrow" href="./assets/shine-air-logo-2-white.png" download>
+                        <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                        PNG - Small
+                    </a>
+                    <a target="_blank" class="download-btn download-btn--narrow" href="./assets/shine-air-logo-2-white@3x.png" download>
+                        <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                        PNG - Large
+                    </a>
+                </div>
             </div>
-            <div class="color color--shade-3">
-              <p class="color-caption">#485D6C</p>
+        </section>
+        <section>
+            <h2 id="colors" class="headline headline--secondary">Colors</h2>
+            <div class="card card--grid">
+                <div class="card__grid-item card__grid-item--colors">
+                    <p class="card-caption card-caption--full-width">Shades</p>
+                    <div class="color color--shade-1">
+                        <p class="color-caption">#303D46</p>
+                    </div>
+                    <div class="color color--shade-2">
+                        <p class="color-caption">#425563</p>
+                    </div>
+                    <div class="color color--shade-3">
+                        <p class="color-caption">#485D6C</p>
+                    </div>
+                    <div class="color color--shade-4">
+                        <p class="color-caption">#667B8A</p>
+                    </div>
+                    <div class="color color--shade-5">
+                        <p class="color-caption">#8697A4</p>
+                    </div>
+                    <div class="color color--shade-6">
+                        <p class="color-caption color-caption--dark">#B1BBC2</p>
+                    </div>
+                    <div class="color color--shade-7">
+                        <p class="color-caption color-caption--dark">#D3D8DC</p>
+                    </div>
+                    <div class="color color--shade-8">
+                        <p class="color-caption color-caption--dark">#E0E3E5</p>
+                    </div>
+                    <div class="color color--shade-9">
+                        <p class="color-caption color-caption--dark">#ECEEEF</p>
+                    </div>
+                    <div class="color color--shade-10">
+                        <p class="color-caption color-caption--dark">#F5F6F7</p>
+                    </div>
+                </div>
+                <div class="card__grid-item card__grid-item--colors">
+                    <p class="card-caption card-caption--full-width">Brand Colors</p>
+                    <div class="color color--brand-color-primary">
+                        <p class="color-caption">#FF6900</p>
+                    </div>
+                    <div class="color color--brand-color-secondary">
+                        <p class="color-caption">#425563</p>
+                    </div>
+                    <div class="color color--brand-color-tertiary">
+                        <p class="color-caption">#1BD0FF</p>
+                    </div>
+                </div>
+                <div class="card__grid-item card__grid-item--colors">
+                    <p class="card-caption card-caption--full-width">Other Colors</p>
+                    <div class="color color--other-color-1">
+                        <p class="color-caption">#2485E1</p>
+                    </div>
+                    <div class="color color--other-color-2">
+                        <p class="color-caption">#1BD0FF</p>
+                    </div>
+                    <div class="color color--other-color-3">
+                        <p class="color-caption">#3DCA59</p>
+                    </div>
+                    <div class="color color--other-color-4">
+                        <p class="color-caption">#FACB34</p>
+                    </div>
+                    <div class="color color--other-color-5">
+                        <p class="color-caption">#FF920B</p>
+                    </div>
+                    <div class="color color--other-color-6">
+                        <p class="color-caption">#F54700</p>
+                    </div>
+                    <div class="color color--other-color-7">
+                        <p class="color-caption">#E03486</p>
+                    </div>
+                </div>
             </div>
-            <div class="color color--shade-4">
-              <p class="color-caption">#667B8A</p>
+        </section>
+        <section>
+            <h2 id="typography" class="headline headline--secondary">Typography</h2>
+            <div class="card card--grid">
+                <div class="card__grid-item card__grid-item--typography">
+                    <p class="card-caption card-caption--full-width">Type Faces</p>
+                    <div class="typography__rubik">
+                        <p class="rubik__header">Rubik</p>
+                        <a target="_blank" class="download-btn download-btn--typography" href="./assets/Rubik.zip" download>
+                            <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon">
+                            Download Rubik
+                        </a>
+                        <p class="card-caption card-caption--typography">Primary Typeface: Rubik</p>
+                        <p class="card-caption card-caption--size-label">28px</p>
+                        <p class="rubik rubik--28">Lorem ipsum dolor sit</p>
+                        <p class="card-caption card-caption--size-label">22px</p>
+                        <p class="rubik rubik--22">Lorem ipsum dolor sit amet</p>
+                        <p class="card-caption card-caption--size-label">18px</p>
+                        <p class="rubik rubik--18">Lorem ipsum dolor sit amet, consectetur</p>
+                        <p class="card-caption card-caption--size-label">14px</p>
+                        <p class="rubik rubik--14">Lorem ipsum dolor sit amet, consectetur</p>
+                        <p class="card-caption card-caption--size-label">12px</p>
+                        <p class="rubik rubik--12">Lorem ipsum dolor sit amet, consectetur</p>
+                        <p class="card-caption card-caption--size-label">16px<br>(Paragraph)</p>
+                        <p class="rubik rubik--16">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                        <p class="card-caption card-caption--size-label">14px<br>(Small<br>Paragraph)</p>
+                        <p class="rubik rubik--14--sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    </div>
+                    <div class="typography__fjalla-one">
+                        <p class="fjalla-one__header">Fjalla One</p>
+                        <a target="_blank" class="download-btn download-btn--typography" href="./assets/Fjalla_One.zip" download>
+                            <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon">
+                            Download Fjalla One
+                        </a>
+                        <p class="card-caption card-caption--typography">Secondary Typeface: Fjalla One</p>
+                        <p class="card-caption card-caption--size-label">44px</p>
+                        <p class="fjalla-one fjalla-one--44">Lorem ipsum dolor</p>
+                        <p class="card-caption card-caption--size-label">38px</p>
+                        <p class="fjalla-one fjalla-one--38">Lorem ipsum dolor sit</p>
+                        <p class="card-caption card-caption--size-label">32px</p>
+                        <p class="fjalla-one fjalla-one--32">Lorem ipsum dolor sit amet</p>
+                        <p class="card-caption card-caption--size-label">26px</p>
+                        <p class="fjalla-one fjalla-one--26">Lorem ipsum dolor sit amet</p>
+                        <p class="card-caption card-caption--size-label">20px</p>
+                        <p class="fjalla-one fjalla-one--20">Lorem ipsum dolor sit amet</p>
+                        <p class="card-caption card-caption--size-label">44px</p>
+                        <p class="fjalla-one fjalla-one--44--orange">Lorem ipsum dolor</p>
+                        <p class="card-caption card-caption--size-label">38px</p>
+                        <p class="fjalla-one fjalla-one--38--orange">Lorem ipsum dolor sit</p>
+                    </div>
+                </div>
+                <div class="card__grid-item card__grid-item--colors">
+                    <p class="card-caption card-caption--full-width">Type Colors</p>
+                    <div class="color color--type-color-1">
+                        <p class="color-caption">#303D46</p>
+                    </div>
+                    <div class="color color--type-color-2">
+                        <p class="color-caption">#425563</p>
+                    </div>
+                    <div class="color color--type-color-3">
+                        <p class="color-caption">#7D8D9A</p>
+                    </div>
+                    <div class="color color--type-color-4">
+                        <p class="color-caption">#FF6900</p>
+                    </div>
+                    <div class="color color--type-color-5">
+                        <p class="color-caption">#1BD0FF</p>
+                    </div>
+                    <div class="color color--type-color-6">
+                        <p class="color-caption color-caption--dark">#FFFFFF</p>
+                    </div>
+                </div>
             </div>
-            <div class="color color--shade-5">
-              <p class="color-caption">#8697A4</p>
+        </section>
+        <section>
+            <h2 id="iconography" class="headline headline--secondary">Iconography</h2>
+            <div class="card">
+                <p class="headline headline--primary">Iconography</p>
+                <p class="card__body card__body--short">Icons should be clean and simple line style icons that follow the icon style shown below.</p>
+                <div class="card__grid--icons">
+                    <img class="icon" src="assets/ac-heat.svg" alt="Heater Icon" />
+                    <img class="icon" src="assets/cash-bulb.svg" alt="Cash Bulb Icon" />
+                    <img class="icon" src="assets/money-bundle.svg" alt="Bundle of Money Icon" />
+                    <img class="icon" src="assets/house-chart.svg" alt="House Chart Icon" />
+                    <img class="icon" src="assets/wallet.svg" alt="Wallet Icon" />
+                    <img class="icon" src="assets/coffee.svg" alt="Coffee Icon" />
+                    <img class="icon" src="assets/winding-gear.svg" alt="Winding Gear Icon" />
+                    <img class="icon" src="assets/lifesaver.svg" alt="Lifesaver Icon" />
+                    <img class="icon" src="assets/brainstorm.svg" alt="Brainstorm Icon" />
+                    <img class="icon" src="assets/time-flies.svg" alt="Time Flies Icon" />
+                    <img class="icon" src="assets/notes-home.svg" alt="Notes Home Icon" />
+                    <!-- PLACEHOLDER! Replace with missing asset -->
+                    <img class="icon" src="assets/cash-bulb.svg" alt="Cash Bulb Icon" />
+                </div>
             </div>
-            <div class="color color--shade-6">
-              <p class="color-caption color-caption--dark">#B1BBC2</p>
+        </section>
+        <section>
+            <h2 id="photography" class="headline headline--secondary">Photography</h2>
+            <div class="card">
+                <p class="headline headline--primary">Photography</p>
+                <p class="card__body card__body--narrow card__body--short">Shine photography should capture the emotions and values of the company-Happiness! Our photography should send a clear message that the products and service we offer will add value and happiness to your life.</p>
+                <div class="card__grid--pictures">
+                    <div class="card__grid-item card__grid-item--picture">
+                        <figure class="figure">
+                            <figcaption class="card-caption card-caption--photograph">Solar Sunset - Color</figcaption>
+                            <img class="photograph" src="./assets/solar_panels_lg.jpg" alt="Solar Sunset - Color" />
+                        </figure>
+                        <div>
+                            <p class="card-caption card-caption--short">Downloads:</p>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/solar_panels-sm.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Small
+                            </a>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/solar_panels_lg.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Large
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card__grid-item card__grid-item--picture">
+                        <figure class="figure">
+                            <figcaption class="card-caption card-caption--photograph">Solar Sunset - Orange</figcaption>
+                            <img class="photograph" src="./assets/solar_panels_lg-orange.jpg" alt="Solar Sunset - Color" />
+                        </figure>
+                        <div>
+                            <p class="card-caption card-caption--short">Downloads:</p>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/solar_panels-sm-orange.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Small
+                            </a>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/solar_panels_lg-orange.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Large
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card__grid-item card__grid-item--picture">
+                        <figure class="figure">
+                            <figcaption class="card-caption card-caption--photograph">Solar Sunset - Blue</figcaption>
+                            <img class="photograph" src="./assets/solar_panels_lg-blue.jpg" alt="Solar Sunset - Color" />
+                        </figure>
+                        <div>
+                            <p class="card-caption card-caption--short">Downloads:</p>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/solar_panels-sm-blue.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Small
+                            </a>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/solar_panels_lg-blue.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Large
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card__grid-item card__grid-item--picture">
+                        <figure class="figure">
+                            <figcaption class="card-caption card-caption--photograph">Solar Panel - Color</figcaption>
+                            <img class="photograph" src="./assets/solar-panel-sm.jpg" />
+                        </figure>
+                        <div>
+                            <p class="card-caption card-caption--short">Downloads:</p>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/solar-panel-sm.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Small
+                            </a>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/solar-panel-lg.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Large
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card__grid-item card__grid-item--picture">
+                        <figure class="figure">
+                            <figcaption class="card-caption card-caption--photograph">Solar Panel - Orange</figcaption>
+                            <img class="photograph" src="./assets/solar-panel-sm-orange.jpg" alt="Solar Sunset - Color" />
+                        </figure>
+                        <div>
+                            <p class="card-caption card-caption--short">Downloads:</p>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/solar-panel-sm-orange.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Small
+                            </a>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/solar-panel-lg-orange.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Large
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card__grid-item card__grid-item--picture">
+                        <figure class="figure">
+                            <figcaption class="card-caption card-caption--photograph">Solar Panel - Blue</figcaption>
+                            <img class="photograph" src="./assets/solar-panel-sm-blue.jpg" />
+                        </figure>
+                        <div>
+                            <p class="card-caption card-caption--short">Downloads:</p>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/solar-panel-sm-blue.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Small
+                            </a>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/solar-panel-lg-blue.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Large
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card__grid-item card__grid-item--picture">
+                        <figure class="figure">
+                            <figcaption class="card-caption card-caption--photograph">Solar Mountains - Color</figcaption>
+                            <img class="photograph" src="./assets/solar-mountains-sm.jpg" alt="Solar Sunset - Color" />
+                        </figure>
+                        <div>
+                            <p class="card-caption card-caption--short">Downloads:</p>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/solar-mountains-sm.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Small
+                            </a>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/solar-mountains-lg.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Large
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card__grid-item card__grid-item--picture">
+                        <figure class="figure">
+                            <figcaption class="card-caption card-caption--photograph">Solar Mountains - Orange</figcaption>
+                            <img class="photograph" src="./assets/solar-mountains-sm-orange.jpg" alt="Solar Sunset - Color" />
+                        </figure>
+                        <div>
+                            <p class="card-caption card-caption--short">Downloads:</p>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/solar-mountains-sm-orange.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Small
+                            </a>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/solar-mountains-lg-orange.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Large
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card__grid-item card__grid-item--picture">
+                        <figure class="figure">
+                            <figcaption class="card-caption card-caption--photograph">Solar Mountains - Blue</figcaption>
+                            <img class="photograph" src="./assets/solar-mountains-sm-blue.jpg" alt="Solar Sunset - Color" />
+                        </figure>
+                        <div>
+                            <p class="card-caption card-caption--short">Downloads:</p>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/solar-mountains-sm-blue.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Small
+                            </a>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/solar-mountains-lg-blue.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Large
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card__grid-item card__grid-item--picture">
+                        <figure class="figure">
+                            <figcaption class="card-caption card-caption--photograph">Money Wallet - Color</figcaption>
+                            <img class="photograph" src="./assets/money-wallet-sm.jpg" alt="Solar Sunset - Color" />
+                        </figure>
+                        <div>
+                            <p class="card-caption card-caption--short">Downloads:</p>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/money-wallet-sm.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Small
+                            </a>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/money-wallet-lg.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Large
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card__grid-item card__grid-item--picture">
+                        <figure class="figure">
+                            <figcaption class="card-caption card-caption--photograph">Money Wallet - Orange</figcaption>
+                            <img class="photograph" src="./assets/money-wallet-sm-orange.jpg" alt="Solar Sunset - Color" />
+                        </figure>
+                        <div>
+                            <p class="card-caption card-caption--short">Downloads:</p>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/money-wallet-sm-orange.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Small
+                            </a>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/money-wallet-lg-orange.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Large
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card__grid-item card__grid-item--picture">
+                        <figure class="figure">
+                            <figcaption class="card-caption card-caption--photograph">Money Wallet - Blue</figcaption>
+                            <img class="photograph" src="./assets/money-wallet-sm-blue.jpg" alt="Solar Sunset - Color" />
+                        </figure>
+                        <div>
+                            <p class="card-caption card-caption--short">Downloads:</p>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/money-wallet-sm-blue.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Small
+                            </a>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/money-wallet-lg-blue.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Large
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card__grid-item card__grid-item--picture">
+                        <figure class="figure">
+                            <figcaption class="card-caption card-caption--photograph">Insulation - Color</figcaption>
+                            <img class="photograph" src="./assets/insulation-sm.jpg" alt="Solar Sunset - Color" />
+                        </figure>
+                        <div>
+                            <p class="card-caption card-caption--short">Downloads:</p>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/insulation-sm.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Small
+                            </a>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/insulation-lg.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Large
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card__grid-item card__grid-item--picture">
+                        <figure class="figure">
+                            <figcaption class="card-caption card-caption--photograph">Insulation - Orange</figcaption>
+                            <img class="photograph" src="./assets/insulation-sm-orange.jpg" />
+                        </figure>
+                        <div>
+                            <p class="card-caption card-caption--short">Downloads:</p>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/insulation-sm-orange.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Small
+                            </a>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/insulation-lg-orange.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Large
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card__grid-item card__grid-item--picture">
+                        <figure class="figure">
+                            <figcaption class="card-caption card-caption--photograph">Insulation - Blue</figcaption>
+                            <img class="photograph" src="./assets/insulation-sm-blue.jpg" alt="Solar Sunset - Color" />
+                        </figure>
+                        <div>
+                            <p class="card-caption card-caption--short">Downloads:</p>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/insulation-sm-blue.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Small
+                            </a>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/insulation-lg-blue.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Large
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card__grid-item card__grid-item--picture">
+                        <figure class="figure">
+                            <figcaption class="card-caption card-caption--photograph">HVAC Unit - Color</figcaption>
+                            <img class="photograph" src="./assets/hvac-sm.jpg" alt="Solar Sunset - Color" />
+                        </figure>
+                        <div>
+                            <p class="card-caption card-caption--short">Downloads:</p>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/hvac-sm.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Small
+                            </a>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/hvac-lg.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Large
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card__grid-item card__grid-item--picture">
+                        <figure class="figure">
+                            <figcaption class="card-caption card-caption--photograph">HVAC Unit - Light Blue</figcaption>
+                            <img class="photograph" src="./assets/hvac-sm-turq.jpg" alt="Solar Sunset - Color" />
+                        </figure>
+                        <div>
+                            <p class="card-caption card-caption--short">Downloads:</p>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/hvac-sm-turq.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Small
+                            </a>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/hvac-lg-turq.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Large
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card__grid-item card__grid-item--picture">
+                        <figure class="figure">
+                            <figcaption class="card-caption card-caption--photograph">HVAC Unit - Blue</figcaption>
+                            <img class="photograph" src="./assets/hvac-sm-blue.jpg" />
+                        </figure>
+                        <div>
+                            <p class="card-caption card-caption--short">Downloads:</p>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/hvac-sm-blue.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Small
+                            </a>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/hvac-lg-blue.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Large
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card__grid-item card__grid-item--picture">
+                        <figure class="figure">
+                            <figcaption class="card-caption card-caption--photograph">Family 1 - Color</figcaption>
+                            <img class="photograph" src="./assets/happy-family-sm.jpg" alt="Solar Sunset - Color" />
+                        </figure>
+                        <div>
+                            <p class="card-caption card-caption--short">Downloads:</p>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/happy-family-sm.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Small
+                            </a>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/happy-family-lg.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Large
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card__grid-item card__grid-item--picture">
+                        <figure class="figure">
+                            <figcaption class="card-caption card-caption--photograph">Family 1 - Orange</figcaption>
+                            <img class="photograph" src="./assets/happy-family-sm-orange.jpg" alt="Solar Sunset - Color" />
+                        </figure>
+                        <div>
+                            <p class="card-caption card-caption--short">Downloads:</p>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/happy-family-sm-orange.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Small
+                            </a>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/happy-family-lg-orange.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Large
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card__grid-item card__grid-item--picture">
+                        <figure class="figure">
+                            <figcaption class="card-caption card-caption--photograph">Family 1 - Blue</figcaption>
+                            <img class="photograph" src="./assets/happy-family-sm-blue.jpg" alt="Solar Sunset - Color" />
+                        </figure>
+                        <div>
+                            <p class="card-caption card-caption--short">Downloads:</p>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/happy-family-sm-blue.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Small
+                            </a>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/happy-family-lg-blue.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Large
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card__grid-item card__grid-item--picture">
+                        <figure class="figure">
+                            <figcaption class="card-caption card-caption--photograph">Family 2 - Color</figcaption>
+                            <img class="photograph" src="./assets/family-beach-sm.jpg" alt="Solar Sunset - Color" />
+                        </figure>
+                        <div>
+                            <p class="card-caption card-caption--short">Downloads:</p>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/family-beach-sm.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Small
+                            </a>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/family-beach-lg.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Large
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card__grid-item card__grid-item--picture">
+                        <figure class="figure">
+                            <figcaption class="card-caption card-caption--photograph">Family 2 - Orange</figcaption>
+                            <img class="photograph" src="./assets/family-beach-sm-orange.jpg" />
+                        </figure>
+                        <div>
+                            <p class="card-caption card-caption--short">Downloads:</p>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/family-beach-sm-orange.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Small
+                            </a>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/family-beach-lg-orange.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Large
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card__grid-item card__grid-item--picture">
+                        <figure class="figure">
+                            <figcaption class="card-caption card-caption--photograph">Family 2 - Blue</figcaption>
+                            <img class="photograph" src="./assets/family-beach-sm-blue.jpg" alt="Solar Sunset - Color" />
+                        </figure>
+                        <div>
+                            <p class="card-caption card-caption--short">Downloads:</p>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/family-beach-sm-blue.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Small
+                            </a>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/family-beach-lg-blue.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Large
+                            </a>
+                        </div>
+                    </div>
+                      <div class="card__grid-item card__grid-item--picture">
+                        <figure class="figure">
+                            <figcaption class="card-caption card-caption--photograph">Family 3 - Color</figcaption>
+                            <img class="photograph" src="./assets/happy-solar-family-sm.jpg" />
+                        </figure>
+                        <div>
+                            <p class="card-caption card-caption--short">Downloads:</p>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/happy-solar-family-sm.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Small
+                            </a>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/happy-solar-family-lg.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Large
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card__grid-item card__grid-item--picture">
+                        <figure class="figure">
+                            <figcaption class="card-caption card-caption--photograph">Family 3 - Orange</figcaption>
+                            <img class="photograph" src="./assets/happy-solar-family-sm-orange.jpg" alt="Solar Sunset - Color" />
+                        </figure>
+                        <div>
+                            <p class="card-caption card-caption--short">Downloads:</p>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/happy-solar-family-sm-orange.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Small
+                            </a>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/happy-solar-family-lg-orange.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Large
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card__grid-item card__grid-item--picture">
+                        <figure class="figure">
+                            <figcaption class="card-caption card-caption--photograph">Family 3 - Blue</figcaption>
+                            <img class="photograph" src="./assets/happy-solar-family-sm-blue.jpg" />
+                        </figure>
+                        <div>
+                            <p class="card-caption card-caption--short">Downloads:</p>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/happy-solar-family-sm-blue.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Small
+                            </a>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/happy-solar-family-lg-blue.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Large
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card__grid-item card__grid-item--picture">
+                        <figure class="figure">
+                            <figcaption class="card-caption card-caption--photograph">Family 4 - Color</figcaption>
+                            <img class="photograph" src="./assets/family-watching-sunset-sm.jpg" />
+                        </figure>
+                        <div>
+                            <p class="card-caption card-caption--short">Downloads:</p>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/family-watching-sunset-sm.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Small
+                            </a>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/family-watching-sunset-lg.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Large
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card__grid-item card__grid-item--picture">
+                        <figure class="figure">
+                            <figcaption class="card-caption card-caption--photograph">Family 4 - Orange</figcaption>
+                            <img class="photograph" src="./assets/family-watching-sunset-sm-orange.jpg" alt="Solar Sunset - Color" />
+                        </figure>
+                        <div>
+                            <p class="card-caption card-caption--short">Downloads:</p>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/family-watching-sunset-sm-orange.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Small
+                            </a>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/family-watching-sunset-lg-orange.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Large
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card__grid-item card__grid-item--picture">
+                        <figure class="figure">
+                            <figcaption class="card-caption card-caption--photograph">Family 4 - Blue</figcaption>
+                            <img class="photograph" src="./assets/family-watching-sunset-sm-blue.jpg" />
+                        </figure>
+                        <div>
+                            <p class="card-caption card-caption--short">Downloads:</p>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/family-watching-sunset-sm-blue.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Small
+                            </a>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/family-watching-sunset-lg-blue.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Large
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card__grid-item card__grid-item--picture">
+                        <figure class="figure">
+                            <figcaption class="card-caption card-caption--photograph">Girl On Computer - Color</figcaption>
+                            <img class="photograph" src="./assets/girl-on-computer-sm.jpg" />
+                        </figure>
+                        <div>
+                            <p class="card-caption card-caption--short">Downloads:</p>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/girl-on-computer-sm.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Small
+                            </a>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/girl-on-computer-lg.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Large
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card__grid-item card__grid-item--picture">
+                        <figure class="figure">
+                            <figcaption class="card-caption card-caption--photograph">Girl On Computer - Orange</figcaption>
+                            <img class="photograph" src="./assets/girl-on-computer-sm-orange.jpg" alt="Solar Sunset - Color" />
+                        </figure>
+                        <div>
+                            <p class="card-caption card-caption--short">Downloads:</p>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/girl-on-computer-sm-orange.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Small
+                            </a>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/girl-on-computer-lg-orange.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Large
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card__grid-item card__grid-item--picture">
+                        <figure class="figure">
+                            <figcaption class="card-caption card-caption--photograph">Girl On Computer - Blue</figcaption>
+                            <img class="photograph" src="./assets/girl-on-computer-sm-blue.jpg" />
+                        </figure>
+                        <div>
+                            <p class="card-caption card-caption--short">Downloads:</p>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/girl-on-computer-sm-blue.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Small
+                            </a>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/girl-on-computer-lg-blue.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Large
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card__grid-item card__grid-item--picture">
+                        <figure class="figure">
+                            <figcaption class="card-caption card-caption--photograph">Man Watching - Color</figcaption>
+                            <img class="photograph" src="./assets/man-watching-sunset-sm.jpg" />
+                        </figure>
+                        <div>
+                            <p class="card-caption card-caption--short">Downloads:</p>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/man-watching-sunset-sm.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Small
+                            </a>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/man-watching-sunset-lg.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Large
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card__grid-item card__grid-item--picture">
+                        <figure class="figure">
+                            <figcaption class="card-caption card-caption--photograph">Man Watching - Orange</figcaption>
+                            <img class="photograph" src="./assets/man-watching-sunset-sm-orange.jpg" alt="Solar Sunset - Color" />
+                        </figure>
+                        <div>
+                            <p class="card-caption card-caption--short">Downloads:</p>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/man-watching-sunset-sm-orange.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Small
+                            </a>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/man-watching-sunset-lg-orange.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Large
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card__grid-item card__grid-item--picture">
+                        <figure class="figure">
+                            <figcaption class="card-caption card-caption--photograph">Man Watching - Blue</figcaption>
+                            <img class="photograph" src="./assets/man-watching-sunset-sm-blue.jpg" />
+                        </figure>
+                        <div>
+                            <p class="card-caption card-caption--short">Downloads:</p>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/man-watching-sunset-sm-blue.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Small
+                            </a>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/man-watching-sunset-lg-blue.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Large
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card__grid-item card__grid-item--picture">
+                        <figure class="figure">
+                            <figcaption class="card-caption card-caption--photograph">Drone Homes - Color</figcaption>
+                            <img class="photograph" src="./assets/drone-image-of-homes-sm.jpg" />
+                        </figure>
+                        <div>
+                            <p class="card-caption card-caption--short">Downloads:</p>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/drone-image-of-homes-sm.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Small
+                            </a>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/drone-image-of-homes-lg.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Large
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card__grid-item card__grid-item--picture">
+                        <figure class="figure">
+                            <figcaption class="card-caption card-caption--photograph">Drone Homes - Orange</figcaption>
+                            <img class="photograph" src="./assets/drone-image-of-homes-sm-orange.jpg" alt="Solar Sunset - Color" />
+                        </figure>
+                        <div>
+                            <p class="card-caption card-caption--short">Downloads:</p>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/drone-image-of-homes-sm-orange.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Small
+                            </a>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/drone-image-of-homes-lg-orange.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Large
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card__grid-item card__grid-item--picture">
+                        <figure class="figure">
+                            <figcaption class="card-caption card-caption--photograph">Drone Homes - Blue</figcaption>
+                            <img class="photograph" src="./assets/drone-image-of-homes-sm-blue.jpg" />
+                        </figure>
+                        <div>
+                            <p class="card-caption card-caption--short">Downloads:</p>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/drone-image-of-homes-sm-blue.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Small
+                            </a>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/drone-image-of-homes-lg-blue.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Large
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card__grid-item card__grid-item--picture">
+                        <figure class="figure">
+                            <figcaption class="card-caption card-caption--photograph">Solar Home 1 - Color</figcaption>
+                            <img class="photograph" src="./assets/solar_home_lg.jpg" />
+                        </figure>
+                        <div>
+                            <p class="card-caption card-caption--short">Downloads:</p>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/solar_home_sm.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Small
+                            </a>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/solar_home_lg.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Large
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card__grid-item card__grid-item--picture">
+                        <figure class="figure">
+                            <figcaption class="card-caption card-caption--photograph">Solar Home 1 - Orange</figcaption>
+                            <img class="photograph" src="./assets/solar_home_lg_orange.jpg" />
+                        </figure>
+                        <div>
+                            <p class="card-caption card-caption--short">Downloads:</p>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/solar_home_sm_orange.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Small
+                            </a>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/solar_home_lg_orange.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Large
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card__grid-item card__grid-item--picture">
+                        <figure class="figure">
+                            <figcaption class="card-caption card-caption--photograph">Solar Home 1 - Blue</figcaption>
+                            <img class="photograph" src="./assets/solar_home_lg_blue.jpg" alt="Solar Sunset - Color" />
+                        </figure>
+                        <div>
+                            <p class="card-caption card-caption--short">Downloads:</p>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/solar_home_sm_blue.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Small
+                            </a>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/solar_home_lg_blue.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Large
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card__grid-item card__grid-item--picture">
+                        <figure class="figure">
+                            <figcaption class="card-caption card-caption--photograph">Solar Home 2 - Color</figcaption>
+                            <img class="photograph" src="./assets/solar-home-2-sm.jpg" />
+                        </figure>
+                        <div>
+                            <p class="card-caption card-caption--short">Downloads:</p>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/solar-home-2-sm.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Small
+                            </a>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/solar-home-2-lg.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Large
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card__grid-item card__grid-item--picture">
+                        <figure class="figure">
+                            <figcaption class="card-caption card-caption--photograph">Solar Home 2 - Orange</figcaption>
+                            <img class="photograph" src="./assets/solar-home-2-sm-orange.jpg" alt="Solar Sunset - Color" />
+                        </figure>
+                        <div>
+                            <p class="card-caption card-caption--short">Downloads:</p>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/solar-home-2-sm-orange.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Small
+                            </a>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/solar-home-2-lg-orange.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Large
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card__grid-item card__grid-item--picture">
+                        <figure class="figure">
+                            <figcaption class="card-caption card-caption--photograph">Solar Home 2 - Blue</figcaption>
+                            <img class="photograph" src="./assets/solar-home-2-sm-blue.jpg" />
+                        </figure>
+                        <div>
+                            <p class="card-caption card-caption--short">Downloads:</p>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/solar-home-2-sm-blue.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Small
+                            </a>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/solar-home-2-lg-blue.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Large
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card__grid-item card__grid-item--picture">
+                        <figure class="figure">
+                            <figcaption class="card-caption card-caption--photograph">Solar Home 3 - Color</figcaption>
+                            <img class="photograph" src="./assets/solar-home-3-sm.jpg" />
+                        </figure>
+                        <div>
+                            <p class="card-caption card-caption--short">Downloads:</p>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/solar-home-3-sm.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Small
+                            </a>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/solar-home-3-lg.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Large
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card__grid-item card__grid-item--picture">
+                        <figure class="figure">
+                            <figcaption class="card-caption card-caption--photograph">Solar Home 3 - Orange</figcaption>
+                            <img class="photograph" src="./assets/solar-home-3-sm-orange.jpg" alt="Solar Sunset - Color" />
+                        </figure>
+                        <div>
+                            <p class="card-caption card-caption--short">Downloads:</p>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/solar-home-3-sm-orange.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Small
+                            </a>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/solar-home-3-lg-orange.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Large
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card__grid-item card__grid-item--picture">
+                        <figure class="figure">
+                            <figcaption class="card-caption card-caption--photograph">Solar Home 3 - Blue</figcaption>
+                            <img class="photograph" src="./assets/solar-home-3-sm-blue.jpg" />
+                        </figure>
+                        <div>
+                            <p class="card-caption card-caption--short">Downloads:</p>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/solar-home-3-sm-blue.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Small
+                            </a>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/solar-home-3-lg-blue.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Large
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card__grid-item card__grid-item--picture">
+                        <figure class="figure">
+                            <figcaption class="card-caption card-caption--photograph">Solar Home 4 - Color</figcaption>
+                            <img class="photograph" src="./assets/solar-home-4-sm.jpg" />
+                        </figure>
+                        <div>
+                            <p class="card-caption card-caption--short">Downloads:</p>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/solar-home-4-sm.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Small
+                            </a>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/solar-home-4-lg.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Large
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card__grid-item card__grid-item--picture">
+                        <figure class="figure">
+                            <figcaption class="card-caption card-caption--photograph">Solar Home 4 - Orange</figcaption>
+                            <img class="photograph" src="./assets/solar-home-4-sm-orange.jpg" alt="Solar Sunset - Color" />
+                        </figure>
+                        <div>
+                            <p class="card-caption card-caption--short">Downloads:</p>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/solar-home-4-sm-orange.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Small
+                            </a>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/solar-home-4-lg-orange.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Large
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card__grid-item card__grid-item--picture">
+                        <figure class="figure">
+                            <figcaption class="card-caption card-caption--photograph">Solar Home 4 - Blue</figcaption>
+                            <img class="photograph" src="./assets/solar-home-4-sm-blue.jpg" />
+                        </figure>
+                        <div>
+                            <p class="card-caption card-caption--short">Downloads:</p>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/solar-home-4-sm-blue.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Small
+                            </a>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/solar-home-4-lg-blue.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Large
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card__grid-item card__grid-item--picture">
+                        <figure class="figure">
+                            <figcaption class="card-caption card-caption--photograph">Solar Home 5 - Color</figcaption>
+                            <img class="photograph" src="./assets/solar-home-5-sm.jpg" />
+                        </figure>
+                        <div>
+                            <p class="card-caption card-caption--short">Downloads:</p>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/solar-home-5-sm.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Small
+                            </a>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/solar-home-5-lg.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Large
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card__grid-item card__grid-item--picture">
+                        <figure class="figure">
+                            <figcaption class="card-caption card-caption--photograph">Solar Home 5 - Orange</figcaption>
+                            <img class="photograph" src="./assets/solar-home-5-sm-orange.jpg" alt="Solar Sunset - Color" />
+                        </figure>
+                        <div>
+                            <p class="card-caption card-caption--short">Downloads:</p>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/solar-home-5-sm-orange.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Small
+                            </a>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/solar-home-5-lg-orange.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Large
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card__grid-item card__grid-item--picture">
+                        <figure class="figure">
+                            <figcaption class="card-caption card-caption--photograph">Solar Home 5 - Blue</figcaption>
+                            <img class="photograph" src="./assets/solar-home-5-sm-blue.jpg" />
+                        </figure>
+                        <div>
+                            <p class="card-caption card-caption--short">Downloads:</p>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/solar-home-5-sm-blue.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Small
+                            </a>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/solar-home-5-lg-blue.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Large
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card__grid-item card__grid-item--picture">
+                        <figure class="figure">
+                            <figcaption class="card-caption card-caption--photograph">Solar Home 6
+                                - Color</figcaption>
+                            <img class="photograph" src="./assets/solar-home-6-sm.jpg" />
+                        </figure>
+                        <div>
+                            <p class="card-caption card-caption--short">Downloads:</p>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/solar-home-6-sm.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Small
+                            </a>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/solar-home-6-lg.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Large
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card__grid-item card__grid-item--picture">
+                        <figure class="figure">
+                            <figcaption class="card-caption card-caption--photograph">Solar Home 6
+                                - Orange</figcaption>
+                            <img class="photograph" src="./assets/solar-home-6-sm-orange.jpg" alt="Solar Sunset - Color" />
+                        </figure>
+                        <div>
+                            <p class="card-caption card-caption--short">Downloads:</p>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/solar-home-6-sm-orange.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Small
+                            </a>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/solar-home-6-lg-orange.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Large
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card__grid-item card__grid-item--picture">
+                        <figure class="figure">
+                            <figcaption class="card-caption card-caption--photograph">Solar Home 6
+                                - Blue</figcaption>
+                            <img class="photograph" src="./assets/solar-home-6-sm-blue.jpg" />
+                        </figure>
+                        <div>
+                            <p class="card-caption card-caption--short">Downloads:</p>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/solar-home-6-sm-blue.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Small
+                            </a>
+                            <a target="_blank" class="download-btn download-btn--narrow" href="./assets/solar-home-6-lg-blue.jpg" download>
+                                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
+                                jpg - Large
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="color color--shade-7">
-              <p class="color-caption color-caption--dark">#D3D8DC</p>
-            </div>
-            <div class="color color--shade-8">
-              <p class="color-caption color-caption--dark">#E0E3E5</p>
-            </div>
-            <div class="color color--shade-9">
-              <p class="color-caption color-caption--dark">#ECEEEF</p>
-            </div>
-            <div class="color color--shade-10">
-              <p class="color-caption color-caption--dark">#F5F6F7</p>
-            </div>
-          </div>
-          <div class="card__grid-item card__grid-item--colors">
-            <p class="card-caption card-caption--full-width">Brand Colors</p>
-            <div class="color color--brand-color-primary">
-              <p class="color-caption">#FF6900</p>
-            </div>
-            <div class="color color--brand-color-secondary">
-              <p class="color-caption">#425563</p>
-            </div>
-            <div class="color color--brand-color-tertiary">
-              <p class="color-caption">#1BD0FF</p>
-            </div>
-          </div>
-          <div class="card__grid-item card__grid-item--colors">
-            <p class="card-caption card-caption--full-width">Other Colors</p>
-            <div class="color color--other-color-1">
-              <p class="color-caption">#2485E1</p>
-            </div>
-            <div class="color color--other-color-2">
-              <p class="color-caption">#1BD0FF</p>
-            </div>
-            <div class="color color--other-color-3">
-              <p class="color-caption">#3DCA59</p>
-            </div>
-            <div class="color color--other-color-4">
-              <p class="color-caption">#FACB34</p>
-            </div>
-            <div class="color color--other-color-5">
-              <p class="color-caption">#FF920B</p>
-            </div>
-            <div class="color color--other-color-6">
-              <p class="color-caption">#F54700</p>
-            </div>
-            <div class="color color--other-color-7">
-              <p class="color-caption">#E03486</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section>
-        <h2 id="typography" class="headline headline--secondary">Typography</h2>
-        <div class="card card--grid">
-          <div class="card__grid-item card__grid-item--typography">
-            <p class="card-caption card-caption--full-width">Type Faces</p>
-            <div class="typography__rubik">
-              <p class="rubik__header">Rubik</p>
-              <a class="download-btn download-btn--typography" href="/assets/Rubik.zip" download>
-                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon">
-                Download Rubik
-              </a>
-              <p class="card-caption card-caption--typography">Primary Typeface: Rubik</p>
-              <p class="card-caption card-caption--size-label">28px</p>
-              <p class="rubik rubik--28">Lorem ipsum dolor sit</p>
-              <p class="card-caption card-caption--size-label">22px</p>
-              <p class="rubik rubik--22">Lorem ipsum dolor sit amet</p>
-              <p class="card-caption card-caption--size-label">18px</p>
-              <p class="rubik rubik--18">Lorem ipsum dolor sit amet, consectetur</p>
-              <p class="card-caption card-caption--size-label">14px</p>
-              <p class="rubik rubik--14">Lorem ipsum dolor sit amet, consectetur</p>
-              <p class="card-caption card-caption--size-label">12px</p>
-              <p class="rubik rubik--12">Lorem ipsum dolor sit amet, consectetur</p>
-              <p class="card-caption card-caption--size-label">16px<br>(Paragraph)</p>
-              <p class="rubik rubik--16">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-              <p class="card-caption card-caption--size-label">14px<br>(Small<br>Paragraph)</p>
-              <p class="rubik rubik--14--sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-            </div>
-            <div class="typography__fjalla-one">
-              <p class="fjalla-one__header">Fjalla One</p>
-              <a class="download-btn download-btn--typography" href="/assets/Fjalla_One.zip" download>
-                <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon">
-                Download Fjalla One
-              </a>
-              <p class="card-caption card-caption--typography">Secondary Typeface: Fjalla One</p>
-              <p class="card-caption card-caption--size-label">44px</p>
-              <p class="fjalla-one fjalla-one--44">Lorem ipsum dolor</p>
-              <p class="card-caption card-caption--size-label">38px</p>
-              <p class="fjalla-one fjalla-one--38">Lorem ipsum dolor sit</p>
-              <p class="card-caption card-caption--size-label">32px</p>
-              <p class="fjalla-one fjalla-one--32">Lorem ipsum dolor sit amet</p>
-              <p class="card-caption card-caption--size-label">26px</p>
-              <p class="fjalla-one fjalla-one--26">Lorem ipsum dolor sit amet</p>
-              <p class="card-caption card-caption--size-label">20px</p>
-              <p class="fjalla-one fjalla-one--20">Lorem ipsum dolor sit amet</p>
-              <p class="card-caption card-caption--size-label">44px</p>
-              <p class="fjalla-one fjalla-one--44--orange">Lorem ipsum dolor</p>
-              <p class="card-caption card-caption--size-label">38px</p>
-              <p class="fjalla-one fjalla-one--38--orange">Lorem ipsum dolor sit</p>
-            </div>
-          </div>
-          <div class="card__grid-item card__grid-item--colors">
-            <p class="card-caption card-caption--full-width">Type Colors</p>
-            <div class="color color--type-color-1">
-              <p class="color-caption">#303D46</p>
-            </div>
-            <div class="color color--type-color-2">
-              <p class="color-caption">#425563</p>
-            </div>
-            <div class="color color--type-color-3">
-              <p class="color-caption">#7D8D9A</p>
-            </div>
-            <div class="color color--type-color-4">
-              <p class="color-caption">#FF6900</p>
-            </div>
-            <div class="color color--type-color-5">
-              <p class="color-caption">#1BD0FF</p>
-            </div>
-            <div class="color color--type-color-6">
-              <p class="color-caption color-caption--dark">#FFFFFF</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section>
-        <h2 id="iconography" class="headline headline--secondary">Iconography</h2>
-        <div class="card">
-          <p class="headline headline--primary">Iconography</p>
-          <p class="card__body card__body--short">Icons should be clean and simple line style icons that follow the icon style shown below.</p>
-          <a class="download-btn" href="#" download>
-            <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-            Download Icon Library
-          </a>
-          <div class="card__grid--icons">
-            <img class="icon" src="assets/ac-heat.svg" alt="Heater Icon" />
-            <img class="icon" src="assets/cash-bulb.svg" alt="Cash Bulb Icon" />
-            <img class="icon" src="assets/money-bundle.svg" alt="Bundle of Money Icon" />
-            <img class="icon" src="assets/house-chart.svg" alt="House Chart Icon" />
-            <img class="icon" src="assets/wallet.svg" alt="Wallet Icon" />
-            <img class="icon" src="assets/coffee.svg" alt="Coffee Icon" />
-            <img class="icon" src="assets/winding-gear.svg" alt="Winding Gear Icon" />
-            <img class="icon" src="assets/lifesaver.svg" alt="Lifesaver Icon" />
-            <img class="icon" src="assets/brainstorm.svg" alt="Brainstorm Icon" />
-            <img class="icon" src="assets/time-flies.svg" alt="Time Flies Icon" />
-            <img class="icon" src="assets/notes-home.svg" alt="Notes Home Icon" />
-            <!-- PLACEHOLDER! Replace with missing asset -->
-            <img class="icon" src="assets/cash-bulb.svg" alt="Cash Bulb Icon" />
-          </div>
-        </div>
-      </section>
-
-      <section>
-        <h2 id="photography" class="headline headline--secondary">Photography</h2>
-        <div class="card">
-          <p class="headline headline--primary">Photography</p>
-          <p class="card__body card__body--narrow card__body--short">Shine photography should capture the emotions and values of the company-Happiness! Our photography should send a clear message that the products and service we offer will add value and happiness to your life.</p>
-          <div class="card__grid--pictures">
-            <div class="card__grid-item card__grid-item--picture">
-              <figure class="figure">
-                <figcaption class="card-caption card-caption--photograph">Solar Sunset - Color</figcaption>
-                <img class="photograph" src="https://image.shutterstock.com/z/stock-photo-solar-panel-on-sky-background-548079301.jpg" alt="Solar Sunset - Color" />
-              </figure>
-              <div>
-                <p class="card-caption card-caption--short">Downloads:</p>
-                <a class="download-btn download-btn--narrow" href="#" download>
-                  <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-                  jpg - Small
-                </a>
-                <a class="download-btn download-btn--narrow" href="#" download>
-                  <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-                  jpg - Large
-                </a>
-              </div>
-            </div>
-            <div class="card__grid-item card__grid-item--picture">
-              <figure class="figure">
-                <figcaption class="card-caption card-caption--photograph">Solar Sunset - Orange</figcaption>
-                <img class="photograph" src="https://image.shutterstock.com/z/stock-photo-solar-panel-on-sky-background-548079301.jpg" alt="Solar Sunset - Color" />
-              </figure>
-              <div>
-                <p class="card-caption card-caption--short">Downloads:</p>
-                <a class="download-btn download-btn--narrow" href="#" download>
-                  <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-                  jpg - Small
-                </a>
-                <a class="download-btn download-btn--narrow" href="#" download>
-                  <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-                  jpg - Large
-                </a>
-              </div>
-            </div>
-            <div class="card__grid-item card__grid-item--picture">
-              <figure class="figure">
-                <figcaption class="card-caption card-caption--photograph">Solar Sunset - Blue</figcaption>
-                <img class="photograph" src="https://image.shutterstock.com/z/stock-photo-solar-panel-on-sky-background-548079301.jpg" alt="Solar Sunset - Color" />
-              </figure>
-              <div>
-                <p class="card-caption card-caption--short">Downloads:</p>
-                <a class="download-btn download-btn--narrow" href="#" download>
-                  <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-                  jpg - Small
-                </a>
-                <a class="download-btn download-btn--narrow" href="#" download>
-                  <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-                  jpg - Large
-                </a>
-              </div>
-            </div>
-            <div class="card__grid-item card__grid-item--picture">
-              <figure class="figure">
-                <figcaption class="card-caption card-caption--photograph">Solar House 1 - Color</figcaption>
-                <img class="photograph" src="https://image.shutterstock.com/z/stock-photo-solar-panel-on-sky-background-548079301.jpg" alt="Solar Sunset - Color" />
-              </figure>
-              <div>
-                <p class="card-caption card-caption--short">Downloads:</p>
-                <a class="download-btn download-btn--narrow" href="#" download>
-                  <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-                  jpg - Small
-                </a>
-                <a class="download-btn download-btn--narrow" href="#" download>
-                  <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-                  jpg - Large
-                </a>
-              </div>
-            </div>
-            <div class="card__grid-item card__grid-item--picture">
-              <figure class="figure">
-                <figcaption class="card-caption card-caption--photograph">Solar House 1 - Orange</figcaption>
-                <img class="photograph" src="https://image.shutterstock.com/z/stock-photo-solar-panel-on-sky-background-548079301.jpg" alt="Solar Sunset - Color" />
-              </figure>
-              <div>
-                <p class="card-caption card-caption--short">Downloads:</p>
-                <a class="download-btn download-btn--narrow" href="#" download>
-                  <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-                  jpg - Small
-                </a>
-                <a class="download-btn download-btn--narrow" href="#" download>
-                  <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-                  jpg - Large
-                </a>
-              </div>
-            </div>
-            <div class="card__grid-item card__grid-item--picture">
-              <figure class="figure">
-                <figcaption class="card-caption card-caption--photograph">Solar House 1 - Blue</figcaption>
-                <img class="photograph" src="https://image.shutterstock.com/z/stock-photo-solar-panel-on-sky-background-548079301.jpg" alt="Solar Sunset - Color" />
-              </figure>
-              <div>
-                <p class="card-caption card-caption--short">Downloads:</p>
-                <a class="download-btn download-btn--narrow" href="#" download>
-                  <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-                  jpg - Small
-                </a>
-                <a class="download-btn download-btn--narrow" href="#" download>
-                  <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-                  jpg - Large
-                </a>
-              </div>
-            </div>
-            <div class="card__grid-item card__grid-item--picture">
-              <figure class="figure">
-                <figcaption class="card-caption card-caption--photograph">Solar Mountains - Color</figcaption>
-                <img class="photograph" src="https://image.shutterstock.com/z/stock-photo-solar-panel-on-sky-background-548079301.jpg" alt="Solar Sunset - Color" />
-              </figure>
-              <div>
-                <p class="card-caption card-caption--short">Downloads:</p>
-                <a class="download-btn download-btn--narrow" href="#" download>
-                  <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-                  jpg - Small
-                </a>
-                <a class="download-btn download-btn--narrow" href="#" download>
-                  <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-                  jpg - Large
-                </a>
-              </div>
-            </div>
-            <div class="card__grid-item card__grid-item--picture">
-              <figure class="figure">
-                <figcaption class="card-caption card-caption--photograph">Solar Mountains - Orange</figcaption>
-                <img class="photograph" src="https://image.shutterstock.com/z/stock-photo-solar-panel-on-sky-background-548079301.jpg" alt="Solar Sunset - Color" />
-              </figure>
-              <div>
-                <p class="card-caption card-caption--short">Downloads:</p>
-                <a class="download-btn download-btn--narrow" href="#" download>
-                  <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-                  jpg - Small
-                </a>
-                <a class="download-btn download-btn--narrow" href="#" download>
-                  <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-                  jpg - Large
-                </a>
-              </div>
-            </div>
-            <div class="card__grid-item card__grid-item--picture">
-              <figure class="figure">
-                <figcaption class="card-caption card-caption--photograph">Solar Mountains - Blue</figcaption>
-                <img class="photograph" src="https://image.shutterstock.com/z/stock-photo-solar-panel-on-sky-background-548079301.jpg" alt="Solar Sunset - Color" />
-              </figure>
-              <div>
-                <p class="card-caption card-caption--short">Downloads:</p>
-                <a class="download-btn download-btn--narrow" href="#" download>
-                  <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-                  jpg - Small
-                </a>
-                <a class="download-btn download-btn--narrow" href="#" download>
-                  <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-                  jpg - Large
-                </a>
-              </div>
-            </div>
-            <div class="card__grid-item card__grid-item--picture">
-              <figure class="figure">
-                <figcaption class="card-caption card-caption--photograph">Money Wallet - Color</figcaption>
-                <img class="photograph" src="https://image.shutterstock.com/z/stock-photo-solar-panel-on-sky-background-548079301.jpg" alt="Solar Sunset - Color" />
-              </figure>
-              <div>
-                <p class="card-caption card-caption--short">Downloads:</p>
-                <a class="download-btn download-btn--narrow" href="#" download>
-                  <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-                  jpg - Small
-                </a>
-                <a class="download-btn download-btn--narrow" href="#" download>
-                  <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-                  jpg - Large
-                </a>
-              </div>
-            </div>
-            <div class="card__grid-item card__grid-item--picture">
-              <figure class="figure">
-                <figcaption class="card-caption card-caption--photograph">Money Wallet - Orange</figcaption>
-                <img class="photograph" src="https://image.shutterstock.com/z/stock-photo-solar-panel-on-sky-background-548079301.jpg" alt="Solar Sunset - Color" />
-              </figure>
-              <div>
-                <p class="card-caption card-caption--short">Downloads:</p>
-                <a class="download-btn download-btn--narrow" href="#" download>
-                  <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-                  jpg - Small
-                </a>
-                <a class="download-btn download-btn--narrow" href="#" download>
-                  <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-                  jpg - Large
-                </a>
-              </div>
-            </div>
-            <div class="card__grid-item card__grid-item--picture">
-              <figure class="figure">
-                <figcaption class="card-caption card-caption--photograph">Money Wallet - Blue</figcaption>
-                <img class="photograph" src="https://image.shutterstock.com/z/stock-photo-solar-panel-on-sky-background-548079301.jpg" alt="Solar Sunset - Color" />
-              </figure>
-              <div>
-                <p class="card-caption card-caption--short">Downloads:</p>
-                <a class="download-btn download-btn--narrow" href="#" download>
-                  <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-                  jpg - Small
-                </a>
-                <a class="download-btn download-btn--narrow" href="#" download>
-                  <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-                  jpg - Large
-                </a>
-              </div>
-            </div>
-            <div class="card__grid-item card__grid-item--picture">
-              <figure class="figure">
-                <figcaption class="card-caption card-caption--photograph">Family 1 - Color</figcaption>
-                <img class="photograph" src="https://image.shutterstock.com/z/stock-photo-solar-panel-on-sky-background-548079301.jpg" alt="Solar Sunset - Color" />
-              </figure>
-              <div>
-                <p class="card-caption card-caption--short">Downloads:</p>
-                <a class="download-btn download-btn--narrow" href="#" download>
-                  <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-                  jpg - Small
-                </a>
-                <a class="download-btn download-btn--narrow" href="#" download>
-                  <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-                  jpg - Large
-                </a>
-              </div>
-            </div>
-            <div class="card__grid-item card__grid-item--picture">
-              <figure class="figure">
-                <figcaption class="card-caption card-caption--photograph">Family 1 - Orange</figcaption>
-                <img class="photograph" src="https://image.shutterstock.com/z/stock-photo-solar-panel-on-sky-background-548079301.jpg" alt="Solar Sunset - Color" />
-              </figure>
-              <div>
-                <p class="card-caption card-caption--short">Downloads:</p>
-                <a class="download-btn download-btn--narrow" href="#" download>
-                  <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-                  jpg - Small
-                </a>
-                <a class="download-btn download-btn--narrow" href="#" download>
-                  <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-                  jpg - Large
-                </a>
-              </div>
-            </div>
-            <div class="card__grid-item card__grid-item--picture">
-              <figure class="figure">
-                <figcaption class="card-caption card-caption--photograph">Family 1 - Blue</figcaption>
-                <img class="photograph" src="https://image.shutterstock.com/z/stock-photo-solar-panel-on-sky-background-548079301.jpg" alt="Solar Sunset - Color" />
-              </figure>
-              <div>
-                <p class="card-caption card-caption--short">Downloads:</p>
-                <a class="download-btn download-btn--narrow" href="#" download>
-                  <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-                  jpg - Small
-                </a>
-                <a class="download-btn download-btn--narrow" href="#" download>
-                  <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-                  jpg - Large
-                </a>
-              </div>
-            </div>
-            <div class="card__grid-item card__grid-item--picture">
-              <figure class="figure">
-                <figcaption class="card-caption card-caption--photograph">Insulation - Color</figcaption>
-                <img class="photograph" src="https://image.shutterstock.com/z/stock-photo-solar-panel-on-sky-background-548079301.jpg" alt="Solar Sunset - Color" />
-              </figure>
-              <div>
-                <p class="card-caption card-caption--short">Downloads:</p>
-                <a class="download-btn download-btn--narrow" href="#" download>
-                  <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-                  jpg - Small
-                </a>
-                <a class="download-btn download-btn--narrow" href="#" download>
-                  <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-                  jpg - Large
-                </a>
-              </div>
-            </div>
-            <div class="card__grid-item card__grid-item--picture">
-              <figure class="figure">
-                <figcaption class="card-caption card-caption--photograph">Insulation - Orange</figcaption>
-                <img class="photograph" src="https://image.shutterstock.com/z/stock-photo-solar-panel-on-sky-background-548079301.jpg" alt="Solar Sunset - Color" />
-              </figure>
-              <div>
-                <p class="card-caption card-caption--short">Downloads:</p>
-                <a class="download-btn download-btn--narrow" href="#" download>
-                  <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-                  jpg - Small
-                </a>
-                <a class="download-btn download-btn--narrow" href="#" download>
-                  <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-                  jpg - Large
-                </a>
-              </div>
-            </div>
-            <div class="card__grid-item card__grid-item--picture">
-              <figure class="figure">
-                <figcaption class="card-caption card-caption--photograph">Insulation - Blue</figcaption>
-                <img class="photograph" src="https://image.shutterstock.com/z/stock-photo-solar-panel-on-sky-background-548079301.jpg" alt="Solar Sunset - Color" />
-              </figure>
-              <div>
-                <p class="card-caption card-caption--short">Downloads:</p>
-                <a class="download-btn download-btn--narrow" href="#" download>
-                  <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-                  jpg - Small
-                </a>
-                <a class="download-btn download-btn--narrow" href="#" download>
-                  <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-                  jpg - Large
-                </a>
-              </div>
-            </div>
-            <div class="card__grid-item card__grid-item--picture">
-              <figure class="figure">
-                <figcaption class="card-caption card-caption--photograph">Family 2 - Color</figcaption>
-                <img class="photograph" src="https://image.shutterstock.com/z/stock-photo-solar-panel-on-sky-background-548079301.jpg" alt="Solar Sunset - Color" />
-              </figure>
-              <div>
-                <p class="card-caption card-caption--short">Downloads:</p>
-                <a class="download-btn download-btn--narrow" href="#" download>
-                  <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-                  jpg - Small
-                </a>
-                <a class="download-btn download-btn--narrow" href="#" download>
-                  <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-                  jpg - Large
-                </a>
-              </div>
-            </div>
-            <div class="card__grid-item card__grid-item--picture">
-              <figure class="figure">
-                <figcaption class="card-caption card-caption--photograph">Family 2 - Orange</figcaption>
-                <img class="photograph" src="https://image.shutterstock.com/z/stock-photo-solar-panel-on-sky-background-548079301.jpg" alt="Solar Sunset - Color" />
-              </figure>
-              <div>
-                <p class="card-caption card-caption--short">Downloads:</p>
-                <a class="download-btn download-btn--narrow" href="#" download>
-                  <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-                  jpg - Small
-                </a>
-                <a class="download-btn download-btn--narrow" href="#" download>
-                  <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-                  jpg - Large
-                </a>
-              </div>
-            </div>
-            <div class="card__grid-item card__grid-item--picture">
-              <figure class="figure">
-                <figcaption class="card-caption card-caption--photograph">Family 2 - Blue</figcaption>
-                <img class="photograph" src="https://image.shutterstock.com/z/stock-photo-solar-panel-on-sky-background-548079301.jpg" alt="Solar Sunset - Color" />
-              </figure>
-              <div>
-                <p class="card-caption card-caption--short">Downloads:</p>
-                <a class="download-btn download-btn--narrow" href="#" download>
-                  <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-                  jpg - Small
-                </a>
-                <a class="download-btn download-btn--narrow" href="#" download>
-                  <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-                  jpg - Large
-                </a>
-              </div>
-            </div>
-            <div class="card__grid-item card__grid-item--picture">
-              <figure class="figure">
-                <figcaption class="card-caption card-caption--photograph">HVAC Unit - Color</figcaption>
-                <img class="photograph" src="https://image.shutterstock.com/z/stock-photo-solar-panel-on-sky-background-548079301.jpg" alt="Solar Sunset - Color" />
-              </figure>
-              <div>
-                <p class="card-caption card-caption--short">Downloads:</p>
-                <a class="download-btn download-btn--narrow" href="#" download>
-                  <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-                  jpg - Small
-                </a>
-                <a class="download-btn download-btn--narrow" href="#" download>
-                  <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-                  jpg - Large
-                </a>
-              </div>
-            </div>
-            <div class="card__grid-item card__grid-item--picture">
-              <figure class="figure">
-                <figcaption class="card-caption card-caption--photograph">HVAC Unit - Orange</figcaption>
-                <img class="photograph" src="https://image.shutterstock.com/z/stock-photo-solar-panel-on-sky-background-548079301.jpg" alt="Solar Sunset - Color" />
-              </figure>
-              <div>
-                <p class="card-caption card-caption--short">Downloads:</p>
-                <a class="download-btn download-btn--narrow" href="#" download>
-                  <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-                  jpg - Small
-                </a>
-                <a class="download-btn download-btn--narrow" href="#" download>
-                  <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-                  jpg - Large
-                </a>
-              </div>
-            </div>
-            <div class="card__grid-item card__grid-item--picture">
-              <figure class="figure">
-                <figcaption class="card-caption card-caption--photograph">HVAC Unit - Blue</figcaption>
-                <img class="photograph" src="https://image.shutterstock.com/z/stock-photo-solar-panel-on-sky-background-548079301.jpg" alt="Solar Sunset - Color" />
-              </figure>
-              <div>
-                <p class="card-caption card-caption--short">Downloads:</p>
-                <a class="download-btn download-btn--narrow" href="#" download>
-                  <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-                  jpg - Small
-                </a>
-                <a class="download-btn download-btn--narrow" href="#" download>
-                  <img class="icon-download" src="assets/arrow-down2.svg" alt="Download Icon" />
-                  jpg - Large
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
+        </section>
     </main>
+    <script src="./js/smoothscroll.min.js"></script>
+    <script src="./js/app.js"></script>
+</body>
 
-    <script src="/js/smoothscroll.min.js"></script>
-    <script src="/js/app.js"></script>
-  </body>
 </html>

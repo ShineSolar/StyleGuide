@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', (e) => {
         body.removeChild(textArea);
         const tooltip = document.createElement('span');
         tooltip.className = 'tooltip';
-        tooltip.textContent = 'Copied to clipboard!';
+        tooltip.textContent = 'Copied to clipboard';
         target.appendChild(tooltip);
         setTimeout(() => {
           tooltip.style.opacity = 0;
