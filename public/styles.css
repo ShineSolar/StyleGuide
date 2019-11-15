@@ -883,7 +883,7 @@ main {
 }
 
 .banner {
-  background: url("assets/banner.svg"), url("https://image.shutterstock.com/z/stock-photo-solar-panel-on-sky-background-548079301.jpg");
+  background: url("./assets/shine-design-background.jpg"), url("https://image.shutterstock.com/z/stock-photo-solar-panel-on-sky-background-548079301.jpg");
   background-size: cover, cover;
   background-position: center;
   background-repeat: no-repeat;
