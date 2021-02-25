@@ -110,3 +110,32 @@
     display: none;
   }
 }
+
+.sidebar__bottom-request-btn {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+
+  width: 80%;
+  height: 36px;
+
+  border-radius: 6px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+  background-color: #ff6900;
+
+  font-family: Rubik;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 36px;
+  color: white;
+
+  img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+  }
+}

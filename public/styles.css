@@ -502,6 +502,31 @@ main {
   }
 }
 
+.sidebar__bottom-request-btn {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  height: 36px;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+  background-color: #ff6900;
+  font-family: Rubik;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 36px;
+  color: white;
+}
+.sidebar__bottom-request-btn img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
 .download-btn {
   background-color: #eceeef;
   margin: 1rem auto;
@@ -528,26 +553,16 @@ main {
   margin-left: 0;
 }
 
-.banner__icon1 {
+.banner__icon {
   width: 20%;
-  max-width: 205.4px;
+  max-width: 240px;
 }
 
-.banner__icon2 {
-  width: 20%;
-  max-width: 193px;
-}
-
-.banner__icon3   {
-  width: 20%;
-  max-width: 180px;
-}
-
-.banner__icon1:first-child {
+.banner__icon:first-child {
   margin-right: 10%;
 }
 
-.banner__icon3:last-child {
+.banner__icon:last-child {
   margin-left: 10%;
 }
 
@@ -849,7 +864,6 @@ main {
 
 .rubik--16 {
   line-height: 1.5;
-  font-size: 1.6rem;
 }
 
 .rubik--14--sm {
@@ -883,7 +897,7 @@ main {
 }
 
 .banner {
-  background: url("./assets/shine-design-background.jpg");
+  background: url("assets/banner.svg"), url("https://image.shutterstock.com/z/stock-photo-solar-panel-on-sky-background-548079301.jpg");
   background-size: cover, cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -958,7 +972,7 @@ main {
   color: #425563;
   border: 1px solid #425563;
   border-radius: 4px;
-  background-color: #ffffff;
+  background-color: #eceeef;
   transition: 2s opacity;
   padding: 0.3rem;
   width: 74px;
@@ -976,7 +990,7 @@ main {
 }
 
 .color:hover {
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 10px rgba(48, 61, 70, 0.9);
 }
 
 .color--shade-1 {
@@ -1115,13 +1129,6 @@ main {
   flex-wrap: wrap;
   justify-content: space-evenly;
   text-align: left;
-}
-
-.tooltip {
-  font-family: "Rubik", sans-serif;
-  border: none; 
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
-  background-color: #fff;
 }
 
 .typography__rubik,
