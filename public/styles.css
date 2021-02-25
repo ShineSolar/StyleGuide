@@ -530,6 +530,9 @@ main {
   height: 2rem;
   margin-right: 0.5rem;
 }
+.sidebar__bottom-request-btn span {
+  margin-top: 0.2rem;
+}
 
 @media (min-width: 768px) {
   #alternate-design-request-button {
