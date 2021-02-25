@@ -397,7 +397,7 @@ main {
 }
 
 #checkbox--nav:checked + .sidebar {
-  height: 364px;
+  height: 390px;
 }
 
 @media (min-width: 768px) {
@@ -504,27 +504,37 @@ main {
 
 .sidebar__bottom-request-btn {
   position: absolute;
-  bottom: 20px;
-  left: 20px;
+  bottom: 2rem;
+  left: 2rem;
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
   justify-content: center;
   width: 80%;
-  height: 40px;
-  border-radius: 6px;
+  height: 4rem;
+  border-radius: 0.6rem;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
   background-color: #ff6900;
   font-family: Rubik;
   font-size: 1.4rem;
   font-weight: 500;
-  line-height: 36px;
   color: white;
 }
+@media (max-width: 768px) {
+  .sidebar__bottom-request-btn {
+    display: none;
+  }
+}
 .sidebar__bottom-request-btn img {
-  width: 20px;
-  height: 20px;
-  margin-right: 5px;
+  width: 2rem;
+  height: 2rem;
+  margin-right: 0.5rem;
+}
+
+@media (min-width: 768px) {
+  #alternate-design-request-button {
+    display: none;
+  }
 }
 
 .download-btn {

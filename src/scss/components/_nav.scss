@@ -17,7 +17,7 @@
 }
 
 #checkbox--nav:checked + .sidebar {
-  height: 364px;
+  height: 390px;
 }
 
 #checkbox--nav:checked + .sidebar,
@@ -112,30 +112,39 @@
 }
 
 .sidebar__bottom-request-btn {
+  @media (max-width: 768px) {
+    display: none;
+  }
+
   position: absolute;
-  bottom: 20px;
-  left: 20px;
+  bottom: 2rem;
+  left: 2rem;
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
   justify-content: center;
 
   width: 80%;
-  height: 40px;
+  height: 4rem;
 
-  border-radius: 6px;
+  border-radius: 0.6rem;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
   background-color: #ff6900;
 
   font-family: Rubik;
   font-size: 1.4rem;
   font-weight: 500;
-  line-height: 36px;
   color: white;
 
   img {
-    width: 20px;
-    height: 20px;
-    margin-right: 5px;
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0.5rem;
+  }
+}
+
+#alternate-design-request-button {
+  @media (min-width: 768px) {
+    display: none;
   }
 }
